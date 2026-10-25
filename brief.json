@@ -1,0 +1,275 @@
+{
+ "date": "2026-10-23",
+ "asof": "Markets as of the Fri 23 Oct close",
+ "refreshed": "Sun 25 Oct, 5:00pm CT",
+ "numbers": [
+  {
+   "label": "S&P 500",
+   "value": "7,624",
+   "change": "−0.5% on the day",
+   "dir": "down",
+   "note": "Nasdaq −0.2%, Dow −1.2%",
+   "src": {
+    "t": "Yahoo Finance: S&P 500 history",
+    "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
+    "paywall": false
+   }
+  },
+  {
+   "label": "10-yr Treasury",
+   "value": "5.00%",
+   "change": "+4 bp",
+   "dir": "up",
+   "note": "Back to 5% after a 17 bp drop to 4.96% on Thursday",
+   "src": {
+    "t": "U.S. Treasury: daily par yield curve",
+    "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+    "paywall": false
+   }
+  },
+  {
+   "label": "2-yr Treasury",
+   "value": "4.69%",
+   "change": "+4 bp",
+   "dir": "up",
+   "note": "2s10s about +31 bp",
+   "src": {
+    "t": "U.S. Treasury: daily par yield curve",
+    "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+    "paywall": false
+   }
+  },
+  {
+   "label": "Fed funds target",
+   "value": "3.75–4.00%",
+   "change": "Unchanged",
+   "dir": "flat",
+   "note": "Raised 25 bp on 17 Sep; next FOMC 27–28 Oct",
+   "src": {
+    "t": "Federal Reserve: open market operations",
+    "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+    "paywall": false
+   }
+  },
+  {
+   "label": "Odds of a hold on 28 Oct",
+   "value": "~90%",
+   "change": "~10% odds of a 25 bp hike",
+   "dir": "flat",
+   "note": "From 30-day fed funds futures, updated after Friday's close",
+   "src": {
+    "t": "Investing.com Fed Rate Monitor",
+    "u": "https://www.investing.com/central-banks/fed-rate-monitor",
+    "paywall": false
+   }
+  },
+  {
+   "label": "WTI crude",
+   "value": "~$103",
+   "change": "+$3.80 (+3.8%)",
+   "dir": "up",
+   "note": "December contract, $103.27",
+   "src": {
+    "t": "Yahoo Finance: WTI futures",
+    "u": "https://finance.yahoo.com/quote/CL%3DF/",
+    "paywall": false
+   }
+  },
+  {
+   "label": "VIX",
+   "value": "19.5",
+   "change": "+0.4 on the day",
+   "dir": "up",
+   "note": "Closed at 19.45, up from 19.03",
+   "src": {
+    "t": "Yahoo Finance: VIX history",
+    "u": "https://finance.yahoo.com/quote/%5EVIX/history/",
+    "paywall": false
+   }
+  }
+ ],
+ "drivers": [
+  {
+   "title": "Oil jumps on Middle East supply risk",
+   "text": "Brent rose about 3% to above $116 a barrel and WTI settled near $103 as fresh Middle East supply worries hit. Oil pressured most of the market and the Dow lost about 650 points.",
+   "src": {
+    "t": "AP via Yahoo Finance",
+    "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
+    "paywall": false
+   }
+  },
+  {
+   "title": "AI doubts spread past tech",
+   "text": "Thursday's selloff started with Meta falling nearly 8% after earnings and a plan to sell new non-voting shares to fund AI spending, which sent buyers into Treasuries. Tech steadied Friday but selling spread to other sectors.",
+   "src": {
+    "t": "The Globe and Mail",
+    "u": "https://www.theglobeandmail.com/investing/article-us-bond-yields-plunge-as-fears-about-sustaining-ai-boom-resurface/",
+    "paywall": true
+   }
+  },
+  {
+   "title": "Fed decides Wednesday",
+   "text": "Futures put about 90% odds on the Fed holding at 3.75–4.00% on 28 Oct after September's hike. The 10-year drifted back to 5.00% Friday after its biggest drop in months on Thursday.",
+   "src": {
+    "t": "Investing.com Fed Rate Monitor",
+    "u": "https://www.investing.com/central-banks/fed-rate-monitor",
+    "paywall": false
+   }
+  }
+ ],
+ "deals": [
+  {
+   "name": "CRH / Arcosa closes",
+   "parties": [
+    "CRH",
+    "Arcosa"
+   ],
+   "value": "~$8.5B EV",
+   "status": "Closed",
+   "date": "23 Oct",
+   "banks": [],
+   "src": {
+    "t": "CRH release (SEC 8-K exhibit)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000849395/000119312526429523/d187492dex991.htm",
+    "paywall": false
+   }
+  },
+  {
+   "name": "EQT to take QIAGEN private",
+   "parties": [
+    "EQT",
+    "QIAGEN",
+    "ADIA",
+    "CPP Investments"
+   ],
+   "value": "€9.6B equity (~$12.1B incl. net debt)",
+   "status": "Announced",
+   "date": "21 Oct",
+   "banks": [],
+   "src": {
+    "t": "Reuters via KFGO",
+    "u": "https://kfgo.com/2026/10/21/buyout-firm-eqt-to-acquire-qiagen-for-10-8-billion/",
+    "paywall": false
+   }
+  },
+  {
+   "name": "Trane Technologies / Cancoil",
+   "parties": [
+    "Trane Technologies",
+    "Cancoil Thermal"
+   ],
+   "value": "Undisclosed",
+   "status": "Announced",
+   "date": "21 Oct",
+   "banks": [
+    "Lazard (Cancoil)"
+   ],
+   "src": {
+    "t": "Trane release via Yahoo Finance",
+    "u": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-acquire-cancoil-strengthening-203000885.html",
+    "paywall": false
+   }
+  }
+ ],
+ "sowhat": {
+  "text": "Strategics and sponsors are still getting deals done with the 10-year near 5%: CRH closed Arcosa ahead of its original timeline and EQT lined up equity and debt for a $12B take-private. Industrial buyers keep paying for infrastructure and data center cooling exposure."
+ },
+ "pitch": "Markets were soft on Friday. The S&P slipped about half a percent and the Dow lost over 600 points, mostly because oil jumped again, with Brent above $116 on Middle East supply worries. Second, the AI selloff that started with Meta on Thursday spread beyond tech, which pushed money into Treasuries; the 10-year dipped under 5% before ending the week right at 5%. Third, the Fed meets this week and futures price about a 90% chance it holds at 3.75 to 4%. On the M&A side, deals are still closing despite high rates. CRH finished its $8.5 billion Arcosa deal early, EQT agreed to take QIAGEN private for about $12 billion with sovereign co-investors, and Trane bought Cancoil to add data center cooling capacity.",
+ "quiz": [
+  {
+   "q": "Where did the 10-year Treasury close on Friday 23 Oct?",
+   "a": "5.00%, up 4 bp after falling to 4.96% on Thursday.",
+   "options": [
+    "About 4.6%",
+    "About 4.8%",
+    "About 5.0%",
+    "About 5.3%"
+   ],
+   "correct": 2
+  },
+  {
+   "q": "What odds do futures put on the Fed holding at its 28 Oct meeting?",
+   "a": "About 90%, with roughly a 10% chance of another 25 bp hike from the current 3.75–4.00% range.",
+   "options": [
+    "About 50%",
+    "About 70%",
+    "About 90%",
+    "About 100%"
+   ],
+   "correct": 2
+  },
+  {
+   "q": "Which acquisition closed on 23 Oct?",
+   "a": "CRH's purchase of Arcosa, at about $8.5 billion of enterprise value.",
+   "options": [
+    "EQT / QIAGEN",
+    "CRH / Arcosa",
+    "Trane / Cancoil",
+    "Prysmian / Atkore"
+   ],
+   "correct": 1
+  }
+ ],
+ "sources": [
+  {
+   "t": "Yahoo Finance: S&P 500 history",
+   "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
+   "paywall": false
+  },
+  {
+   "t": "U.S. Treasury: daily par yield curve",
+   "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+   "paywall": false
+  },
+  {
+   "t": "Federal Reserve: open market operations",
+   "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+   "paywall": false
+  },
+  {
+   "t": "Federal Reserve: FOMC calendar",
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "paywall": false
+  },
+  {
+   "t": "Investing.com Fed Rate Monitor",
+   "u": "https://www.investing.com/central-banks/fed-rate-monitor",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: WTI futures",
+   "u": "https://finance.yahoo.com/quote/CL%3DF/",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: VIX history",
+   "u": "https://finance.yahoo.com/quote/%5EVIX/history/",
+   "paywall": false
+  },
+  {
+   "t": "AP via Yahoo Finance",
+   "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
+   "paywall": false
+  },
+  {
+   "t": "The Globe and Mail",
+   "u": "https://www.theglobeandmail.com/investing/article-us-bond-yields-plunge-as-fears-about-sustaining-ai-boom-resurface/",
+   "paywall": true
+  },
+  {
+   "t": "CRH release (SEC 8-K exhibit)",
+   "u": "https://www.sec.gov/Archives/edgar/data/0000849395/000119312526429523/d187492dex991.htm",
+   "paywall": false
+  },
+  {
+   "t": "Reuters via KFGO",
+   "u": "https://kfgo.com/2026/10/21/buyout-firm-eqt-to-acquire-qiagen-for-10-8-billion/",
+   "paywall": false
+  },
+  {
+   "t": "Trane release via Yahoo Finance",
+   "u": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-acquire-cancoil-strengthening-203000885.html",
+   "paywall": false
+  }
+ ]
+}
