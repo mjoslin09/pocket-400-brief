@@ -27,6 +27,9 @@ numbers to bankers in coffee chats and interviews, so accuracy matters more than
 - State the market close it refers to in `asof`. If you cannot confirm a number, leave that tile out:
   a wrong number is worse than a missing one.
 - Keep values in the form a banker would say them: "4.97%", "7,663", "~$110", "327 bp".
+- If a number's newest available reading is from an earlier session (for example FRED credit spreads, which
+  post a day late), you may include it with `"asof": "YYYY-MM-DD"` set to the date of that reading. The app
+  grays it out and shows that date. Omit `asof` when the number is from the session the brief covers.
 - `change` is the day's move ("−1.2% on the day", "−6 bp", "+$2.10"); `dir` is up, down or flat for the
   number itself, not for whether it is good news.
 
@@ -39,7 +42,7 @@ numbers to bankers in coffee chats and interviews, so accuracy matters more than
   "refreshed": "Mon 26 Oct, 6:30am CT",
   "numbers": [
     {"label": "S&P 500", "value": "7,663", "change": "−1.2% on the day", "dir": "down",
-     "note": "Nasdaq −2.6%", "src": {"t": "Yahoo Finance", "u": "https://finance.yahoo.com/quote/%5EGSPC/", "paywall": false}}
+     "note": "Nasdaq −2.6%", "asof": "2026-10-23", "src": {"t": "Yahoo Finance", "u": "https://finance.yahoo.com/quote/%5EGSPC/", "paywall": false}}
   ],
   "drivers": [
     {"title": "Oil", "text": "Two sentences on what moved and why it matters.",

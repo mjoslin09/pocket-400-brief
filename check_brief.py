@@ -49,6 +49,8 @@ for i, n in enumerate(nums if isinstance(nums, list) else []):
     for k in ("label", "value"):
         need(isinstance(n.get(k), str) and n[k].strip(), f"{w}.{k} required")
     need(n.get("dir", "flat") in ("up", "down", "flat"), f"{w}.dir must be up, down or flat")
+    if "asof" in n:
+        need(re.match(r"^\d{4}-\d{2}-\d{2}$", str(n["asof"])) and str(n["asof"]) <= str(b.get("date", "")), f"{w}.asof must be YYYY-MM-DD, no later than date")
     check_src(n.get("src"), w)
 
 drv = b.get("drivers", [])
