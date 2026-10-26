@@ -1,14 +1,14 @@
 {
  "date": "2026-10-23",
  "asof": "Markets as of the Fri 23 Oct close",
- "refreshed": "Mon 26 Oct, 6:45am CT",
+ "refreshed": "Mon 26 Oct, 11:15am CT",
  "numbers": [
   {
    "label": "S&P 500",
    "value": "7,624",
    "change": "−0.5% on the day",
    "dir": "down",
-   "note": "Nasdaq −0.2%, Dow −1.2%",
+   "note": "Nasdaq −0.2%, Dow −1.2%, VIX 19.5",
    "src": {
     "t": "Yahoo Finance: S&P 500 history",
     "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
@@ -20,7 +20,7 @@
    "value": "5.00%",
    "change": "+4 bp",
    "dir": "up",
-   "note": "Fell 17 bp to 4.96% on Thursday; 2-yr 4.69%, 2s10s about +31 bp",
+   "note": "2-yr 4.69%; 2s10s +31 bp. Fell to 4.96% Thursday",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
@@ -28,11 +28,11 @@
    }
   },
   {
-   "label": "Fed funds target",
+   "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Unchanged",
+   "change": "Next FOMC 28 Oct: ~90% hold",
    "dir": "flat",
-   "note": "Raised 25 bp on 17 Sep; next FOMC 27–28 Oct",
+   "note": "Raised 25 bp on 17 Sep; ~10% odds of another hike (updated 26 Oct)",
    "src": {
     "t": "Federal Reserve: open market operations",
     "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
@@ -40,72 +40,11 @@
    }
   },
   {
-   "label": "Odds of a hold on 28 Oct",
-   "value": "~90%",
-   "change": "~10% odds of a 25 bp hike",
-   "dir": "flat",
-   "note": "Fed Rate Monitor, updated 26 Oct, 7:15am ET: 89.7% hold, 10.3% hike",
-   "src": {
-    "t": "Investing.com Fed Rate Monitor",
-    "u": "https://www.investing.com/central-banks/fed-rate-monitor",
-    "paywall": false
-   }
-  },
-  {
-   "label": "WTI crude",
-   "value": "~$103",
-   "change": "+$3.80 (+3.8%)",
+   "label": "Brent crude",
+   "value": "~$116",
+   "change": "+3.1%",
    "dir": "up",
-   "note": "December contract settled at $103.27, from $99.47 on Thursday",
-   "src": {
-    "t": "Yahoo Finance: WTI futures history",
-    "u": "https://finance.yahoo.com/quote/CL%3DF/history/",
-    "paywall": false
-   }
-  },
-  {
-   "label": "HY spread",
-   "value": "3.40%",
-   "change": "+13 bp",
-   "dir": "up",
-   "note": "ICE BofA US High Yield OAS; Thursday reading, FRED posts a day late",
-   "asof": "2026-10-22",
-   "src": {
-    "t": "FRED: ICE BofA US High Yield OAS",
-    "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-    "paywall": false
-   }
-  },
-  {
-   "label": "IG spread",
-   "value": "0.89%",
-   "change": "+1 bp",
-   "dir": "up",
-   "note": "ICE BofA US Corporate OAS; Thursday reading",
-   "asof": "2026-10-22",
-   "src": {
-    "t": "FRED: ICE BofA US Corporate OAS",
-    "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
-    "paywall": false
-   }
-  },
-  {
-   "label": "VIX",
-   "value": "19.5",
-   "change": "+0.4 on the day",
-   "dir": "up",
-   "note": "Closed at 19.45, up from 19.03",
-   "src": {
-    "t": "Yahoo Finance: VIX history",
-    "u": "https://finance.yahoo.com/quote/%5EVIX/history/",
-    "paywall": false
-   }
-  }
- ],
- "drivers": [
-  {
-   "title": "Oil jumps on Middle East supply risk",
-   "text": "Brent rose about 3% to above $116 a barrel and WTI settled near $103 as fresh Middle East supply worries hit. Oil pressured most of the market and the Dow lost about 650 points.",
+   "note": "Highest since June 2022; AP gives a rounded level, not an exact settle",
    "src": {
     "t": "AP via Yahoo Finance",
     "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
@@ -113,8 +52,43 @@
    }
   },
   {
-   "title": "AI doubts spread past tech",
-   "text": "Thursday's selloff started with Meta falling nearly 8% after earnings and a plan to sell new non-voting shares to fund AI spending, which sent buyers into Treasuries. Tech steadied Friday but selling spread to other sectors.",
+   "label": "Dollar index",
+   "value": "101.8",
+   "change": "+0.2% on the day",
+   "dir": "up",
+   "note": "EUR/USD 1.122",
+   "src": {
+    "t": "Yahoo Finance: Dollar index history",
+    "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
+    "paywall": false
+   }
+  },
+  {
+   "label": "HY / IG spreads",
+   "value": "338 / 91 bp",
+   "change": "−2 / +2 bp",
+   "dir": "flat",
+   "note": "Tight by history: credit markets open",
+   "src": {
+    "t": "FRED: ICE BofA US High Yield OAS",
+    "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "paywall": false
+   }
+  }
+ ],
+ "drivers": [
+  {
+   "title": "Oil jumps to a four-year high",
+   "text": "Brent rose about 3% to above $116 a barrel, its highest since June 2022, on Middle East supply worries. Oil pushed the S&P 500 down 0.5% and the Dow down about 650 points.",
+   "src": {
+    "t": "AP via Yahoo Finance",
+    "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
+    "paywall": false
+   }
+  },
+  {
+   "title": "AI spending doubts hit tech and bonds",
+   "text": "Thursday's selloff began when Meta fell nearly 8% after earnings and a plan to issue non-voting shares to fund AI spending, and the 10-year fell to about 4.95% as buyers rushed into Treasuries. It rebounded to 5.00% Friday.",
    "src": {
     "t": "The Globe and Mail",
     "u": "https://www.theglobeandmail.com/investing/article-us-bond-yields-plunge-as-fears-about-sustaining-ai-boom-resurface/",
@@ -123,7 +97,7 @@
   },
   {
    "title": "Fed decides Wednesday",
-   "text": "Fed Rate Monitor puts about 90% odds on the Fed holding at 3.75–4.00% on 28 Oct after September's hike. The 10-year drifted back to 5.00% Friday after its biggest drop in months on Thursday.",
+   "text": "Futures give about a 90% chance the Fed holds at 3.75–4.00% on 28 Oct after September's hike. Chair Warsh's guidance is the focus, as the same week brings Microsoft, Alphabet and Amazon earnings.",
    "src": {
     "t": "Investing.com Fed Rate Monitor",
     "u": "https://www.investing.com/central-banks/fed-rate-monitor",
@@ -132,6 +106,25 @@
   }
  ],
  "deals": [
+  {
+   "name": "EQT / Range Resources",
+   "parties": [
+    "EQT Corporation",
+    "Range Resources"
+   ],
+   "value": "All-stock; pro forma EV above $50B",
+   "status": "Announced",
+   "date": "26 Oct",
+   "banks": [
+    "Citi, RBC (EQT)",
+    "Evercore, J.P. Morgan (Range)"
+   ],
+   "src": {
+    "t": "EQT and Range merger release (SEC 8-K exhibit)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000033213/000121390026112242/ea030960101ex99-1.htm",
+    "paywall": false
+   }
+  },
   {
    "name": "CRH / Arcosa closes",
    "parties": [
@@ -185,10 +178,28 @@
    }
   }
  ],
+ "calendar": [
+  {
+   "d": "Tue 27 Oct",
+   "e": "Durable goods and consumer confidence; Boeing and Coca-Cola earnings"
+  },
+  {
+   "d": "Wed 28 Oct",
+   "e": "FOMC decision, 2pm ET, then Chair Warsh press conference; Microsoft and Alphabet after the close"
+  },
+  {
+   "d": "Thu 29 Oct",
+   "e": "Q3 GDP (advance) and core PCE; Caterpillar before the open, Amazon after; CRH Q3 results"
+  },
+  {
+   "d": "Fri 30 Oct",
+   "e": "Employment Cost Index; Exxon Mobil and Chevron earnings before the open"
+  }
+ ],
  "sowhat": {
-  "text": "Strategics and sponsors are still signing and closing deals with the 10-year at 5%: CRH completed its roughly $8.5B Arcosa purchase and EQT agreed to a take-private of QIAGEN alongside ADIA and CPP Investments. Industrial buyers keep adding infrastructure-related capacity, as Trane did with Cancoil."
+  "text": "A $14B all-stock gas merger from EQT and Range, plus CRH closing Arcosa, show strategics still doing large deals with the 10-year at 5%. Credit spreads stay tight, so financing is open, though oil and AI capex worries add volatility."
  },
- "pitch": "Markets were soft on Friday. The S&P slipped about half a percent and the Dow lost over 600 points, mostly because oil jumped again, with Brent above $116 on Middle East supply worries. Second, the AI selloff that started with Meta on Thursday spread beyond tech, which pushed money into Treasuries; the 10-year dipped under 5% before ending the week right at 5%. Third, the Fed meets this week and futures price about a 90% chance it holds at 3.75 to 4%. On the M&A side, deals are still closing despite high rates. CRH completed its $8.5 billion Arcosa deal, EQT agreed to take QIAGEN private for about $12 billion with ADIA and CPP Investments as co-investors, and Trane agreed to buy Cancoil Thermal, terms undisclosed.",
+ "pitch": "Stocks slipped on Friday. The S&P fell about half a percent and the Dow lost over 600 points, mostly because oil jumped again, with Brent above 116 dollars, the highest since 2022. Second, doubts about AI spending, which started with Meta on Thursday, pushed money into Treasuries, and the 10-year ended the week at 5%. Third, the Fed meets Wednesday and futures price about a 90% chance it holds at 3.75 to 4%. On the M&A side, deals keep coming despite high rates. This morning EQT agreed to buy Range Resources in an all-stock deal creating a gas producer worth over 50 billion dollars, and CRH closed its 8.5 billion dollar Arcosa purchase.",
  "quiz": [
   {
    "q": "Where did the 10-year Treasury close on Friday 23 Oct?",
@@ -202,24 +213,24 @@
    "correct": 2
   },
   {
-   "q": "What odds do futures put on the Fed holding at its 28 Oct meeting?",
-   "a": "About 90%, with roughly a 10% chance of another 25 bp hike from the current 3.75–4.00% range.",
+   "q": "Why did the S&P 500 and Dow fall on Friday 23 Oct?",
+   "a": "Oil jumped, with Brent above $116 on Middle East supply worries.",
    "options": [
-    "About 50%",
-    "About 70%",
-    "About 90%",
-    "About 100%"
+    "Oil jumped on Middle East supply worries",
+    "The Fed raised rates unexpectedly",
+    "Meta cut its AI spending",
+    "The 10-year yield fell sharply"
    ],
-   "correct": 2
+   "correct": 0
   },
   {
-   "q": "Which acquisition closed on 23 Oct?",
-   "a": "CRH's purchase of Arcosa, at about $8.5 billion of enterprise value.",
+   "q": "Who advised Range Resources on its merger with EQT?",
+   "a": "Evercore (lead) and J.P. Morgan, with Gibson Dunn as legal counsel; EQT used Citi and RBC.",
    "options": [
-    "EQT / QIAGEN",
-    "CRH / Arcosa",
-    "Trane / Cancoil",
-    "Prysmian / Atkore"
+    "Citi and RBC",
+    "Evercore and J.P. Morgan",
+    "Lazard",
+    "Goldman Sachs and Morgan Stanley"
    ],
    "correct": 1
   }
@@ -246,24 +257,34 @@
    "paywall": false
   },
   {
-   "t": "Yahoo Finance: WTI futures history",
-   "u": "https://finance.yahoo.com/quote/CL%3DF/history/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: VIX history",
-   "u": "https://finance.yahoo.com/quote/%5EVIX/history/",
-   "paywall": false
-  },
-  {
    "t": "AP via Yahoo Finance",
    "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: Dollar index history",
+   "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
+   "paywall": false
+  },
+  {
+   "t": "FRED: ICE BofA US High Yield OAS",
+   "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+   "paywall": false
+  },
+  {
+   "t": "FRED: ICE BofA US Corporate OAS",
+   "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
    "paywall": false
   },
   {
    "t": "The Globe and Mail",
    "u": "https://www.theglobeandmail.com/investing/article-us-bond-yields-plunge-as-fears-about-sustaining-ai-boom-resurface/",
    "paywall": true
+  },
+  {
+   "t": "EQT and Range merger release (SEC 8-K exhibit)",
+   "u": "https://www.sec.gov/Archives/edgar/data/0000033213/000121390026112242/ea030960101ex99-1.htm",
+   "paywall": false
   },
   {
    "t": "CRH release (SEC 8-K exhibit)",
@@ -281,13 +302,23 @@
    "paywall": false
   },
   {
-   "t": "FRED: ICE BofA US High Yield OAS",
-   "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+   "t": "HeyGoTrade: week ahead, 26 Oct",
+   "u": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-10-26/",
    "paywall": false
   },
   {
-   "t": "FRED: ICE BofA US Corporate OAS",
-   "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+   "t": "Yahoo Finance: VIX history",
+   "u": "https://finance.yahoo.com/quote/%5EVIX/history/",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: EUR/USD history",
+   "u": "https://finance.yahoo.com/quote/EURUSD%3DX/history/",
+   "paywall": false
+  },
+  {
+   "t": "EIA: daily prices",
+   "u": "https://www.eia.gov/todayinenergy/prices.php",
    "paywall": false
   }
  ]
