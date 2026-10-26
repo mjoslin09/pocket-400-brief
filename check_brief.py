@@ -43,7 +43,14 @@ need(isinstance(b.get("asof"), str) and b["asof"].strip(), "asof required, e.g. 
 need(isinstance(b.get("refreshed"), str) and b["refreshed"].strip(), "refreshed required, e.g. 'Mon 26 Oct, 6:30am CT'")
 
 nums = b.get("numbers", [])
-need(isinstance(nums, list) and 5 <= len(nums) <= 8, "numbers: 5 to 8 items")
+TILES = ["S&P 500", "10-yr Treasury", "Fed funds", "WTI crude", "Brent crude", "Henry Hub gas", "Dollar index", "HY / IG spreads"]
+need(isinstance(nums, list) and 4 <= len(nums) <= 8, "numbers: 4 to 8 tiles (see ROUTINE.md)")
+labels = [n.get("label") for n in nums] if isinstance(nums, list) else []
+bad = [l for l in labels if l not in TILES]
+need(not bad, f"numbers: unknown tile labels {bad}; use exactly {TILES}")
+need(len(set(labels)) == len(labels), "numbers: duplicate tile labels")
+need(labels == [l for l in TILES if l in labels], "numbers: tiles must follow the order in ROUTINE.md")
+need("S&P 500" in labels and "10-yr Treasury" in labels, "numbers: the S&P 500 and 10-yr Treasury tiles are required")
 for i, n in enumerate(nums if isinstance(nums, list) else []):
     w = f"numbers[{i}]"
     for k in ("label", "value"):
@@ -67,6 +74,17 @@ for i, x in enumerate(b.get("deals", [])):
     need(isinstance(x.get("parties", []), list), f"{w}.parties must be a list")
     need(isinstance(x.get("banks", []), list), f"{w}.banks must be a list")
     check_src(x.get("src"), w)
+
+cal = b.get("calendar", [])
+need(isinstance(cal, list) and 3 <= len(cal) <= 6, "calendar: 3 to 6 items")
+for i, c in enumerate(cal if isinstance(cal, list) else []):
+    need(isinstance(c.get("d"), str) and c["d"].strip() and isinstance(c.get("e"), str) and c["e"].strip(), f"calendar[{i}] needs d (date) and e (event)")
+
+cm = b.get("capmarkets")
+if cm is not None:
+    need(isinstance(cm, dict) and isinstance(cm.get("text"), str) and 0 < len(cm["text"]) <= 360, "capmarkets.text required (360 chars max) when capmarkets is present")
+    if isinstance(cm, dict):
+        check_src(cm.get("src"), "capmarkets")
 
 sw = b.get("sowhat")
 need(isinstance(sw, dict) and isinstance(sw.get("text"), str) and 0 < len(sw["text"]) <= 360, "sowhat.text required, 360 chars max")
