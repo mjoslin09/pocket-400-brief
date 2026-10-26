@@ -42,7 +42,7 @@ numbers to bankers in coffee chats and interviews, so accuracy matters more than
   "refreshed": "Mon 26 Oct, 6:30am CT",
   "numbers": [
     {"label": "S&P 500", "value": "7,663", "change": "−1.2% on the day", "dir": "down",
-     "note": "Nasdaq −2.6%", "asof": "2026-10-23", "src": {"t": "Yahoo Finance", "u": "https://finance.yahoo.com/quote/%5EGSPC/", "paywall": false}}
+     "note": "Nasdaq −2.6%", "src": {"t": "Yahoo Finance", "u": "https://finance.yahoo.com/quote/%5EGSPC/", "paywall": false}}
   ],
   "drivers": [
     {"title": "Oil", "text": "Two sentences on what moved and why it matters.",
