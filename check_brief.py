@@ -100,6 +100,14 @@ for i, q in enumerate(quiz if isinstance(quiz, list) else []):
         need(isinstance(q["options"], list) and len(q["options"]) == 4, f"{w}.options must have 4 choices")
         need(isinstance(q.get("correct"), int) and 0 <= q["correct"] <= 3, f"{w}.correct must be 0-3")
 
+chat = b.get("chat", [])
+need(isinstance(chat, list) and 6 <= len(chat) <= 8, "chat: 6 to 8 coffee chat / interview questions")
+for i, c in enumerate(chat if isinstance(chat, list) else []):
+    w = f"chat[{i}]"
+    need(isinstance(c.get("q"), str) and c["q"].strip(), f"{w}.q required")
+    need(isinstance(c.get("a"), str) and 80 <= len(c["a"]) <= 900, f"{w}.a required: a model answer, 80 to 900 chars")
+    need(c.get("kind") in ("coffee", "interview"), f"{w}.kind must be 'coffee' or 'interview'")
+
 srcs = b.get("sources", [])
 need(isinstance(srcs, list) and len(srcs) >= 3, "sources: at least 3")
 for i, s in enumerate(srcs if isinstance(srcs, list) else []):

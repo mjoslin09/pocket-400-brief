@@ -73,6 +73,11 @@ Rules for every tile:
 - `quiz` (exactly 3): answerable from this brief. One number recall (multiple choice, 4 options), one "why did X
   move" question, and one deal question (who bought whom, the size, or who advised). Wrong options must be
   plausible and must not be invented facts about real companies; reuse names from the brief or generic ranges.
+- `chat` (6 to 8): open-ended questions a banker might ask in a coffee chat or interview about today's
+  market, each tied to a tile, driver or deal in this brief. Mix `"kind": "coffee"` (e.g. "What's your read on
+  oil this week?") and `"kind": "interview"` (e.g. "If the 10-year rose 50 bp, what happens to a DCF?"). `a` is
+  a model answer of 2 to 5 sentences that cites today's numbers, then explains the M&A or valuation angle. Add
+  `tip` (one sentence on how to deliver it) when useful. No invented facts; only numbers from this brief.
 - `sources`: every page you cited, once each, with `"paywall": true` for Reuters, Bloomberg, WSJ, FT or other
   paywalled pages. Prefer free primary sources.
 
@@ -101,6 +106,8 @@ Write plainly. No hype, no exclamation marks, no em dashes used as asides.
   "pitch": "30-second script.",
   "quiz": [{"q": "Where did the 10-year Treasury close?", "a": "5.00%, up 4 bp.",
             "options": ["About 4.6%", "About 4.8%", "About 5.0%", "About 5.3%"], "correct": 2}],
+  "chat": [{"q": "What's your read on oil right now?", "kind": "coffee",
+            "a": "Two to five sentences citing today's numbers, then the M&A angle.", "tip": "Optional delivery tip."}],
   "sources": [{"t": "...", "u": "https://...", "paywall": false}]
 }
 ```
