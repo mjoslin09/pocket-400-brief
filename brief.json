@@ -1,7 +1,7 @@
 {
  "date": "2026-10-23",
  "asof": "Markets as of the Fri 23 Oct close",
- "refreshed": "Sun 25 Oct, 9:50pm CT",
+ "refreshed": "Mon 26 Oct, 6:45am CT",
  "numbers": [
   {
    "label": "S&P 500",
@@ -20,19 +20,7 @@
    "value": "5.00%",
    "change": "+4 bp",
    "dir": "up",
-   "note": "Fell 17 bp to 4.96% on Thursday",
-   "src": {
-    "t": "U.S. Treasury: daily par yield curve",
-    "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-    "paywall": false
-   }
-  },
-  {
-   "label": "2-yr Treasury",
-   "value": "4.69%",
-   "change": "+4 bp",
-   "dir": "up",
-   "note": "2s10s about +31 bp",
+   "note": "Fell 17 bp to 4.96% on Thursday; 2-yr 4.69%, 2s10s about +31 bp",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
@@ -56,7 +44,7 @@
    "value": "~90%",
    "change": "~10% odds of a 25 bp hike",
    "dir": "flat",
-   "note": "Fed Rate Monitor, updated 24 Oct after Friday's close",
+   "note": "Fed Rate Monitor, updated 26 Oct, 7:15am ET: 89.7% hold, 10.3% hike",
    "src": {
     "t": "Investing.com Fed Rate Monitor",
     "u": "https://www.investing.com/central-banks/fed-rate-monitor",
@@ -68,10 +56,36 @@
    "value": "~$103",
    "change": "+$3.80 (+3.8%)",
    "dir": "up",
-   "note": "December contract, $103.27",
+   "note": "December contract settled at $103.27, from $99.47 on Thursday",
    "src": {
-    "t": "Yahoo Finance: WTI futures",
-    "u": "https://finance.yahoo.com/quote/CL%3DF/",
+    "t": "Yahoo Finance: WTI futures history",
+    "u": "https://finance.yahoo.com/quote/CL%3DF/history/",
+    "paywall": false
+   }
+  },
+  {
+   "label": "HY spread",
+   "value": "3.40%",
+   "change": "+13 bp",
+   "dir": "up",
+   "note": "ICE BofA US High Yield OAS; Thursday reading, FRED posts a day late",
+   "asof": "2026-10-22",
+   "src": {
+    "t": "FRED: ICE BofA US High Yield OAS",
+    "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "paywall": false
+   }
+  },
+  {
+   "label": "IG spread",
+   "value": "0.89%",
+   "change": "+1 bp",
+   "dir": "up",
+   "note": "ICE BofA US Corporate OAS; Thursday reading",
+   "asof": "2026-10-22",
+   "src": {
+    "t": "FRED: ICE BofA US Corporate OAS",
+    "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
     "paywall": false
    }
   },
@@ -109,7 +123,7 @@
   },
   {
    "title": "Fed decides Wednesday",
-   "text": "Futures put about 90% odds on the Fed holding at 3.75–4.00% on 28 Oct after September's hike. The 10-year drifted back to 5.00% Friday after its biggest drop in months on Thursday.",
+   "text": "Fed Rate Monitor puts about 90% odds on the Fed holding at 3.75–4.00% on 28 Oct after September's hike. The 10-year drifted back to 5.00% Friday after its biggest drop in months on Thursday.",
    "src": {
     "t": "Investing.com Fed Rate Monitor",
     "u": "https://www.investing.com/central-banks/fed-rate-monitor",
@@ -232,8 +246,8 @@
    "paywall": false
   },
   {
-   "t": "Yahoo Finance: WTI futures",
-   "u": "https://finance.yahoo.com/quote/CL%3DF/",
+   "t": "Yahoo Finance: WTI futures history",
+   "u": "https://finance.yahoo.com/quote/CL%3DF/history/",
    "paywall": false
   },
   {
@@ -264,6 +278,16 @@
   {
    "t": "Trane release via Yahoo Finance",
    "u": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-acquire-cancoil-strengthening-203000885.html",
+   "paywall": false
+  },
+  {
+   "t": "FRED: ICE BofA US High Yield OAS",
+   "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+   "paywall": false
+  },
+  {
+   "t": "FRED: ICE BofA US Corporate OAS",
+   "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
    "paywall": false
   }
  ]
