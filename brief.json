@@ -1,7 +1,7 @@
 {
  "date": "2026-10-23",
  "asof": "Markets as of the Fri 23 Oct close",
- "refreshed": "Sun 25 Oct, 5:00pm CT",
+ "refreshed": "Sun 25 Oct, 9:50pm CT",
  "numbers": [
   {
    "label": "S&P 500",
@@ -20,7 +20,7 @@
    "value": "5.00%",
    "change": "+4 bp",
    "dir": "up",
-   "note": "Back to 5% after a 17 bp drop to 4.96% on Thursday",
+   "note": "Fell 17 bp to 4.96% on Thursday",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
@@ -56,7 +56,7 @@
    "value": "~90%",
    "change": "~10% odds of a 25 bp hike",
    "dir": "flat",
-   "note": "From 30-day fed funds futures, updated after Friday's close",
+   "note": "Fed Rate Monitor, updated 24 Oct after Friday's close",
    "src": {
     "t": "Investing.com Fed Rate Monitor",
     "u": "https://www.investing.com/central-banks/fed-rate-monitor",
@@ -142,7 +142,7 @@
     "ADIA",
     "CPP Investments"
    ],
-   "value": "€9.6B equity (~$12.1B incl. net debt)",
+   "value": "€9.6B (~$12.1B incl. net debt)",
    "status": "Announced",
    "date": "21 Oct",
    "banks": [],
@@ -172,9 +172,9 @@
   }
  ],
  "sowhat": {
-  "text": "Strategics and sponsors are still getting deals done with the 10-year near 5%: CRH closed Arcosa ahead of its original timeline and EQT lined up equity and debt for a $12B take-private. Industrial buyers keep paying for infrastructure and data center cooling exposure."
+  "text": "Strategics and sponsors are still signing and closing deals with the 10-year at 5%: CRH completed its roughly $8.5B Arcosa purchase and EQT agreed to a take-private of QIAGEN alongside ADIA and CPP Investments. Industrial buyers keep adding infrastructure-related capacity, as Trane did with Cancoil."
  },
- "pitch": "Markets were soft on Friday. The S&P slipped about half a percent and the Dow lost over 600 points, mostly because oil jumped again, with Brent above $116 on Middle East supply worries. Second, the AI selloff that started with Meta on Thursday spread beyond tech, which pushed money into Treasuries; the 10-year dipped under 5% before ending the week right at 5%. Third, the Fed meets this week and futures price about a 90% chance it holds at 3.75 to 4%. On the M&A side, deals are still closing despite high rates. CRH finished its $8.5 billion Arcosa deal early, EQT agreed to take QIAGEN private for about $12 billion with sovereign co-investors, and Trane bought Cancoil to add data center cooling capacity.",
+ "pitch": "Markets were soft on Friday. The S&P slipped about half a percent and the Dow lost over 600 points, mostly because oil jumped again, with Brent above $116 on Middle East supply worries. Second, the AI selloff that started with Meta on Thursday spread beyond tech, which pushed money into Treasuries; the 10-year dipped under 5% before ending the week right at 5%. Third, the Fed meets this week and futures price about a 90% chance it holds at 3.75 to 4%. On the M&A side, deals are still closing despite high rates. CRH completed its $8.5 billion Arcosa deal, EQT agreed to take QIAGEN private for about $12 billion with ADIA and CPP Investments as co-investors, and Trane agreed to buy Cancoil Thermal, terms undisclosed.",
  "quiz": [
   {
    "q": "Where did the 10-year Treasury close on Friday 23 Oct?",
@@ -224,11 +224,6 @@
   {
    "t": "Federal Reserve: open market operations",
    "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
-   "paywall": false
-  },
-  {
-   "t": "Federal Reserve: FOMC calendar",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
    "paywall": false
   },
   {
