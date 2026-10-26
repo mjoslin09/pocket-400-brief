@@ -27,18 +27,21 @@ accuracy matters more than anything else. A wrong number is worse than a missing
 | 1 | `S&P 500` | close, e.g. "7,624" | "−0.5% on the day" | "Nasdaq −0.2%, Dow −1.2%, VIX 19.5" | finance.yahoo.com/quote/%5EGSPC/history/ (and ^IXIC, ^DJI, ^VIX history pages), or an AP/Reuters market-close recap |
 | 2 | `10-yr Treasury` | "5.00%" | "+4 bp" | "2-yr 4.69%; 2s10s +31 bp" | home.treasury.gov Daily Treasury Par Yield Curve Rates (TextView for the current month) |
 | 3 | `Fed funds` | target range "3.75–4.00%" | "Next FOMC 28 Oct: ~90% hold" | the last move, e.g. "Raised 25 bp on 17 Sep" | federalreserve.gov/monetarypolicy/openmarket.htm; odds from CME FedWatch or investing.com/central-banks/fed-rate-monitor |
-| 4 | `WTI crude` | front-month settle "$103.27" | "+$3.80 (+3.8%)" | contract month, e.g. "Dec contract" | EIA daily prices (eia.gov/todayinenergy/prices.php) or an exchange-settle recap (AP, Reuters, CNBC) |
-| 5 | `Brent crude` | settle "$116.72" | "+$3.52 (+3.1%)" | "WTI–Brent spread $13" when notable | same as WTI |
-| 6 | `Henry Hub gas` | front-month settle "$3.42/MMBtu" | "+$0.08" | what is moving it (LNG exports, weather, storage) in a few words | EIA daily prices, or an exchange-settle recap |
+| 4 | `WTI crude` | front-month futures settle "$103.27" | "+$3.80 (+3.8%)" | contract month, e.g. "Dec futures" | finance.yahoo.com/quote/CL%3DF/history/ (history-table close = settle); cross-check with investing.com historical data or an AP/CNBC/Reuters close recap |
+| 5 | `Brent crude` | front-month futures settle "$116.72" | "+$3.55 (+3.1%)" | "WTI–Brent spread $13" when notable | finance.yahoo.com/quote/BZ%3DF/history/; cross-check as for WTI |
+| 6 | `Henry Hub gas` | front-month futures settle "$2.64/MMBtu" | "−$0.16 (−5.6%)" | what is moving it (LNG exports, weather, storage) in a few words | finance.yahoo.com/quote/NG%3DF/history/; cross-check as for WTI |
 | 7 | `Dollar index` | DXY close "101.6" | "−0.3% on the day" | "EUR/USD 1.121" | finance.yahoo.com/quote/DX-Y.NYB/history/ and /quote/EURUSD%3DX/history/ |
 | 8 | `HY / IG spreads` | option-adjusted spreads in bp, "340 / 89 bp" | "+13 / +1 bp" | "Tight by history: credit markets open" or similar | fred.stlouisfed.org/series/BAMLH0A0HYM2 and /BAMLC0A0CM (values are in percent: 3.40 = 340 bp) |
 
 Rules for every tile:
 - The value must come from a page you opened in this run, and that page goes in `src.u`.
-- Cross-check prices with a second source when you can. Yahoo futures pages (CL=F, BZ=F, NG=F) often show stale
-  or intraday quotes, so use them only as a cross-check, never as the only source. If two sources disagree by
-  more than about 1% for a price or 3 bp for a yield, use the primary source (exchange settle, Treasury, EIA,
-  the Fed) and say so in your summary. If you cannot resolve it, leave the tile out.
+- Cross-check prices with a second source when you can. For futures, use the Yahoo **history** table (its close is the
+  exchange settle); the Yahoo quote page header can be stale or intraday, so don't use it. EIA's daily prices are
+  physical SPOT prices, a different measure from futures settles: never use them for tiles 4 to 6 and never compare
+  them with futures. If two sources for the same measure disagree by more than about 1% for a price or 3 bp for a
+  yield, use the primary source (exchange settle, Treasury, the Fed) and say so in your summary. If a cross-check
+  isn't available, the Yahoo history settle on its own is acceptable for tiles 4 to 7. Only leave a tile out when
+  you cannot get a value for the right session at all.
 - If the newest available reading is from an earlier session (FRED spreads usually lag a day; EIA can lag a
   day or two), include it with `"asof": "YYYY-MM-DD"` set to that reading's date. The app grays it out and
   shows the date. Omit `asof` when the number is from the session the brief covers.
