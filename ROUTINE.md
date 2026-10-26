@@ -61,7 +61,8 @@ Rules for every tile:
   "Lazard (Cancoil)"; bankers will ask who advised. List the companies in `parties`. Source each deal to the
   company release, an SEC filing or a news report.
 - `capmarkets` (optional, recommended): one or two sentences on the IPO, bond and leveraged-loan markets
-  (notable pricings, how the window feels, record or slow issuance), with a source.
+  (notable pricings, how the window feels, record or slow issuance), with a source. Only use news from the last
+  7 days; if nothing that recent is available, leave `capmarkets` out rather than describe an older week.
 - `calendar` (3 to 6 items): what to watch in the coming week, soonest first: FOMC and Fed speakers, CPI, PCE,
   payrolls, GDP, OPEC+ meetings, and earnings from bellwethers relevant to the readers (energy, industrials,
   big tech AI spenders, banks). Format each as `{"d": "Wed 28 Oct", "e": "FOMC decision, 2pm ET"}`.
