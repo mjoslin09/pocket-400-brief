@@ -1,7 +1,7 @@
 {
  "date": "2026-10-23",
  "asof": "Markets as of the Fri 23 Oct close",
- "refreshed": "Mon 26 Oct, 11:15am CT",
+ "refreshed": "Mon 26 Oct, 11:30am CT",
  "numbers": [
   {
    "label": "S&P 500",
@@ -40,14 +40,38 @@
    }
   },
   {
-   "label": "Brent crude",
-   "value": "~$116",
-   "change": "+3.1%",
+   "label": "WTI crude",
+   "value": "$103.27",
+   "change": "+$3.80 (+3.8%)",
    "dir": "up",
-   "note": "Highest since June 2022; AP gives a rounded level, not an exact settle",
+   "note": "Dec futures; WTI–Brent spread $13",
    "src": {
-    "t": "AP via Yahoo Finance",
-    "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
+    "t": "Yahoo Finance: WTI crude history",
+    "u": "https://finance.yahoo.com/quote/CL%3DF/history/",
+    "paywall": false
+   }
+  },
+  {
+   "label": "Brent crude",
+   "value": "$116.72",
+   "change": "+$3.55 (+3.1%)",
+   "dir": "up",
+   "note": "Highest since June 2022",
+   "src": {
+    "t": "Yahoo Finance: Brent crude history",
+    "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
+    "paywall": false
+   }
+  },
+  {
+   "label": "Henry Hub gas",
+   "value": "$2.64/MMBtu",
+   "change": "−$0.16 (−5.6%)",
+   "dir": "down",
+   "note": "Dec futures",
+   "src": {
+    "t": "Yahoo Finance: Henry Hub gas history",
+    "u": "https://finance.yahoo.com/quote/NG%3DF/history/",
     "paywall": false
    }
   },
@@ -79,7 +103,7 @@
  "drivers": [
   {
    "title": "Oil jumps to a four-year high",
-   "text": "Brent rose about 3% to above $116 a barrel, its highest since June 2022, on Middle East supply worries. Oil pushed the S&P 500 down 0.5% and the Dow down about 650 points.",
+   "text": "Brent rose about 3% to $116.72 a barrel, its highest since June 2022, and WTI settled at $103.27. The AP said rising oil pushed the S&P 500 down 0.5% and the Dow down about 650 points.",
    "src": {
     "t": "AP via Yahoo Finance",
     "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
@@ -88,7 +112,7 @@
   },
   {
    "title": "AI spending doubts hit tech and bonds",
-   "text": "Thursday's selloff began when Meta fell nearly 8% after earnings and a plan to issue non-voting shares to fund AI spending, and the 10-year fell to about 4.95% as buyers rushed into Treasuries. It rebounded to 5.00% Friday.",
+   "text": "Thursday's selloff began when Meta fell nearly 8% after earnings and a plan for non-voting shares to fund AI spending, and the 10-year fell to about 4.95% on a rush into Treasuries. It rebounded to 5.00% Friday.",
    "src": {
     "t": "The Globe and Mail",
     "u": "https://www.theglobeandmail.com/investing/article-us-bond-yields-plunge-as-fears-about-sustaining-ai-boom-resurface/",
@@ -97,7 +121,7 @@
   },
   {
    "title": "Fed decides Wednesday",
-   "text": "Futures give about a 90% chance the Fed holds at 3.75–4.00% on 28 Oct after September's hike. Chair Warsh's guidance is the focus, as the same week brings Microsoft, Alphabet and Amazon earnings.",
+   "text": "Futures give about a 90% chance the Fed holds at 3.75–4.00% on 28 Oct after September's hike, with the rest on another hike. Chair Warsh's press conference is the focus, in a week that also brings Microsoft, Alphabet and Amazon earnings.",
    "src": {
     "t": "Investing.com Fed Rate Monitor",
     "u": "https://www.investing.com/central-banks/fed-rate-monitor",
@@ -149,7 +173,7 @@
     "ADIA",
     "CPP Investments"
    ],
-   "value": "€9.6B (~$12.1B incl. net debt)",
+   "value": "€9.6B equity (~$12.1B incl. net debt)",
    "status": "Announced",
    "date": "21 Oct",
    "banks": [],
@@ -178,6 +202,14 @@
    }
   }
  ],
+ "capmarkets": {
+  "text": "In the week to 16 Oct, leveraged loans were busy with LBO and M&A financings, including Volta Infrastructure's roughly $5B loan, which priced a day late after investor pushback on AI exposure. High-yield bond supply was light, with Ineos Energy's $700M the only deal.",
+  "src": {
+   "t": "Octus: Americas Leveraged Finance Weekly, 16 Oct",
+   "u": "https://octus.com/resources/articles/americas-leveraged-finance-weekly-ma-volta-infrastructure/",
+   "paywall": false
+  }
+ },
  "calendar": [
   {
    "d": "Tue 27 Oct",
@@ -185,11 +217,11 @@
   },
   {
    "d": "Wed 28 Oct",
-   "e": "FOMC decision, 2pm ET, then Chair Warsh press conference; Microsoft and Alphabet after the close"
+   "e": "FOMC decision, then Chair Warsh press conference; Microsoft and Alphabet after the close"
   },
   {
    "d": "Thu 29 Oct",
-   "e": "Q3 GDP (advance) and core PCE; Caterpillar before the open, Amazon after; CRH Q3 results"
+   "e": "Q3 GDP (advance) and core PCE; Caterpillar before the open, Amazon after"
   },
   {
    "d": "Fri 30 Oct",
@@ -197,9 +229,9 @@
   }
  ],
  "sowhat": {
-  "text": "A $14B all-stock gas merger from EQT and Range, plus CRH closing Arcosa, show strategics still doing large deals with the 10-year at 5%. Credit spreads stay tight, so financing is open, though oil and AI capex worries add volatility."
+  "text": "EQT's all-stock deal for Range and CRH closing Arcosa show strategics still doing large deals with the 10-year at 5%. Credit spreads are tight and loans are open, though oil and AI capex worries are keeping high-yield bond supply thin."
  },
- "pitch": "Stocks slipped on Friday. The S&P fell about half a percent and the Dow lost over 600 points, mostly because oil jumped again, with Brent above 116 dollars, the highest since 2022. Second, doubts about AI spending, which started with Meta on Thursday, pushed money into Treasuries, and the 10-year ended the week at 5%. Third, the Fed meets Wednesday and futures price about a 90% chance it holds at 3.75 to 4%. On the M&A side, deals keep coming despite high rates. This morning EQT agreed to buy Range Resources in an all-stock deal creating a gas producer worth over 50 billion dollars, and CRH closed its 8.5 billion dollar Arcosa purchase.",
+ "pitch": "Stocks slipped on Friday. The S&P fell about half a percent and the Dow lost over 650 points, mostly because oil jumped again, with Brent at 116 dollars, the highest since 2022. Second, doubts about AI spending, which started with Meta on Thursday, pushed money into Treasuries, and the 10-year ended the week at 5%. Third, the Fed meets Wednesday and futures price about a 90% chance it holds at 3.75 to 4%. On the M&A side, deals keep coming despite high rates. This morning EQT agreed to buy Range Resources in an all-stock deal creating a gas producer with over 50 billion dollars of enterprise value, and CRH closed its 8.5 billion dollar Arcosa purchase.",
  "quiz": [
   {
    "q": "Where did the 10-year Treasury close on Friday 23 Oct?",
@@ -214,9 +246,9 @@
   },
   {
    "q": "Why did the S&P 500 and Dow fall on Friday 23 Oct?",
-   "a": "Oil jumped, with Brent above $116 on Middle East supply worries.",
+   "a": "Oil jumped, with Brent at $116.72, the highest since June 2022.",
    "options": [
-    "Oil jumped on Middle East supply worries",
+    "Oil jumped to a four-year high",
     "The Fed raised rates unexpectedly",
     "Meta cut its AI spending",
     "The 10-year yield fell sharply"
@@ -225,7 +257,7 @@
   },
   {
    "q": "Who advised Range Resources on its merger with EQT?",
-   "a": "Evercore (lead) and J.P. Morgan, with Gibson Dunn as legal counsel; EQT used Citi and RBC.",
+   "a": "Evercore (lead) and J.P. Morgan; EQT used Citi and RBC.",
    "options": [
     "Citi and RBC",
     "Evercore and J.P. Morgan",
@@ -239,6 +271,21 @@
   {
    "t": "Yahoo Finance: S&P 500 history",
    "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: Nasdaq history",
+   "u": "https://finance.yahoo.com/quote/%5EIXIC/history/",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: Dow history",
+   "u": "https://finance.yahoo.com/quote/%5EDJI/history/",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: VIX history",
+   "u": "https://finance.yahoo.com/quote/%5EVIX/history/",
    "paywall": false
   },
   {
@@ -257,13 +304,28 @@
    "paywall": false
   },
   {
-   "t": "AP via Yahoo Finance",
-   "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
+   "t": "Yahoo Finance: WTI crude history",
+   "u": "https://finance.yahoo.com/quote/CL%3DF/history/",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: Brent crude history",
+   "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: Henry Hub gas history",
+   "u": "https://finance.yahoo.com/quote/NG%3DF/history/",
    "paywall": false
   },
   {
    "t": "Yahoo Finance: Dollar index history",
    "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: EUR/USD history",
+   "u": "https://finance.yahoo.com/quote/EURUSD%3DX/history/",
    "paywall": false
   },
   {
@@ -274,6 +336,11 @@
   {
    "t": "FRED: ICE BofA US Corporate OAS",
    "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+   "paywall": false
+  },
+  {
+   "t": "AP via Yahoo Finance",
+   "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
    "paywall": false
   },
   {
@@ -302,23 +369,13 @@
    "paywall": false
   },
   {
+   "t": "Octus: Americas Leveraged Finance Weekly, 16 Oct",
+   "u": "https://octus.com/resources/articles/americas-leveraged-finance-weekly-ma-volta-infrastructure/",
+   "paywall": false
+  },
+  {
    "t": "HeyGoTrade: week ahead, 26 Oct",
    "u": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-10-26/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: VIX history",
-   "u": "https://finance.yahoo.com/quote/%5EVIX/history/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: EUR/USD history",
-   "u": "https://finance.yahoo.com/quote/EURUSD%3DX/history/",
-   "paywall": false
-  },
-  {
-   "t": "EIA: daily prices",
-   "u": "https://www.eia.gov/todayinenergy/prices.php",
    "paywall": false
   }
  ]
