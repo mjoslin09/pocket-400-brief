@@ -8,6 +8,9 @@ numbers to bankers in coffee chats and interviews, so accuracy matters more than
 
 1. Work out the market day to cover: the most recent US trading day that has closed (on Monday morning,
    that is Friday). Today's date is in your environment; check it with `date`.
+   Always do the full research and publish a fresh brief, even if brief.json already covers that day:
+   overnight and weekend news changes the drivers, deals, takeaway and pitch, and every number must be
+   re-confirmed on a page opened in this run. Never skip a run.
 2. Research with web search. Prefer free primary sources: federalreserve.gov, treasury.gov / home.treasury.gov,
    fred.stlouisfed.org, eia.gov, bls.gov, bea.gov, sec.gov filings, company press releases (businesswire,
    prnewswire, globenewswire, investor sites), cmegroup.com FedWatch, and free market pages (finance.yahoo.com,
