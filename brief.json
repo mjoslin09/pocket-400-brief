@@ -1,14 +1,14 @@
 {
- "date": "2026-10-23",
- "asof": "Markets as of the Fri 23 Oct close",
- "refreshed": "Mon 26 Oct, 11:30am CT",
+ "date": "2026-10-26",
+ "asof": "Markets as of the Mon 26 Oct close",
+ "refreshed": "Tue 27 Oct, 6:45am CT",
  "numbers": [
   {
    "label": "S&P 500",
-   "value": "7,624",
-   "change": "−0.5% on the day",
-   "dir": "down",
-   "note": "Nasdaq −0.2%, Dow −1.2%, VIX 19.5",
+   "value": "7,677",
+   "change": "+0.7% on the day",
+   "dir": "up",
+   "note": "Nasdaq +0.8%, Dow +0.3%, VIX 18.4",
    "src": {
     "t": "Yahoo Finance: S&P 500 history",
     "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
@@ -18,9 +18,9 @@
   {
    "label": "10-yr Treasury",
    "value": "5.00%",
-   "change": "+4 bp",
-   "dir": "up",
-   "note": "2-yr 4.69%; 2s10s +31 bp. Fell to 4.96% Thursday",
+   "change": "Unchanged",
+   "dir": "flat",
+   "note": "2-yr 4.68%; 2s10s +32 bp",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
@@ -30,9 +30,9 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Next FOMC 28 Oct: ~90% hold",
+   "change": "Next FOMC 28 Oct: ~92% hold",
    "dir": "flat",
-   "note": "Raised 25 bp on 17 Sep; ~10% odds of another hike (updated 26 Oct)",
+   "note": "Raised 25 bp on 17 Sep; ~8% odds of another hike",
    "src": {
     "t": "Federal Reserve: open market operations",
     "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
@@ -41,10 +41,10 @@
   },
   {
    "label": "WTI crude",
-   "value": "$103.27",
-   "change": "+$3.80 (+3.8%)",
-   "dir": "up",
-   "note": "Dec futures; WTI–Brent spread $13",
+   "value": "$101.76",
+   "change": "−$1.51 (−1.5%)",
+   "dir": "down",
+   "note": "Dec futures",
    "src": {
     "t": "Yahoo Finance: WTI crude history",
     "u": "https://finance.yahoo.com/quote/CL%3DF/history/",
@@ -53,10 +53,10 @@
   },
   {
    "label": "Brent crude",
-   "value": "$116.72",
-   "change": "+$3.55 (+3.1%)",
-   "dir": "up",
-   "note": "Highest since June 2022",
+   "value": "$115.81",
+   "change": "−$0.91 (−0.8%)",
+   "dir": "down",
+   "note": "WTI–Brent spread $14",
    "src": {
     "t": "Yahoo Finance: Brent crude history",
     "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
@@ -65,8 +65,8 @@
   },
   {
    "label": "Henry Hub gas",
-   "value": "$2.64/MMBtu",
-   "change": "−$0.16 (−5.6%)",
+   "value": "$2.60/MMBtu",
+   "change": "−$0.04 (−1.4%)",
    "dir": "down",
    "note": "Dec futures",
    "src": {
@@ -77,8 +77,8 @@
   },
   {
    "label": "Dollar index",
-   "value": "101.8",
-   "change": "+0.2% on the day",
+   "value": "102.0",
+   "change": "+0.1% on the day",
    "dir": "up",
    "note": "EUR/USD 1.122",
    "src": {
@@ -92,7 +92,8 @@
    "value": "338 / 91 bp",
    "change": "−2 / +2 bp",
    "dir": "flat",
-   "note": "Tight by history: credit markets open",
+   "asof": "2026-10-23",
+   "note": "Tight by history: credit markets open, but more selective",
    "src": {
     "t": "FRED: ICE BofA US High Yield OAS",
     "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
@@ -102,26 +103,26 @@
  ],
  "drivers": [
   {
-   "title": "Oil jumps to a four-year high",
-   "text": "Brent rose about 3% to $116.72 a barrel, its highest since June 2022, and WTI settled at $103.27. The AP said rising oil pushed the S&P 500 down 0.5% and the Dow down about 650 points.",
+   "title": "AI trade rebounds on Anthropic filing",
+   "text": "The S&P 500 rose 0.7% and the Nasdaq 0.8%, recovering last week's losses. Anthropic's public S-1 reported over $16B of first-half revenue and lifted chip stocks including Nvidia, Broadcom and Micron.",
    "src": {
-    "t": "AP via Yahoo Finance",
-    "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
+    "t": "Yahoo Finance: stock market today, 26 Oct",
+    "u": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rally-as-investors-parse-anthropic-ipo-filing-busy-week-of-tech-earnings-153428995.html",
     "paywall": false
    }
   },
   {
-   "title": "AI spending doubts hit tech and bonds",
-   "text": "Thursday's selloff began when Meta fell nearly 8% after earnings and a plan for non-voting shares to fund AI spending, and the 10-year fell to about 4.95% on a rush into Treasuries. It rebounded to 5.00% Friday.",
+   "title": "Oil eases but stays near highs",
+   "text": "Brent settled at $115.81, down 0.8%, and WTI at $101.76, as Middle East mediation hopes offset Houthi attacks on Saudi pipeline infrastructure. Both remain near six-month highs after Friday's jump.",
    "src": {
-    "t": "The Globe and Mail",
-    "u": "https://www.theglobeandmail.com/investing/article-us-bond-yields-plunge-as-fears-about-sustaining-ai-boom-resurface/",
-    "paywall": true
+    "t": "Yahoo Finance: oil settles lower on peace hopes",
+    "u": "https://finance.yahoo.com/news/oil-prices-down-almost-1-232445179.html",
+    "paywall": false
    }
   },
   {
    "title": "Fed decides Wednesday",
-   "text": "Futures give about a 90% chance the Fed holds at 3.75–4.00% on 28 Oct after September's hike, with the rest on another hike. Chair Warsh's press conference is the focus, in a week that also brings Microsoft, Alphabet and Amazon earnings.",
+   "text": "Futures show about a 92% chance the Fed holds at 3.75–4.00% on 28 Oct, after September's hike. Some expect a hawkish pause, with Microsoft and Alphabet reporting after the close.",
    "src": {
     "t": "Investing.com Fed Rate Monitor",
     "u": "https://www.investing.com/central-banks/fed-rate-monitor",
@@ -136,7 +137,7 @@
     "EQT Corporation",
     "Range Resources"
    ],
-   "value": "All-stock; pro forma EV above $50B",
+   "value": "All-stock (0.987 EQT share per Range share); pro forma EV over $50B",
    "status": "Announced",
    "date": "26 Oct",
    "banks": [
@@ -146,6 +147,22 @@
    "src": {
     "t": "EQT and Range merger release (SEC 8-K exhibit)",
     "u": "https://www.sec.gov/Archives/edgar/data/0000033213/000121390026112242/ea030960101ex99-1.htm",
+    "paywall": false
+   }
+  },
+  {
+   "name": "Ovintiv / Logan Energy",
+   "parties": [
+    "Ovintiv",
+    "Logan Energy"
+   ],
+   "value": "~$1.26B including debt",
+   "status": "Announced",
+   "date": "26 Oct",
+   "banks": [],
+   "src": {
+    "t": "BNN Bloomberg: Ovintiv to buy Logan Energy",
+    "u": "https://bnnbloomberg.ca/markets/oil/2026/10/26/ovintiv-to-buy-logan-energy-in-deal-valued-at-126-billion-including-debt",
     "paywall": false
    }
   },
@@ -164,99 +181,63 @@
     "u": "https://www.sec.gov/Archives/edgar/data/0000849395/000119312526429523/d187492dex991.htm",
     "paywall": false
    }
-  },
-  {
-   "name": "EQT to take QIAGEN private",
-   "parties": [
-    "EQT",
-    "QIAGEN",
-    "ADIA",
-    "CPP Investments"
-   ],
-   "value": "€9.6B equity (~$12.1B incl. net debt)",
-   "status": "Announced",
-   "date": "21 Oct",
-   "banks": [],
-   "src": {
-    "t": "Reuters via KFGO",
-    "u": "https://kfgo.com/2026/10/21/buyout-firm-eqt-to-acquire-qiagen-for-10-8-billion/",
-    "paywall": false
-   }
-  },
-  {
-   "name": "Trane Technologies / Cancoil",
-   "parties": [
-    "Trane Technologies",
-    "Cancoil Thermal"
-   ],
-   "value": "Undisclosed",
-   "status": "Announced",
-   "date": "21 Oct",
-   "banks": [
-    "Lazard (Cancoil)"
-   ],
-   "src": {
-    "t": "Trane release via Yahoo Finance",
-    "u": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-acquire-cancoil-strengthening-203000885.html",
-    "paywall": false
-   }
   }
  ],
  "capmarkets": {
-  "text": "In the week to 16 Oct, leveraged loans were busy with LBO and M&A financings, including Volta Infrastructure's roughly $5B loan, which priced a day late after investor pushback on AI exposure. High-yield bond supply was light, with Ineos Energy's $700M the only deal.",
+  "text": "Octus says leveraged finance slowed in the week to 23 Oct as higher yields and wider spreads made investors more selective. Crescent Energy priced a $1.5B term loan for its Eagle Ford purchase, while Goldman paused premarketing on data center high-yield bonds from Applied Digital and Novva.",
   "src": {
-   "t": "Octus: Americas Leveraged Finance Weekly, 16 Oct",
-   "u": "https://octus.com/resources/articles/americas-leveraged-finance-weekly-ma-volta-infrastructure/",
+   "t": "Octus: Americas Leveraged Finance Weekly, 23 Oct",
+   "u": "https://octus.com/resources/articles/americas-leveraged-finance-weekly-market-volatility-ai-infrastructure-debt/",
    "paywall": false
   }
  },
  "calendar": [
   {
    "d": "Tue 27 Oct",
-   "e": "Durable goods and consumer confidence; Boeing and Coca-Cola earnings"
+   "e": "Durable goods and consumer confidence; Boeing and Coca-Cola before the open, Visa after the close"
   },
   {
    "d": "Wed 28 Oct",
-   "e": "FOMC decision, then Chair Warsh press conference; Microsoft and Alphabet after the close"
+   "e": "FOMC decision and Chair Warsh press conference (afternoon); Microsoft and Alphabet after the close"
   },
   {
    "d": "Thu 29 Oct",
-   "e": "Q3 GDP (advance) and core PCE; Caterpillar before the open, Amazon after"
+   "e": "Advance Q3 GDP and core PCE; Caterpillar before the open, Amazon and Intel after"
   },
   {
    "d": "Fri 30 Oct",
-   "e": "Employment Cost Index; Exxon Mobil and Chevron earnings before the open"
+   "e": "Employment Cost Index; Exxon Mobil and Chevron before the open"
   }
  ],
  "sowhat": {
-  "text": "EQT's all-stock deal for Range and CRH closing Arcosa show strategics still doing large deals with the 10-year at 5%. Credit spreads are tight and loans are open, though oil and AI capex worries are keeping high-yield bond supply thin."
+  "text": "EQT-Range shows large stock-for-stock deals getting done in gas with the 10-year at 5.00%, while sponsors face pricier, more selective leveraged finance. Oil near $116 Brent keeps energy dealmaking active."
  },
- "pitch": "Stocks slipped on Friday. The S&P fell about half a percent and the Dow lost over 650 points, mostly because oil jumped again, with Brent at 116 dollars, the highest since 2022. Second, doubts about AI spending, which started with Meta on Thursday, pushed money into Treasuries, and the 10-year ended the week at 5%. Third, the Fed meets Wednesday and futures price about a 90% chance it holds at 3.75 to 4%. On the M&A side, deals keep coming despite high rates. This morning EQT agreed to buy Range Resources in an all-stock deal creating a gas producer with over 50 billion dollars of enterprise value, and CRH closed its 8.5 billion dollar Arcosa purchase.",
+ "pitch": "Stocks bounced on Monday. The S&P rose about 0.7 percent, led by chips after Anthropic's IPO filing revived the AI trade. Oil eased a little on Middle East talks, but Brent is still around 116 dollars, near six-month highs. The 10-year is flat at 5 percent, and the Fed meets Wednesday with futures pricing about a 92 percent chance of a hold at 3.75 to 4. On M&A, EQT agreed to buy Range Resources in an all-stock deal creating a gas producer with over 50 billion dollars of enterprise value, and Ovintiv is buying Logan Energy for about 1.3 billion. Financing is open but more selective, with spreads near 340 basis points on high yield.",
  "quiz": [
   {
-   "q": "Where did the 10-year Treasury close on Friday 23 Oct?",
-   "a": "5.00%, up 4 bp after falling to 4.96% on Thursday.",
+   "q": "Where did Brent crude settle on Monday 26 Oct?",
+   "a": "$115.81, down 91 cents.",
    "options": [
-    "About 4.6%",
-    "About 4.8%",
-    "About 5.0%",
-    "About 5.3%"
+    "About $101",
+    "About $110",
+    "About $116",
+    "About $122"
    ],
    "correct": 2
   },
   {
-   "q": "Why did the S&P 500 and Dow fall on Friday 23 Oct?",
-   "a": "Oil jumped, with Brent at $116.72, the highest since June 2022.",
+   "q": "Why did the Nasdaq and chip stocks rally on Monday 26 Oct?",
+   "a": "Anthropic's public S-1 filing, showing over $16B of first-half revenue, revived the AI trade.",
    "options": [
-    "Oil jumped to a four-year high",
-    "The Fed raised rates unexpectedly",
-    "Meta cut its AI spending",
-    "The 10-year yield fell sharply"
+    "Anthropic's S-1 filing revived the AI trade",
+    "The Fed cut rates",
+    "The 10-year yield fell below 4%",
+    "Oil prices fell below $90"
    ],
    "correct": 0
   },
   {
-   "q": "Who advised Range Resources on its merger with EQT?",
+   "q": "Who advised Range Resources on its all-stock deal with EQT?",
    "a": "Evercore (lead) and J.P. Morgan; EQT used Citi and RBC.",
    "options": [
     "Citi and RBC",
@@ -265,6 +246,44 @@
     "Goldman Sachs and Morgan Stanley"
    ],
    "correct": 1
+  }
+ ],
+ "chat": [
+  {
+   "q": "What's your read on oil right now?",
+   "kind": "coffee",
+   "a": "Brent settled at $115.81 and WTI at $101.76, both down slightly on Monday after Friday's jump. Mediation hopes pulled prices back while Houthi attacks on Saudi pipelines kept them near six-month highs. High prices support cash flow for producers, which helps funding for energy M&A like EQT-Range and Ovintiv-Logan.",
+   "tip": "Name the spread: Brent about $14 above WTI."
+  },
+  {
+   "q": "What deals are you following?",
+   "kind": "coffee",
+   "a": "EQT agreed to buy Range Resources in an all-stock deal, 0.987 EQT shares per Range share, creating a company with over $50B of pro forma enterprise value. Citi and RBC advised EQT; Evercore and J.P. Morgan advised Range. It shows gas consolidation getting done in stock rather than cash, which sidesteps a 5% 10-year.",
+   "tip": "Mention the advisers unprompted."
+  },
+  {
+   "q": "What are you watching this week?",
+   "kind": "coffee",
+   "a": "The Fed decision Wednesday, where futures give about a 92% chance of a hold at 3.75–4.00%. Then Microsoft and Alphabet earnings for AI capex signals, and Thursday's GDP and core PCE. Together they set the rate and risk backdrop for financing.",
+   "tip": "Keep it to three items."
+  },
+  {
+   "q": "If the 10-year rose 50 bp, what happens to a DCF?",
+   "kind": "interview",
+   "a": "The discount rate rises, so present value falls, and terminal value falls most because it is the long-dated piece. With the 10-year at 5.00% now, the risk-free rate is already high, so a further 50 bp would cut equity values for long-duration assets and make leveraged buyouts harder to finance.",
+   "tip": "State direction, then the terminal value point."
+  },
+  {
+   "q": "Why would EQT pay in stock for Range?",
+   "kind": "interview",
+   "a": "An all-stock deal keeps the balance sheet clean when borrowing is expensive, with the 10-year at 5.00% and high-yield spreads near 338 bp. Range holders get 27% of the combined company and share in synergies, which EQT put at $325M within two years. The tradeoff is dilution and the need for both shareholder votes.",
+   "tip": "Tie it to financing costs."
+  },
+  {
+   "q": "How would you describe credit markets today?",
+   "kind": "interview",
+   "a": "Open but selective. High-yield spreads were 338 bp and IG 91 bp at the 23 Oct reading, which is tight by history, but Octus reported some deals needed structure changes and data center bonds were paused. Strong credits like Crescent Energy's $1.5B loan still priced.",
+   "tip": "Give both sides: tight spreads, picky buyers."
   }
  ],
  "sources": [
@@ -339,18 +358,23 @@
    "paywall": false
   },
   {
-   "t": "AP via Yahoo Finance",
-   "u": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
+   "t": "Yahoo Finance: stock market today, 26 Oct",
+   "u": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rally-as-investors-parse-anthropic-ipo-filing-busy-week-of-tech-earnings-153428995.html",
    "paywall": false
   },
   {
-   "t": "The Globe and Mail",
-   "u": "https://www.theglobeandmail.com/investing/article-us-bond-yields-plunge-as-fears-about-sustaining-ai-boom-resurface/",
-   "paywall": true
+   "t": "Yahoo Finance: oil settles lower on peace hopes",
+   "u": "https://finance.yahoo.com/news/oil-prices-down-almost-1-232445179.html",
+   "paywall": false
   },
   {
    "t": "EQT and Range merger release (SEC 8-K exhibit)",
    "u": "https://www.sec.gov/Archives/edgar/data/0000033213/000121390026112242/ea030960101ex99-1.htm",
+   "paywall": false
+  },
+  {
+   "t": "BNN Bloomberg: Ovintiv to buy Logan Energy",
+   "u": "https://bnnbloomberg.ca/markets/oil/2026/10/26/ovintiv-to-buy-logan-energy-in-deal-valued-at-126-billion-including-debt",
    "paywall": false
   },
   {
@@ -359,22 +383,12 @@
    "paywall": false
   },
   {
-   "t": "Reuters via KFGO",
-   "u": "https://kfgo.com/2026/10/21/buyout-firm-eqt-to-acquire-qiagen-for-10-8-billion/",
+   "t": "Octus: Americas Leveraged Finance Weekly, 23 Oct",
+   "u": "https://octus.com/resources/articles/americas-leveraged-finance-weekly-market-volatility-ai-infrastructure-debt/",
    "paywall": false
   },
   {
-   "t": "Trane release via Yahoo Finance",
-   "u": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-acquire-cancoil-strengthening-203000885.html",
-   "paywall": false
-  },
-  {
-   "t": "Octus: Americas Leveraged Finance Weekly, 16 Oct",
-   "u": "https://octus.com/resources/articles/americas-leveraged-finance-weekly-ma-volta-infrastructure/",
-   "paywall": false
-  },
-  {
-   "t": "HeyGoTrade: week ahead, 26 Oct",
+   "t": "Gotrade: week ahead, 26 Oct",
    "u": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-10-26/",
    "paywall": false
   }
