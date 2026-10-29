@@ -1,14 +1,14 @@
 {
- "date": "2026-10-27",
- "asof": "Markets as of the Tue 27 Oct close",
- "refreshed": "Wed 28 Oct, 6:50am CT",
+ "date": "2026-10-28",
+ "asof": "Markets as of the Wed 28 Oct close",
+ "refreshed": "Thu 29 Oct, 6:45am CT",
  "numbers": [
   {
    "label": "S&P 500",
-   "value": "7,723",
-   "change": "+0.6% on the day",
+   "value": "7,744",
+   "change": "+0.3% on the day",
    "dir": "up",
-   "note": "Nasdaq +1.2%, Dow flat (+0.03%), VIX 17.5",
+   "note": "Nasdaq +0.3%, Dow +0.2%, VIX 16.9",
    "src": {
     "t": "Yahoo Finance: S&P 500 history",
     "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
@@ -17,10 +17,10 @@
   },
   {
    "label": "10-yr Treasury",
-   "value": "4.99%",
-   "change": "−1 bp",
-   "dir": "down",
-   "note": "2-yr 4.70%; 2s10s +29 bp",
+   "value": "5.05%",
+   "change": "+6 bp",
+   "dir": "up",
+   "note": "2-yr 4.67%; 2s10s +38 bp",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
@@ -30,9 +30,9 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Next FOMC 28 Oct: ~90% hold",
+   "change": "Held 28 Oct, 10–2 vote; Dec 9 hike ~85%",
    "dir": "flat",
-   "note": "Raised 25 bp on 17 Sep; ~10% odds of another hike",
+   "note": "Raised 25 bp on 17 Sep; Cook and Hammack dissented for a hike",
    "src": {
     "t": "Federal Reserve: open market operations",
     "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
@@ -41,9 +41,9 @@
   },
   {
    "label": "WTI crude",
-   "value": "$99.90",
-   "change": "−$1.86 (−1.8%)",
-   "dir": "down",
+   "value": "$102.78",
+   "change": "+$2.88 (+2.9%)",
+   "dir": "up",
    "note": "Dec futures",
    "src": {
     "t": "Yahoo Finance: WTI crude history",
@@ -53,10 +53,10 @@
   },
   {
    "label": "Brent crude",
-   "value": "$113.88",
-   "change": "−$1.93 (−1.7%)",
-   "dir": "down",
-   "note": "WTI–Brent spread $14",
+   "value": "$115.32",
+   "change": "+$1.44 (+1.3%)",
+   "dir": "up",
+   "note": "WTI–Brent spread $13",
    "src": {
     "t": "Yahoo Finance: Brent crude history",
     "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
@@ -65,10 +65,10 @@
   },
   {
    "label": "Henry Hub gas",
-   "value": "$2.70/MMBtu",
-   "change": "+$0.10 (+3.7%)",
+   "value": "$2.82/MMBtu",
+   "change": "+$0.12 (+4.4%)",
    "dir": "up",
-   "note": "Nov futures, expiring; mild weather caps demand",
+   "note": "Dec futures",
    "src": {
     "t": "Yahoo Finance: Henry Hub gas history",
     "u": "https://finance.yahoo.com/quote/NG%3DF/history/",
@@ -77,10 +77,10 @@
   },
   {
    "label": "Dollar index",
-   "value": "102.3",
-   "change": "+0.4% on the day",
-   "dir": "up",
-   "note": "EUR/USD 1.117",
+   "value": "102.2",
+   "change": "−0.1% on the day",
+   "dir": "down",
+   "note": "EUR/USD 1.113",
    "src": {
     "t": "Yahoo Finance: Dollar index history",
     "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
@@ -89,10 +89,10 @@
   },
   {
    "label": "HY / IG spreads",
-   "value": "330 / 90 bp",
-   "change": "−8 / −1 bp",
+   "value": "318 / 88 bp",
+   "change": "−12 / −2 bp",
    "dir": "down",
-   "asof": "2026-10-26",
+   "asof": "2026-10-27",
    "note": "Tight by history: credit markets open, but selective",
    "src": {
     "t": "FRED: ICE BofA US High Yield OAS",
@@ -103,53 +103,50 @@
  ],
  "drivers": [
   {
-   "title": "Chips lead Nasdaq higher",
-   "text": "The Nasdaq rose 1.2% and the S&P 500 0.6%, the second straight tech gain. Semiconductors led after Anthropic's IPO filing revived AI enthusiasm.",
+   "title": "Fed holds, hike odds for December",
+   "text": "The Fed held at 3.75–4.00% in a 10–2 vote, with Governor Cook and Cleveland Fed's Hammack dissenting in favor of a hike. Markets priced about an 85% chance of a quarter-point hike on 9 December, and the 10-year closed at 5.05%.",
    "src": {
-    "t": "Yahoo Finance: stock market today, 27 Oct",
-    "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html",
+    "t": "Reuters via Lufkin Daily News: global stocks hold gains after Fed, oil rises",
+    "u": "https://lufkindailynews.com/news_reuters/business/global-stocks-hold-gains-after-fed-decision-oil-prices-rise/article_83a86c22-7fed-5223-a82f-bc1d7c12ea30.html",
     "paywall": false
    }
   },
   {
-   "title": "Oil slips on Middle East talks",
-   "text": "Brent settled at $113.88 and WTI at $99.90, each down about 2%, as diplomacy involving Iran eased supply fears. Both stay near six-month highs on Houthi attacks and Hormuz shipping disruption.",
+   "title": "Oil rises on Saudi refinery attack",
+   "text": "An attack on a Saudi Arabian refinery renewed supply worries. Brent settled at $115.32 and WTI at $102.78.",
    "src": {
-    "t": "Nation Thailand: Brent drops $1.93 on 27 Oct",
-    "u": "https://www.nationthailand.com/news/world/40072812",
+    "t": "Reuters via Lufkin Daily News: global stocks hold gains after Fed, oil rises",
+    "u": "https://lufkindailynews.com/news_reuters/business/global-stocks-hold-gains-after-fed-decision-oil-prices-rise/article_83a86c22-7fed-5223-a82f-bc1d7c12ea30.html",
     "paywall": false
    }
   },
   {
-   "title": "Fed decision Wednesday",
-   "text": "Markets price about a 90% chance the Fed holds at 3.75–4.00% after September's hike, with roughly 10% on another hike. The 10-year ended at 4.99%.",
+   "title": "Big Tech earnings kick off",
+   "text": "After the close, Microsoft beat estimates, with EPS of $4.89 against $4.73 expected and cloud revenue of $63.9B. Alphabet missed, with EPS of $2.12 against $2.99 forecast. Amazon reports Thursday, so AI capex is the focus.",
    "src": {
-    "t": "Investing.com Fed Rate Monitor",
-    "u": "https://www.investing.com/central-banks/fed-rate-monitor",
+    "t": "Yahoo Finance: stock market today, Fed holds in split vote",
+    "u": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-fed-holds-rates-steady-in-split-vote-185837696.html",
     "paywall": false
    }
   }
  ],
  "deals": [
   {
-   "name": "HealthSpan / Surgery Partners",
+   "name": "Ares Capital / MidCap Financial",
    "parties": [
-    "HealthSpan Partners (Bon Secours Mercy Health)",
-    "Surgery Partners",
-    "Bain Capital"
+    "Ares Capital Corporation",
+    "MidCap Financial Investment Corporation (Apollo-managed)"
    ],
-   "value": "~$5.7B EV, $23.50 per share cash",
+   "value": "~$2.6B EV; $10.88 per share, stock and cash",
    "status": "Announced",
-   "date": "26 Oct",
+   "date": "27 Oct",
    "banks": [
-    "Jefferies (HealthSpan, also financing)",
-    "Centerview, Leerink (Surgery Partners)",
-    "Moelis (special committee)",
-    "Barclays, J.P. Morgan (Bain Capital)"
+    "Wells Fargo (Ares Capital)",
+    "Moelis (MFIC special committee)"
    ],
    "src": {
-    "t": "Surgery Partners / HealthSpan release (SEC 8-K exhibit)",
-    "u": "https://www.sec.gov/Archives/edgar/data/0001638833/000110465926118643/tm2628254d1_ex99-1.htm",
+    "t": "Ares Capital / MidCap Financial release (Yahoo Finance)",
+    "u": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-corporation-agrees-acquire-100000340.html",
     "paywall": false
    }
   },
@@ -173,24 +170,30 @@
    }
   },
   {
-   "name": "Ovintiv / Logan Energy",
+   "name": "HealthSpan / Surgery Partners",
    "parties": [
-    "Ovintiv",
-    "Logan Energy"
+    "HealthSpan Partners (Bon Secours Mercy Health)",
+    "Surgery Partners",
+    "Bain Capital"
    ],
-   "value": "$1.26B including debt (source does not state currency)",
+   "value": "~$5.7B EV, $23.50 per share cash",
    "status": "Announced",
    "date": "26 Oct",
-   "banks": [],
+   "banks": [
+    "Jefferies (HealthSpan, also financing)",
+    "Centerview, Leerink (Surgery Partners)",
+    "Moelis (special committee)",
+    "Barclays, J.P. Morgan (Bain Capital)"
+   ],
    "src": {
-    "t": "BNN Bloomberg: Ovintiv to buy Logan Energy",
-    "u": "https://bnnbloomberg.ca/markets/oil/2026/10/26/ovintiv-to-buy-logan-energy-in-deal-valued-at-126-billion-including-debt",
+    "t": "Surgery Partners / HealthSpan release (SEC 8-K exhibit)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001638833/000110465926118643/tm2628254d1_ex99-1.htm",
     "paywall": false
    }
   }
  ],
  "capmarkets": {
-  "text": "Octus said leveraged finance slowed in the week to 23 Oct as higher yields made investors pickier: AVI-SPL pulled a $690M loan and Goldman paused premarketing on data center high-yield bonds. Crescent Energy still priced a $1.5B term loan.",
+  "text": "Octus said leveraged finance slowed in the week to 23 Oct as higher yields made investors pickier: AVI-SPL pulled a $690M loan and Goldman paused premarketing on data center bonds. Crescent Energy still priced a $1.5B term loan.",
   "src": {
    "t": "Octus: Americas Leveraged Finance Weekly, 23 Oct",
    "u": "https://octus.com/resources/articles/americas-leveraged-finance-weekly-market-volatility-ai-infrastructure-debt/",
@@ -199,53 +202,53 @@
  },
  "calendar": [
   {
-   "d": "Wed 28 Oct",
-   "e": "FOMC decision and Chair Warsh press conference; Microsoft and Alphabet after the close"
-  },
-  {
    "d": "Thu 29 Oct",
-   "e": "Advance Q3 GDP and core PCE; Caterpillar and Mastercard before the open, Amazon and Intel after"
+   "e": "Advance Q3 GDP and core PCE; Caterpillar, Mastercard and Eli Lilly before the open, Amazon and Intel after the close"
   },
   {
    "d": "Fri 30 Oct",
    "e": "Employment Cost Index and Chicago PMI; Exxon Mobil and Chevron before the open"
+  },
+  {
+   "d": "Wed 9 Dec",
+   "e": "Next FOMC decision; markets price about an 85% chance of a hike"
   }
  ],
  "sowhat": {
-  "text": "Stock-for-stock energy deals and a $5.7B sponsor-linked take-private show M&A getting done at a 4.99% 10-year, but leveraged loan buyers are picky. Brent near $114 keeps energy dealmaking active."
+  "text": "A 10-year at 5.05% and an 85% chance of a December hike raise financing costs, yet stock-for-stock energy deals and a BDC merger still got done. Brent at $115 keeps energy dealmaking active."
  },
- "pitch": "Stocks rose again on Tuesday. The S&P gained about 0.6 percent and the Nasdaq 1.2, led by chips as Anthropic's IPO filing revived the AI trade. Oil slipped about 2 percent on Middle East talks, but Brent at roughly 114 dollars is still near six-month highs. The 10-year ended at 4.99 percent, and the Fed decides Wednesday with about a 90 percent chance of a hold at 3.75 to 4. On M&A, HealthSpan agreed to buy Surgery Partners for about 5.7 billion dollars, and EQT is buying Range Resources in an all-stock deal. Credit is open but selective.",
+ "pitch": "Stocks edged up again Wednesday. The S&P gained about 0.3 percent to 7,744. The Fed held at 3.75 to 4 percent, but two officials voted for a hike, and markets now see about an 85 percent chance of a December hike. The 10-year rose to 5.05 percent. Oil rose after an attack on a Saudi refinery, with Brent at about 115 dollars. On M&A, EQT is buying Range Resources in an all-stock deal over 50 billion dollars, Ares Capital agreed to buy MidCap Financial for about 2.6 billion, and HealthSpan is buying Surgery Partners for about 5.7 billion. Credit is open but selective.",
  "quiz": [
   {
-   "q": "Where did the 10-year Treasury close on Tuesday 27 Oct?",
-   "a": "4.99%, down 1 bp.",
+   "q": "Where did the 10-year Treasury close on Wednesday 28 Oct?",
+   "a": "5.05%, up 6 bp.",
    "options": [
     "About 4.6%",
     "About 4.8%",
-    "About 5.0%",
-    "About 5.3%"
+    "About 5.05%",
+    "About 5.4%"
    ],
    "correct": 2
   },
   {
-   "q": "Why did oil fall on Tuesday 27 Oct?",
-   "a": "Diplomacy involving Iran and regional powers eased Middle East supply fears, though prices stayed near six-month highs.",
+   "q": "Why did oil rise on Wednesday 28 Oct?",
+   "a": "An attack on a Saudi Arabian refinery renewed supply concerns.",
    "options": [
-    "Middle East talks eased supply fears",
+    "An attack on a Saudi refinery",
     "The Fed cut rates",
-    "OPEC+ raised output targets",
-    "US gasoline demand collapsed"
+    "OPEC+ cut output targets",
+    "US gasoline demand surged"
    ],
    "correct": 0
   },
   {
-   "q": "Who was the exclusive financial adviser to HealthSpan on its Surgery Partners deal?",
-   "a": "Jefferies, which also committed the financing.",
+   "q": "Who was the exclusive financial adviser to Ares Capital on its MidCap Financial deal?",
+   "a": "Wells Fargo, which also provided $750M of secured financing.",
    "options": [
+    "Wells Fargo",
+    "Moelis",
     "Jefferies",
-    "Centerview Partners",
-    "Evercore",
-    "Lazard"
+    "Evercore"
    ],
    "correct": 0
   }
@@ -254,37 +257,37 @@
   {
    "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "Brent settled at $113.88 and WTI at $99.90 on Tuesday, each down about 2% on Middle East talks, but both are near six-month highs. Houthi attacks and Hormuz disruption keep a risk premium in. High prices support producer cash flow, which helps funding for energy M&A like EQT-Range.",
-   "tip": "Mention the roughly $14 Brent–WTI spread."
+   "a": "Brent settled at $115.32 and WTI at $102.78 on Wednesday, up after an attack on a Saudi refinery. The WTI–Brent spread is about $13. High prices support producer cash flow and funding for energy M&A like EQT-Range.",
+   "tip": "Mention the roughly $13 spread."
   },
   {
    "q": "What deals are you following?",
    "kind": "coffee",
-   "a": "HealthSpan agreed to buy Surgery Partners for about $5.7B EV in cash at $23.50 a share, with Bain Capital rolling its stake. Jefferies advised HealthSpan and provided financing; Centerview and Leerink advised Surgery Partners. EQT-Range is the energy one, an all-stock deal over $50B pro forma EV.",
+   "a": "EQT agreed to buy Range Resources in an all-stock deal, pro forma EV over $50B, with Citi and RBC advising EQT and Evercore and J.P. Morgan advising Range. Ares Capital is buying MidCap Financial for about $2.6B EV, advised by Wells Fargo. HealthSpan is buying Surgery Partners for about $5.7B EV.",
    "tip": "Name the advisers unprompted."
   },
   {
    "q": "What are you watching this week?",
    "kind": "coffee",
-   "a": "The Fed on Wednesday, where markets give about a 90% chance of a hold at 3.75–4.00%. Then Microsoft and Alphabet earnings for AI capex, and Thursday's GDP and core PCE. Those set the rate backdrop for financing.",
+   "a": "Thursday's GDP and core PCE, since the Fed held at 3.75–4.00% and markets see about an 85% chance of a December hike. Then Amazon earnings for AI capex, and Exxon and Chevron on Friday for the energy read.",
    "tip": "Keep it to three items."
   },
   {
    "q": "If the 10-year rose 50 bp, what happens to a DCF?",
    "kind": "interview",
-   "a": "The discount rate rises, so present value falls, and terminal value falls most because it is the longest-dated cash flow. With the 10-year already at 4.99%, another 50 bp would pressure long-duration equity values and make leveraged buyouts harder to finance.",
+   "a": "The discount rate rises, so present value falls, and terminal value falls most because it is the longest-dated cash flow. With the 10-year already at 5.05%, another 50 bp would pressure long-duration equity values and make leveraged buyouts harder to finance.",
    "tip": "State direction, then the terminal value point."
   },
   {
    "q": "Why would EQT pay in stock for Range?",
    "kind": "interview",
-   "a": "An all-stock deal avoids new borrowing when the 10-year is 4.99% and credit is selective. Range holders get about 27% of the combined company and share in roughly $325M of base synergies expected within two years. The tradeoff is dilution and two shareholder votes.",
+   "a": "An all-stock deal avoids new borrowing when the 10-year is 5.05% and a December hike is priced at about 85%. Range holders get about 27% of the combined company and share in about $325M of base synergies expected within two years. The tradeoff is dilution and two shareholder votes.",
    "tip": "Tie it to financing costs."
   },
   {
    "q": "How would you describe credit markets today?",
    "kind": "interview",
-   "a": "Open but selective. The latest FRED reading, from 26 Oct, showed high yield at 330 bp and investment grade at 90 bp, tight by history. Octus reported weaker deals were pulled or restructured, such as AVI-SPL's $690M loan, while Crescent Energy's $1.5B term loan priced.",
+   "a": "Open but selective. The latest FRED reading, from 27 Oct, showed high yield at 318 bp and investment grade at 88 bp, tight by history. Octus reported weaker deals pulled, such as AVI-SPL's $690M loan, while Crescent Energy's $1.5B term loan priced.",
    "tip": "Give both sides: tight spreads, picky buyers."
   }
  ],
@@ -320,11 +323,6 @@
    "paywall": false
   },
   {
-   "t": "Investing.com Fed Rate Monitor",
-   "u": "https://www.investing.com/central-banks/fed-rate-monitor",
-   "paywall": false
-  },
-  {
    "t": "Yahoo Finance: WTI crude history",
    "u": "https://finance.yahoo.com/quote/CL%3DF/history/",
    "paywall": false
@@ -337,16 +335,6 @@
   {
    "t": "Yahoo Finance: Henry Hub gas history",
    "u": "https://finance.yahoo.com/quote/NG%3DF/history/",
-   "paywall": false
-  },
-  {
-   "t": "Webull: NGX26 quote",
-   "u": "https://www.webull.com/quote/NYMEX-NGX26",
-   "paywall": false
-  },
-  {
-   "t": "PGJ Online: US natural gas futures rise before expiry",
-   "u": "https://pgjonline.com/news/2026/october/us-natural-gas-futures-rise-2-before-expiry-as-henry-hub-spot-falls-to-lowest-since-november-2024",
    "paywall": false
   },
   {
@@ -370,18 +358,18 @@
    "paywall": false
   },
   {
-   "t": "Yahoo Finance: stock market today, 27 Oct",
-   "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html",
+   "t": "Reuters via Lufkin Daily News: global stocks hold gains after Fed, oil rises",
+   "u": "https://lufkindailynews.com/news_reuters/business/global-stocks-hold-gains-after-fed-decision-oil-prices-rise/article_83a86c22-7fed-5223-a82f-bc1d7c12ea30.html",
    "paywall": false
   },
   {
-   "t": "Nation Thailand: Brent drops $1.93 on 27 Oct",
-   "u": "https://www.nationthailand.com/news/world/40072812",
+   "t": "Yahoo Finance: stock market today, Fed holds in split vote",
+   "u": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-fed-holds-rates-steady-in-split-vote-185837696.html",
    "paywall": false
   },
   {
-   "t": "Surgery Partners / HealthSpan release (SEC 8-K exhibit)",
-   "u": "https://www.sec.gov/Archives/edgar/data/0001638833/000110465926118643/tm2628254d1_ex99-1.htm",
+   "t": "Ares Capital / MidCap Financial release (Yahoo Finance)",
+   "u": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-corporation-agrees-acquire-100000340.html",
    "paywall": false
   },
   {
@@ -390,8 +378,8 @@
    "paywall": false
   },
   {
-   "t": "BNN Bloomberg: Ovintiv to buy Logan Energy",
-   "u": "https://bnnbloomberg.ca/markets/oil/2026/10/26/ovintiv-to-buy-logan-energy-in-deal-valued-at-126-billion-including-debt",
+   "t": "Surgery Partners / HealthSpan release (SEC 8-K exhibit)",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001638833/000110465926118643/tm2628254d1_ex99-1.htm",
    "paywall": false
   },
   {
