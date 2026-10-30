@@ -1,396 +1,194 @@
 {
- "date": "2026-10-28",
- "asof": "Markets as of the Wed 28 Oct close",
- "refreshed": "Thu 29 Oct, 6:45am CT",
+ "date": "2026-10-29",
+ "asof": "Markets as of the Thu 29 Oct close",
+ "refreshed": "Fri 30 Oct, 6:50am CT",
  "numbers": [
   {
    "label": "S&P 500",
-   "value": "7,744",
-   "change": "+0.3% on the day",
-   "dir": "up",
-   "note": "Nasdaq +0.3%, Dow +0.2%, VIX 16.9",
-   "src": {
-    "t": "Yahoo Finance: S&P 500 history",
-    "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
-    "paywall": false
-   }
+   "value": "7,720",
+   "change": "−0.3% on the day",
+   "dir": "down",
+   "note": "Nasdaq −1.4%, Dow −0.3%, VIX 17.2",
+   "src": {"t": "Yahoo Finance: S&P 500 history", "u": "https://finance.yahoo.com/quote/%5EGSPC/history/", "paywall": false}
   },
   {
    "label": "10-yr Treasury",
-   "value": "5.05%",
-   "change": "+6 bp",
-   "dir": "up",
-   "note": "2-yr 4.67%; 2s10s +38 bp",
-   "src": {
-    "t": "U.S. Treasury: daily par yield curve",
-    "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-    "paywall": false
-   }
+   "value": "4.98%",
+   "change": "−7 bp",
+   "dir": "down",
+   "note": "2-yr 4.61%; 2s10s +37 bp",
+   "src": {"t": "U.S. Treasury: daily par yield curve", "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610", "paywall": false}
   },
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Held 28 Oct, 10–2 vote; Dec 9 hike ~85%",
+   "change": "Held 28 Oct; Dec 9 hike ~71% (30 Oct am)",
    "dir": "flat",
-   "note": "Raised 25 bp on 17 Sep; Cook and Hammack dissented for a hike",
-   "src": {
-    "t": "Federal Reserve: open market operations",
-    "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
-    "paywall": false
-   }
+   "note": "Raised 25 bp on 17 Sep; two dissents favored a hike",
+   "src": {"t": "Federal Reserve: open market operations", "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm", "paywall": false}
   },
   {
    "label": "WTI crude",
-   "value": "$102.78",
-   "change": "+$2.88 (+2.9%)",
-   "dir": "up",
+   "value": "$102.00",
+   "change": "−$0.78 (−0.8%)",
+   "dir": "down",
    "note": "Dec futures",
-   "src": {
-    "t": "Yahoo Finance: WTI crude history",
-    "u": "https://finance.yahoo.com/quote/CL%3DF/history/",
-    "paywall": false
-   }
-  },
-  {
-   "label": "Brent crude",
-   "value": "$115.32",
-   "change": "+$1.44 (+1.3%)",
-   "dir": "up",
-   "note": "WTI–Brent spread $13",
-   "src": {
-    "t": "Yahoo Finance: Brent crude history",
-    "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
-    "paywall": false
-   }
+   "src": {"t": "Yahoo Finance: WTI crude history", "u": "https://finance.yahoo.com/quote/CL%3DF/history/", "paywall": false}
   },
   {
    "label": "Henry Hub gas",
-   "value": "$2.82/MMBtu",
-   "change": "+$0.12 (+4.4%)",
+   "value": "$2.95/MMBtu",
+   "change": "+$0.14 (+4.8%)",
    "dir": "up",
    "note": "Dec futures",
-   "src": {
-    "t": "Yahoo Finance: Henry Hub gas history",
-    "u": "https://finance.yahoo.com/quote/NG%3DF/history/",
-    "paywall": false
-   }
+   "src": {"t": "Yahoo Finance: Henry Hub gas history", "u": "https://finance.yahoo.com/quote/NG%3DF/history/", "paywall": false}
   },
   {
    "label": "Dollar index",
-   "value": "102.2",
+   "value": "102.0",
    "change": "−0.1% on the day",
    "dir": "down",
-   "note": "EUR/USD 1.113",
-   "src": {
-    "t": "Yahoo Finance: Dollar index history",
-    "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
-    "paywall": false
-   }
+   "note": "EUR/USD 1.116",
+   "src": {"t": "Yahoo Finance: Dollar index history", "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/", "paywall": false}
   },
   {
    "label": "HY / IG spreads",
-   "value": "318 / 88 bp",
-   "change": "−12 / −2 bp",
+   "value": "314 / 86 bp",
+   "change": "−4 / −2 bp",
    "dir": "down",
-   "asof": "2026-10-27",
-   "note": "Tight by history: credit markets open, but selective",
-   "src": {
-    "t": "FRED: ICE BofA US High Yield OAS",
-    "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-    "paywall": false
-   }
+   "asof": "2026-10-28",
+   "note": "Narrowing; reading is one session old",
+   "src": {"t": "FRED: ICE BofA US High Yield OAS", "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2", "paywall": false}
   }
  ],
  "drivers": [
   {
-   "title": "Fed holds, hike odds for December",
-   "text": "The Fed held at 3.75–4.00% in a 10–2 vote, with Governor Cook and Cleveland Fed's Hammack dissenting in favor of a hike. Markets priced about an 85% chance of a quarter-point hike on 9 December, and the 10-year closed at 5.05%.",
-   "src": {
-    "t": "Reuters via Lufkin Daily News: global stocks hold gains after Fed, oil rises",
-    "u": "https://lufkindailynews.com/news_reuters/business/global-stocks-hold-gains-after-fed-decision-oil-prices-rise/article_83a86c22-7fed-5223-a82f-bc1d7c12ea30.html",
-    "paywall": false
-   }
+   "title": "Alphabet rout hits tech and AI names",
+   "text": "Alphabet fell 12.6% after weaker sales growth and AI spending worries, its worst day since it began trading. The Nasdaq lost 1.4% while the S&P 500 slipped only 0.3%, as more stocks rose than fell.",
+   "src": {"t": "AP via BNN Bloomberg: Alphabet drags market lower", "u": "https://www.bnnbloomberg.ca/markets/2026/10/29/world-shares-and-us-futures-are-mixed-after-google-parent-alphabets-earnings-disappoint/", "paywall": false}
   },
   {
-   "title": "Oil rises on Saudi refinery attack",
-   "text": "An attack on a Saudi Arabian refinery renewed supply worries. Brent settled at $115.32 and WTI at $102.78.",
-   "src": {
-    "t": "Reuters via Lufkin Daily News: global stocks hold gains after Fed, oil rises",
-    "u": "https://lufkindailynews.com/news_reuters/business/global-stocks-hold-gains-after-fed-decision-oil-prices-rise/article_83a86c22-7fed-5223-a82f-bc1d7c12ea30.html",
-    "paywall": false
-   }
+   "title": "Yields ease, but a Dec hike is priced",
+   "text": "The 10-year fell 7 bp to 4.98% a day after the Fed held with two dissents for a hike. Futures show about a 71% chance of a hike on 9 Dec, as of Friday morning.",
+   "src": {"t": "Investing.com: Fed rate monitor", "u": "https://www.investing.com/central-banks/fed-rate-monitor", "paywall": false}
   },
   {
-   "title": "Big Tech earnings kick off",
-   "text": "After the close, Microsoft beat estimates, with EPS of $4.89 against $4.73 expected and cloud revenue of $63.9B. Alphabet missed, with EPS of $2.12 against $2.99 forecast. Amazon reports Thursday, so AI capex is the focus.",
-   "src": {
-    "t": "Yahoo Finance: stock market today, Fed holds in split vote",
-    "u": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-fed-holds-rates-steady-in-split-vote-185837696.html",
-    "paywall": false
-   }
+   "title": "Oil dips on Iran diplomacy hopes",
+   "text": "WTI settled at $102.00, down 0.8%, as signs of renewed talks eased fears that US strikes on Iran could restart. Oil is still above $100, which keeps energy cash flows strong.",
+   "src": {"t": "Yahoo Finance: stock market today, 29 Oct", "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html", "paywall": false}
   }
  ],
  "deals": [
   {
-   "name": "Ares Capital / MidCap Financial",
-   "parties": [
-    "Ares Capital Corporation",
-    "MidCap Financial Investment Corporation (Apollo-managed)"
-   ],
-   "value": "~$2.6B EV; $10.88 per share, stock and cash",
+   "name": "GE Vernova to buy Trench Group",
+   "parties": ["GE Vernova", "Triton Partners", "Trench Group"],
+   "value": "$9B (13x 2028 adj. EBITDA)",
    "status": "Announced",
-   "date": "27 Oct",
-   "banks": [
-    "Wells Fargo (Ares Capital)",
-    "Moelis (MFIC special committee)"
-   ],
-   "src": {
-    "t": "Ares Capital / MidCap Financial release (Yahoo Finance)",
-    "u": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-corporation-agrees-acquire-100000340.html",
-    "paywall": false
-   }
+   "date": "28 Oct",
+   "banks": ["Goldman Sachs (GE Vernova)", "UBS (GE Vernova)", "Bank of America (Triton)", "Morgan Stanley (Triton)"],
+   "src": {"t": "Triton Partners press release", "u": "https://www.webdisclosure.com/press-release/triton-partners-to-sell-trench-group-to-ge-vernova-DlNW8OP8sOo", "paywall": false}
   },
   {
-   "name": "EQT / Range Resources",
-   "parties": [
-    "EQT Corporation",
-    "Range Resources"
-   ],
-   "value": "All-stock (0.987 EQT share per Range share); pro forma EV over $50B",
+   "name": "DoorDash to buy Instacart",
+   "parties": ["DoorDash", "Instacart (Maplebear)"],
+   "value": "~$17B equity value, $65 per share",
    "status": "Announced",
-   "date": "26 Oct",
-   "banks": [
-    "Citi, RBC (EQT)",
-    "Evercore, J.P. Morgan (Range)"
-   ],
-   "src": {
-    "t": "EQT and Range merger release (SEC 8-K exhibit)",
-    "u": "https://www.sec.gov/Archives/edgar/data/0000033213/000121390026112242/ea030960101ex99-1.htm",
-    "paywall": false
-   }
-  },
-  {
-   "name": "HealthSpan / Surgery Partners",
-   "parties": [
-    "HealthSpan Partners (Bon Secours Mercy Health)",
-    "Surgery Partners",
-    "Bain Capital"
-   ],
-   "value": "~$5.7B EV, $23.50 per share cash",
-   "status": "Announced",
-   "date": "26 Oct",
-   "banks": [
-    "Jefferies (HealthSpan, also financing)",
-    "Centerview, Leerink (Surgery Partners)",
-    "Moelis (special committee)",
-    "Barclays, J.P. Morgan (Bain Capital)"
-   ],
-   "src": {
-    "t": "Surgery Partners / HealthSpan release (SEC 8-K exhibit)",
-    "u": "https://www.sec.gov/Archives/edgar/data/0001638833/000110465926118643/tm2628254d1_ex99-1.htm",
-    "paywall": false
-   }
+   "date": "29 Oct",
+   "banks": ["JPMorgan (DoorDash, bridge loan commitment)"],
+   "src": {"t": "SEC Form 425: DoorDash / Instacart", "u": "https://www.sec.gov/Archives/edgar/data/0001579091/000179278926000065/dashform425combined.htm", "paywall": false}
   }
  ],
- "capmarkets": {
-  "text": "Octus said leveraged finance slowed in the week to 23 Oct as higher yields made investors pickier: AVI-SPL pulled a $690M loan and Goldman paused premarketing on data center bonds. Crescent Energy still priced a $1.5B term loan.",
-  "src": {
-   "t": "Octus: Americas Leveraged Finance Weekly, 23 Oct",
-   "u": "https://octus.com/resources/articles/americas-leveraged-finance-weekly-market-volatility-ai-infrastructure-debt/",
-   "paywall": false
-  }
- },
  "calendar": [
-  {
-   "d": "Thu 29 Oct",
-   "e": "Advance Q3 GDP and core PCE; Caterpillar, Mastercard and Eli Lilly before the open, Amazon and Intel after the close"
-  },
-  {
-   "d": "Fri 30 Oct",
-   "e": "Employment Cost Index and Chicago PMI; Exxon Mobil and Chevron before the open"
-  },
-  {
-   "d": "Wed 9 Dec",
-   "e": "Next FOMC decision; markets price about an 85% chance of a hike"
-  }
+  {"d": "Fri 30 Oct", "e": "Q3 Employment Cost Index 8:30am ET, Chicago PMI 9:45am ET; Exxon and Chevron report"},
+  {"d": "Mon 2 Nov", "e": "Palantir Q3 earnings after the close, call 5pm ET"},
+  {"d": "Fri 6 Nov", "e": "October jobs report, 8:30am ET"},
+  {"d": "Wed 9 Dec", "e": "FOMC decision, 2pm ET; hike priced at about 71%"}
  ],
- "sowhat": {
-  "text": "A 10-year at 5.05% and an 85% chance of a December hike raise financing costs, yet stock-for-stock energy deals and a BDC merger still got done. Brent at $115 keeps energy dealmaking active."
- },
- "pitch": "Stocks edged up again Wednesday. The S&P gained about 0.3 percent to 7,744. The Fed held at 3.75 to 4 percent, but two officials voted for a hike, and markets now see about an 85 percent chance of a December hike. The 10-year rose to 5.05 percent. Oil rose after an attack on a Saudi refinery, with Brent at about 115 dollars. On M&A, EQT is buying Range Resources in an all-stock deal over 50 billion dollars, Ares Capital agreed to buy MidCap Financial for about 2.6 billion, and HealthSpan is buying Surgery Partners for about 5.7 billion. Credit is open but selective.",
+ "sowhat": {"text": "Lower yields and tighter credit spreads keep financing open, and strategic buyers are still writing large checks, as GE Vernova and DoorDash show. Grid equipment and power stay the hot industrial theme, while an AI-spending scare is a risk for tech valuations."},
+ "pitch": "Stocks slipped Thursday, with the S&P 500 down about 0.3% to 7,720, but the Nasdaq fell 1.4% because Alphabet dropped 12.6% on AI spending worries. The 10-year yield eased 7 basis points to about 4.98%, even though the Fed held a day earlier and futures still lean toward a hike on December 9. Oil dipped to about 102 dollars on hopes for Iran talks. On the deal side, GE Vernova agreed to buy Trench Group from Triton for about 9 billion dollars, a grid equipment deal, and DoorDash is buying Instacart for roughly 17 billion. Credit spreads are tight, so financing is open for buyers.",
  "quiz": [
   {
-   "q": "Where did the 10-year Treasury close on Wednesday 28 Oct?",
-   "a": "5.05%, up 6 bp.",
-   "options": [
-    "About 4.6%",
-    "About 4.8%",
-    "About 5.05%",
-    "About 5.4%"
-   ],
-   "correct": 2
+   "q": "Where did the 10-year Treasury yield end on Thursday 29 Oct, per the Treasury par yield curve?",
+   "a": "4.98%, down 7 bp from 5.05%.",
+   "options": ["4.61%", "4.98%", "5.05%", "5.30%"],
+   "correct": 1
   },
   {
-   "q": "Why did oil rise on Wednesday 28 Oct?",
-   "a": "An attack on a Saudi Arabian refinery renewed supply concerns.",
-   "options": [
-    "An attack on a Saudi refinery",
-    "The Fed cut rates",
-    "OPEC+ cut output targets",
-    "US gasoline demand surged"
-   ],
-   "correct": 0
+   "q": "Why did the Nasdaq fall about 1.4% while the S&P 500 fell only 0.3%?",
+   "a": "Alphabet fell 12.6% on weaker sales growth and AI spending worries, hitting tech, while most S&P stocks rose."
   },
   {
-   "q": "Who was the exclusive financial adviser to Ares Capital on its MidCap Financial deal?",
-   "a": "Wells Fargo, which also provided $750M of secured financing.",
-   "options": [
-    "Wells Fargo",
-    "Moelis",
-    "Jefferies",
-    "Evercore"
-   ],
+   "q": "Who is GE Vernova buying Trench Group from, and for how much?",
+   "a": "Triton Partners, for $9B (13x 2028 adjusted EBITDA). Goldman Sachs and UBS advised GE Vernova; Bank of America and Morgan Stanley advised Triton.",
+   "options": ["Triton Partners, $9B", "Triton Partners, $17B", "Skadden, $9B", "DoorDash, $9B"],
    "correct": 0
   }
  ],
  "chat": [
   {
-   "q": "What's your read on oil this week?",
+   "q": "What's your read on markets this week?",
    "kind": "coffee",
-   "a": "Brent settled at $115.32 and WTI at $102.78 on Wednesday, up after an attack on a Saudi refinery. The WTI–Brent spread is about $13. High prices support producer cash flow and funding for energy M&A like EQT-Range.",
-   "tip": "Mention the roughly $13 spread."
+   "a": "The S&P 500 closed at 7,720, down 0.3%, but the Nasdaq fell 1.4% after Alphabet dropped 12.6% on AI spending worries. The 10-year eased to 4.98%. For bankers, the question is whether the tech wobble slows financing or just resets valuations.",
+   "tip": "Lead with the S&P and the Alphabet reason, then pivot to deals."
+  },
+  {
+   "q": "What's your read on oil?",
+   "kind": "coffee",
+   "a": "WTI settled at $102.00, down 0.8%, on hopes of Iran talks. It is still above $100, so producers and oilfield services have strong cash flow, which supports energy M&A and capex. A deal would pull prices down, and strikes would push them up.",
+   "tip": "Name the Iran swing factor in both directions."
   },
   {
    "q": "What deals are you following?",
    "kind": "coffee",
-   "a": "EQT agreed to buy Range Resources in an all-stock deal, pro forma EV over $50B, with Citi and RBC advising EQT and Evercore and J.P. Morgan advising Range. Ares Capital is buying MidCap Financial for about $2.6B EV, advised by Wells Fargo. HealthSpan is buying Surgery Partners for about $5.7B EV.",
-   "tip": "Name the advisers unprompted."
+   "a": "GE Vernova agreed to buy Trench Group from Triton for $9B, about 13x 2028 adjusted EBITDA, a grid equipment deal. Goldman Sachs and UBS advised the buyer; Bank of America and Morgan Stanley advised the seller. DoorDash is also buying Instacart for about $17B.",
+   "tip": "Name the advisers; bankers will ask who advised."
   },
   {
-   "q": "What are you watching this week?",
+   "q": "What are you watching next week?",
    "kind": "coffee",
-   "a": "Thursday's GDP and core PCE, since the Fed held at 3.75–4.00% and markets see about an 85% chance of a December hike. Then Amazon earnings for AI capex, and Exxon and Chevron on Friday for the energy read.",
-   "tip": "Keep it to three items."
+   "a": "Palantir reports Monday after the close, as a read on AI demand after the Alphabet drop. Friday 6 Nov is the October jobs report, which feeds the odds of a Fed hike on 9 Dec, about 71% on Friday morning.",
+   "tip": "Tie each event to the Fed or AI theme."
   },
   {
    "q": "If the 10-year rose 50 bp, what happens to a DCF?",
    "kind": "interview",
-   "a": "The discount rate rises, so present value falls, and terminal value falls most because it is the longest-dated cash flow. With the 10-year already at 5.05%, another 50 bp would pressure long-duration equity values and make leveraged buyouts harder to finance.",
-   "tip": "State direction, then the terminal value point."
+   "a": "The 10-year is 4.98% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration companies with value far out in the terminal value fall the most, and the terminal value is the most sensitive piece.",
+   "tip": "Say the direction, then which companies are hit hardest."
   },
   {
-   "q": "Why would EQT pay in stock for Range?",
+   "q": "Why might a sponsor-backed seller like Triton sell Trench now?",
    "kind": "interview",
-   "a": "An all-stock deal avoids new borrowing when the 10-year is 5.05% and a December hike is priced at about 85%. Range holders get about 27% of the combined company and share in about $325M of base synergies expected within two years. The tradeoff is dilution and two shareholder votes.",
-   "tip": "Tie it to financing costs."
+   "a": "Credit is open: high yield spreads were about 314 bp on 28 Oct, and strategics are active. Trench sold at 13x 2028 adjusted EBITDA to GE Vernova, a buyer with a clear grid-equipment strategy. A strategic sale to a buyer paying for growth often beats an IPO for a sponsor.",
+   "tip": "Mention the dual-track of sale versus IPO."
   },
   {
-   "q": "How would you describe credit markets today?",
+   "q": "How do the Fed and the 10-year affect M&A financing right now?",
    "kind": "interview",
-   "a": "Open but selective. The latest FRED reading, from 27 Oct, showed high yield at 318 bp and investment grade at 88 bp, tight by history. Octus reported weaker deals pulled, such as AVI-SPL's $690M loan, while Crescent Energy's $1.5B term loan priced.",
-   "tip": "Give both sides: tight spreads, picky buyers."
+   "a": "The Fed held at 3.75–4.00% but futures price about a 71% chance of a hike on 9 Dec. The 10-year is near 4.98%, so debt is costly, yet spreads of 314 bp for high yield and 86 bp for investment grade show buyers can still borrow. DoorDash lined up a JPMorgan bridge loan for Instacart.",
+   "tip": "Separate the base rate from the credit spread."
   }
  ],
  "sources": [
-  {
-   "t": "Yahoo Finance: S&P 500 history",
-   "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: Nasdaq history",
-   "u": "https://finance.yahoo.com/quote/%5EIXIC/history/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: Dow history",
-   "u": "https://finance.yahoo.com/quote/%5EDJI/history/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: VIX history",
-   "u": "https://finance.yahoo.com/quote/%5EVIX/history/",
-   "paywall": false
-  },
-  {
-   "t": "U.S. Treasury: daily par yield curve",
-   "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "paywall": false
-  },
-  {
-   "t": "Federal Reserve: open market operations",
-   "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: WTI crude history",
-   "u": "https://finance.yahoo.com/quote/CL%3DF/history/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: Brent crude history",
-   "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: Henry Hub gas history",
-   "u": "https://finance.yahoo.com/quote/NG%3DF/history/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: Dollar index history",
-   "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: EUR/USD history",
-   "u": "https://finance.yahoo.com/quote/EURUSD%3DX/history/",
-   "paywall": false
-  },
-  {
-   "t": "FRED: ICE BofA US High Yield OAS",
-   "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-   "paywall": false
-  },
-  {
-   "t": "FRED: ICE BofA US Corporate OAS",
-   "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
-   "paywall": false
-  },
-  {
-   "t": "Reuters via Lufkin Daily News: global stocks hold gains after Fed, oil rises",
-   "u": "https://lufkindailynews.com/news_reuters/business/global-stocks-hold-gains-after-fed-decision-oil-prices-rise/article_83a86c22-7fed-5223-a82f-bc1d7c12ea30.html",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: stock market today, Fed holds in split vote",
-   "u": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-fed-holds-rates-steady-in-split-vote-185837696.html",
-   "paywall": false
-  },
-  {
-   "t": "Ares Capital / MidCap Financial release (Yahoo Finance)",
-   "u": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-corporation-agrees-acquire-100000340.html",
-   "paywall": false
-  },
-  {
-   "t": "EQT and Range merger release (SEC 8-K exhibit)",
-   "u": "https://www.sec.gov/Archives/edgar/data/0000033213/000121390026112242/ea030960101ex99-1.htm",
-   "paywall": false
-  },
-  {
-   "t": "Surgery Partners / HealthSpan release (SEC 8-K exhibit)",
-   "u": "https://www.sec.gov/Archives/edgar/data/0001638833/000110465926118643/tm2628254d1_ex99-1.htm",
-   "paywall": false
-  },
-  {
-   "t": "Octus: Americas Leveraged Finance Weekly, 23 Oct",
-   "u": "https://octus.com/resources/articles/americas-leveraged-finance-weekly-market-volatility-ai-infrastructure-debt/",
-   "paywall": false
-  },
-  {
-   "t": "Gotrade: week ahead, 26 Oct",
-   "u": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-10-26/",
-   "paywall": false
-  }
+  {"t": "Yahoo Finance: S&P 500 history", "u": "https://finance.yahoo.com/quote/%5EGSPC/history/", "paywall": false},
+  {"t": "Yahoo Finance: Nasdaq history", "u": "https://finance.yahoo.com/quote/%5EIXIC/history/", "paywall": false},
+  {"t": "Yahoo Finance: Dow history", "u": "https://finance.yahoo.com/quote/%5EDJI/history/", "paywall": false},
+  {"t": "Yahoo Finance: VIX history", "u": "https://finance.yahoo.com/quote/%5EVIX/history/", "paywall": false},
+  {"t": "U.S. Treasury: daily par yield curve", "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610", "paywall": false},
+  {"t": "Federal Reserve: open market operations", "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm", "paywall": false},
+  {"t": "Investing.com: Fed rate monitor", "u": "https://www.investing.com/central-banks/fed-rate-monitor", "paywall": false},
+  {"t": "Yahoo Finance: WTI crude history", "u": "https://finance.yahoo.com/quote/CL%3DF/history/", "paywall": false},
+  {"t": "Yahoo Finance: Henry Hub gas history", "u": "https://finance.yahoo.com/quote/NG%3DF/history/", "paywall": false},
+  {"t": "Yahoo Finance: Dollar index history", "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/", "paywall": false},
+  {"t": "Yahoo Finance: EUR/USD history", "u": "https://finance.yahoo.com/quote/EURUSD%3DX/history/", "paywall": false},
+  {"t": "FRED: ICE BofA US High Yield OAS", "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2", "paywall": false},
+  {"t": "FRED: ICE BofA US Corporate OAS", "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM", "paywall": false},
+  {"t": "AP via BNN Bloomberg: Alphabet drags market lower", "u": "https://www.bnnbloomberg.ca/markets/2026/10/29/world-shares-and-us-futures-are-mixed-after-google-parent-alphabets-earnings-disappoint/", "paywall": false},
+  {"t": "Yahoo Finance: stock market today, 29 Oct", "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html", "paywall": false},
+  {"t": "Triton Partners press release", "u": "https://www.webdisclosure.com/press-release/triton-partners-to-sell-trench-group-to-ge-vernova-DlNW8OP8sOo", "paywall": false},
+  {"t": "GE Vernova Q3 results and Trench agreement", "u": "https://www.gevernova.com/news/articles/ge-vernova-releases-third-quarter-2026-financial-results-announces-agreement-acquire", "paywall": false},
+  {"t": "SEC Form 425: DoorDash / Instacart", "u": "https://www.sec.gov/Archives/edgar/data/0001579091/000179278926000065/dashform425combined.htm", "paywall": false},
+  {"t": "BLS: Employment Situation schedule", "u": "https://www.bls.gov/schedule/news_release/empsit.htm", "paywall": false},
+  {"t": "Investrade: morning preview, 30 Oct", "u": "https://investrade.com/morning-preview-october-30-2026/", "paywall": false},
+  {"t": "Palantir Q3 earnings date release", "u": "https://www.stocktitan.net/news/PLTR/palantir-announces-date-of-third-quarter-2026-earnings-release-and-e4l6pbmfvv3z.html", "paywall": false}
  ]
 }
