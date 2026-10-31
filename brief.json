@@ -1,81 +1,81 @@
 {
- "date": "2026-10-29",
- "asof": "Markets as of the Thu 29 Oct close",
- "refreshed": "Fri 30 Oct, 6:50am CT",
+ "date": "2026-10-30",
+ "asof": "Markets as of the Fri 30 Oct close",
+ "refreshed": "Sat 31 Oct, 6:55am CT",
  "numbers": [
   {
    "label": "S&P 500",
-   "value": "7,720",
-   "change": "−0.3% on the day",
+   "value": "7,580",
+   "change": "−1.8% on the day",
    "dir": "down",
-   "note": "Nasdaq −1.4%, Dow −0.3%, VIX 17.2",
+   "note": "Nasdaq −2.9%, Dow −1.1%, VIX 19.4",
    "src": {"t": "Yahoo Finance: S&P 500 history", "u": "https://finance.yahoo.com/quote/%5EGSPC/history/", "paywall": false}
   },
   {
    "label": "10-yr Treasury",
-   "value": "4.98%",
-   "change": "−7 bp",
+   "value": "4.94%",
+   "change": "−4 bp",
    "dir": "down",
-   "note": "2-yr 4.61%; 2s10s +37 bp",
+   "note": "2-yr 4.56%; 2s10s +38 bp",
    "src": {"t": "U.S. Treasury: daily par yield curve", "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610", "paywall": false}
   },
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Held 28 Oct; Dec 9 hike ~71% (30 Oct am)",
+   "change": "Held 28 Oct; Dec 9 hike ~70% (31 Oct)",
    "dir": "flat",
-   "note": "Raised 25 bp on 17 Sep; two dissents favored a hike",
+   "note": "Raised 25 bp on 17 Sep; no meeting until 9 Dec",
    "src": {"t": "Federal Reserve: open market operations", "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm", "paywall": false}
   },
   {
    "label": "WTI crude",
-   "value": "$102.00",
-   "change": "−$0.78 (−0.8%)",
-   "dir": "down",
+   "value": "$104.12",
+   "change": "+$2.12 (+2.1%)",
+   "dir": "up",
    "note": "Dec futures",
    "src": {"t": "Yahoo Finance: WTI crude history", "u": "https://finance.yahoo.com/quote/CL%3DF/history/", "paywall": false}
   },
   {
    "label": "Henry Hub gas",
-   "value": "$2.95/MMBtu",
-   "change": "+$0.14 (+4.8%)",
-   "dir": "up",
+   "value": "$2.90/MMBtu",
+   "change": "−$0.05 (−1.8%)",
+   "dir": "down",
    "note": "Dec futures",
    "src": {"t": "Yahoo Finance: Henry Hub gas history", "u": "https://finance.yahoo.com/quote/NG%3DF/history/", "paywall": false}
   },
   {
    "label": "Dollar index",
-   "value": "102.0",
-   "change": "−0.1% on the day",
+   "value": "101.9",
+   "change": "−0.2% on the day",
    "dir": "down",
-   "note": "EUR/USD 1.116",
+   "note": "EUR/USD 1.118",
    "src": {"t": "Yahoo Finance: Dollar index history", "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/", "paywall": false}
   },
   {
    "label": "HY / IG spreads",
-   "value": "314 / 86 bp",
-   "change": "−4 / −2 bp",
-   "dir": "down",
-   "asof": "2026-10-28",
-   "note": "Narrowing; reading is one session old",
+   "value": "326 / 89 bp",
+   "change": "+12 / +3 bp",
+   "dir": "up",
+   "asof": "2026-10-29",
+   "note": "Wider on the day; reading is one session old",
    "src": {"t": "FRED: ICE BofA US High Yield OAS", "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2", "paywall": false}
   }
  ],
  "drivers": [
   {
-   "title": "Alphabet rout hits tech and AI names",
-   "text": "Alphabet fell 12.6% after weaker sales growth and AI spending worries, its worst day since it began trading. The Nasdaq lost 1.4% while the S&P 500 slipped only 0.3%, as more stocks rose than fell.",
-   "src": {"t": "AP via BNN Bloomberg: Alphabet drags market lower", "u": "https://www.bnnbloomberg.ca/markets/2026/10/29/world-shares-and-us-futures-are-mixed-after-google-parent-alphabets-earnings-disappoint/", "paywall": false}
+   "title": "AI cash-burn fears hit tech",
+   "text": "The S&P 500 fell 1.8%, its worst day since June, and the Nasdaq fell 2.9%. Intel dropped 28.6% on a weak profit forecast, Nvidia fell 4.2%, and Amazon slid 1.4% with free cash flow at negative $42.4B.",
+   "src": {"t": "AP via Baltimore Sun: tech sell-off worsens", "u": "https://www.baltimoresun.com/2026/10/30/tech-companies-wall-street/", "paywall": false}
   },
   {
-   "title": "Yields ease, but a Dec hike is priced",
-   "text": "The 10-year fell 7 bp to 4.98% a day after the Fed held with two dissents for a hike. Futures show about a 71% chance of a hike on 9 Dec, as of Friday morning.",
-   "src": {"t": "Investing.com: Fed rate monitor", "u": "https://www.investing.com/central-banks/fed-rate-monitor", "paywall": false}
+   "title": "Yields dip, but a Dec hike is priced",
+   "text": "The 10-year fell 4 bp to 4.94% as investors bought Treasuries for safety. Futures put about a 70% chance on a Fed hike on 9 Dec, and two Fed officials said rates need to rise further.",
+   "src": {"t": "Yahoo Finance: stock market today, 30 Oct", "u": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html", "paywall": false}
   },
   {
-   "title": "Oil dips on Iran diplomacy hopes",
-   "text": "WTI settled at $102.00, down 0.8%, as signs of renewed talks eased fears that US strikes on Iran could restart. Oil is still above $100, which keeps energy cash flows strong.",
-   "src": {"t": "Yahoo Finance: stock market today, 29 Oct", "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html", "paywall": false}
+   "title": "Oil climbs, majors beat on refining",
+   "text": "WTI rose 2.1% to $104.12 on the Iran war. Exxon gained 2.2% and Chevron 1.8% after both reported stronger profit than expected.",
+   "src": {"t": "AP via Baltimore Sun: tech sell-off worsens", "u": "https://www.baltimoresun.com/2026/10/30/tech-companies-wall-street/", "paywall": false}
   }
  ],
  "deals": [
@@ -99,72 +99,73 @@
   }
  ],
  "calendar": [
-  {"d": "Fri 30 Oct", "e": "Q3 Employment Cost Index 8:30am ET, Chicago PMI 9:45am ET; Exxon and Chevron report"},
-  {"d": "Mon 2 Nov", "e": "Palantir Q3 earnings after the close, call 5pm ET"},
-  {"d": "Fri 6 Nov", "e": "October jobs report, 8:30am ET"},
-  {"d": "Wed 9 Dec", "e": "FOMC decision, 2pm ET; hike priced at about 71%"}
+  {"d": "Mon 2 Nov", "e": "ISM Manufacturing 10am ET; Apple, Palantir, Diamondback earnings"},
+  {"d": "Tue 3 Nov", "e": "Midterm Election Day; JOLTS 10am ET; AMD, Marathon Petroleum, DuPont earnings"},
+  {"d": "Wed 4 Nov", "e": "ISM Services 10am ET; Emerson, Stanley Black & Decker, Martin Marietta, DoorDash earnings"},
+  {"d": "Thu 5 Nov", "e": "ConocoPhillips, Parker-Hannifin, Rockwell, Duke Energy earnings"},
+  {"d": "Fri 6 Nov", "e": "October jobs report 8:30am ET, about +55K expected; Vistra earnings"}
  ],
- "sowhat": {"text": "Lower yields and tighter credit spreads keep financing open, and strategic buyers are still writing large checks, as GE Vernova and DoorDash show. Grid equipment and power stay the hot industrial theme, while an AI-spending scare is a risk for tech valuations."},
- "pitch": "Stocks slipped Thursday, with the S&P 500 down about 0.3% to 7,720, but the Nasdaq fell 1.4% because Alphabet dropped 12.6% on AI spending worries. The 10-year yield eased 7 basis points to about 4.98%, even though the Fed held a day earlier and futures still lean toward a hike on December 9. Oil dipped to about 102 dollars on hopes for Iran talks. On the deal side, GE Vernova agreed to buy Trench Group from Triton for about 9 billion dollars, a grid equipment deal, and DoorDash is buying Instacart for roughly 17 billion. Credit spreads are tight, so financing is open for buyers.",
+ "sowhat": {"text": "Financing stays open but is getting pricier: high yield spreads widened 12 bp to 326 bp and a Fed hike is priced for 9 Dec. A tech and AI selloff hurts stock-funded deals, while power and grid assets stay in demand, as GE Vernova's Trench deal shows."},
+ "pitch": "Stocks sold off Friday. The S&P 500 fell 1.8% to about 7,580, its worst day since June, and the Nasdaq fell 2.9% as investors worried that AI companies are spending too much cash. Intel dropped nearly 29%. The 10-year yield eased to about 4.94%, but futures still show roughly a 70% chance of a Fed hike on December 9. Oil rose about 2% to 104 dollars on the Iran war, and Exxon and Chevron beat on profit. On deals, GE Vernova agreed to buy Trench Group for about 9 billion dollars, and DoorDash is buying Instacart for around 17 billion. Credit spreads widened a little but are still tight enough for deals.",
  "quiz": [
   {
-   "q": "Where did the 10-year Treasury yield end on Thursday 29 Oct, per the Treasury par yield curve?",
-   "a": "4.98%, down 7 bp from 5.05%.",
-   "options": ["4.61%", "4.98%", "5.05%", "5.30%"],
+   "q": "Where did the S&P 500 close on Friday 30 Oct, and how much did it fall?",
+   "a": "7,580, down 1.8%, its worst day since June.",
+   "options": ["7,720, down 0.3%", "7,580, down 1.8%", "7,306, down 5.4%", "7,744, down 0.5%"],
    "correct": 1
   },
   {
-   "q": "Why did the Nasdaq fall about 1.4% while the S&P 500 fell only 0.3%?",
-   "a": "Alphabet fell 12.6% on weaker sales growth and AI spending worries, hitting tech, while most S&P stocks rose."
+   "q": "Why did the Nasdaq fall 2.9% on Friday?",
+   "a": "Worries that AI spending is too high and burning cash: Intel fell 28.6% on a weak forecast, Nvidia fell 4.2%, and Amazon's free cash flow was negative $42.4B."
   },
   {
-   "q": "Who is GE Vernova buying Trench Group from, and for how much?",
-   "a": "Triton Partners, for $9B (13x 2028 adjusted EBITDA). Goldman Sachs and UBS advised GE Vernova; Bank of America and Morgan Stanley advised Triton.",
-   "options": ["Triton Partners, $9B", "Triton Partners, $17B", "Skadden, $9B", "DoorDash, $9B"],
-   "correct": 0
+   "q": "Who advised Triton on the sale of Trench Group to GE Vernova?",
+   "a": "Bank of America and Morgan Stanley advised Triton; Goldman Sachs and UBS advised GE Vernova.",
+   "options": ["Goldman Sachs and UBS", "Bank of America and Morgan Stanley", "JPMorgan", "Skadden and Latham only"],
+   "correct": 1
   }
  ],
  "chat": [
   {
-   "q": "What's your read on markets this week?",
+   "q": "What's going on in markets?",
    "kind": "coffee",
-   "a": "The S&P 500 closed at 7,720, down 0.3%, but the Nasdaq fell 1.4% after Alphabet dropped 12.6% on AI spending worries. The 10-year eased to 4.98%. For bankers, the question is whether the tech wobble slows financing or just resets valuations.",
-   "tip": "Lead with the S&P and the Alphabet reason, then pivot to deals."
+   "a": "The S&P 500 fell 1.8% to 7,580, its worst day since June, and the Nasdaq fell 2.9% on worries that AI spending is burning too much cash. The 10-year eased to 4.94%. For bankers, the question is whether the tech wobble slows stock-funded deals.",
+   "tip": "Lead with the S&P, then the AI reason."
   },
   {
-   "q": "What's your read on oil?",
+   "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "WTI settled at $102.00, down 0.8%, on hopes of Iran talks. It is still above $100, so producers and oilfield services have strong cash flow, which supports energy M&A and capex. A deal would pull prices down, and strikes would push them up.",
+   "a": "WTI rose 2.1% to $104.12 on the Iran war, and Exxon and Chevron beat on profit. Oil above $100 keeps energy cash flow strong, which supports capex and energy M&A. Peace talks would pull it down and escalation would push it up.",
    "tip": "Name the Iran swing factor in both directions."
   },
   {
    "q": "What deals are you following?",
    "kind": "coffee",
-   "a": "GE Vernova agreed to buy Trench Group from Triton for $9B, about 13x 2028 adjusted EBITDA, a grid equipment deal. Goldman Sachs and UBS advised the buyer; Bank of America and Morgan Stanley advised the seller. DoorDash is also buying Instacart for about $17B.",
-   "tip": "Name the advisers; bankers will ask who advised."
+   "a": "GE Vernova agreed to buy Trench Group from Triton for $9B, about 13x 2028 adjusted EBITDA, a grid equipment deal. Goldman Sachs and UBS advised the buyer; Bank of America and Morgan Stanley advised Triton. DoorDash is also buying Instacart for about $17B.",
+   "tip": "Name the advisers; bankers will ask."
   },
   {
-   "q": "What are you watching next week?",
+   "q": "What are you watching this week?",
    "kind": "coffee",
-   "a": "Palantir reports Monday after the close, as a read on AI demand after the Alphabet drop. Friday 6 Nov is the October jobs report, which feeds the odds of a Fed hike on 9 Dec, about 71% on Friday morning.",
+   "a": "The October jobs report on Friday 6 Nov, about +55K expected, because it feeds the odds of a Fed hike on 9 Dec, near 70% now. Also Apple and Palantir on Monday as a read on AI demand after the tech selloff.",
    "tip": "Tie each event to the Fed or AI theme."
   },
   {
    "q": "If the 10-year rose 50 bp, what happens to a DCF?",
    "kind": "interview",
-   "a": "The 10-year is 4.98% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration companies with value far out in the terminal value fall the most, and the terminal value is the most sensitive piece.",
-   "tip": "Say the direction, then which companies are hit hardest."
+   "a": "The 10-year is 4.94% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration companies with most value in the terminal value fall the most.",
+   "tip": "Say the direction, then who is hit hardest."
   },
   {
-   "q": "Why might a sponsor-backed seller like Triton sell Trench now?",
+   "q": "How would a tech selloff change M&A activity?",
    "kind": "interview",
-   "a": "Credit is open: high yield spreads were about 314 bp on 28 Oct, and strategics are active. Trench sold at 13x 2028 adjusted EBITDA to GE Vernova, a buyer with a clear grid-equipment strategy. A strategic sale to a buyer paying for growth often beats an IPO for a sponsor.",
-   "tip": "Mention the dual-track of sale versus IPO."
+   "a": "The Nasdaq fell 2.9% and Intel fell 28.6%, so stock currency is worth less and tech targets reprice. High yield spreads widened 12 bp to 326 bp, still tight, so cash deals stay financeable. Buyers shift toward cash and hard assets like grid equipment.",
+   "tip": "Separate stock-funded deals from cash deals."
   },
   {
    "q": "How do the Fed and the 10-year affect M&A financing right now?",
    "kind": "interview",
-   "a": "The Fed held at 3.75–4.00% but futures price about a 71% chance of a hike on 9 Dec. The 10-year is near 4.98%, so debt is costly, yet spreads of 314 bp for high yield and 86 bp for investment grade show buyers can still borrow. DoorDash lined up a JPMorgan bridge loan for Instacart.",
+   "a": "The Fed held at 3.75–4.00%, but futures price about a 70% chance of a hike on 9 Dec. The 10-year is near 4.94%, so debt is costly, yet spreads of 326 bp for high yield and 89 bp for investment grade show buyers can still borrow. DoorDash lined up a JPMorgan bridge loan for Instacart.",
    "tip": "Separate the base rate from the credit spread."
   }
  ],
@@ -181,14 +182,11 @@
   {"t": "Yahoo Finance: Dollar index history", "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/", "paywall": false},
   {"t": "Yahoo Finance: EUR/USD history", "u": "https://finance.yahoo.com/quote/EURUSD%3DX/history/", "paywall": false},
   {"t": "FRED: ICE BofA US High Yield OAS", "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2", "paywall": false},
-  {"t": "FRED: ICE BofA US Corporate OAS", "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM", "paywall": false},
-  {"t": "AP via BNN Bloomberg: Alphabet drags market lower", "u": "https://www.bnnbloomberg.ca/markets/2026/10/29/world-shares-and-us-futures-are-mixed-after-google-parent-alphabets-earnings-disappoint/", "paywall": false},
-  {"t": "Yahoo Finance: stock market today, 29 Oct", "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html", "paywall": false},
+  {"t": "FRED: ICE BofA US Corporate OAS (data file)", "u": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM", "paywall": false},
+  {"t": "AP via Baltimore Sun: tech sell-off worsens", "u": "https://www.baltimoresun.com/2026/10/30/tech-companies-wall-street/", "paywall": false},
+  {"t": "Yahoo Finance: stock market today, 30 Oct", "u": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html", "paywall": false},
+  {"t": "CNBC: week ahead, 2 to 6 Nov", "u": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html", "paywall": false},
   {"t": "Triton Partners press release", "u": "https://www.webdisclosure.com/press-release/triton-partners-to-sell-trench-group-to-ge-vernova-DlNW8OP8sOo", "paywall": false},
-  {"t": "GE Vernova Q3 results and Trench agreement", "u": "https://www.gevernova.com/news/articles/ge-vernova-releases-third-quarter-2026-financial-results-announces-agreement-acquire", "paywall": false},
-  {"t": "SEC Form 425: DoorDash / Instacart", "u": "https://www.sec.gov/Archives/edgar/data/0001579091/000179278926000065/dashform425combined.htm", "paywall": false},
-  {"t": "BLS: Employment Situation schedule", "u": "https://www.bls.gov/schedule/news_release/empsit.htm", "paywall": false},
-  {"t": "Investrade: morning preview, 30 Oct", "u": "https://investrade.com/morning-preview-october-30-2026/", "paywall": false},
-  {"t": "Palantir Q3 earnings date release", "u": "https://www.stocktitan.net/news/PLTR/palantir-announces-date-of-third-quarter-2026-earnings-release-and-e4l6pbmfvv3z.html", "paywall": false}
+  {"t": "SEC Form 425: DoorDash / Instacart", "u": "https://www.sec.gov/Archives/edgar/data/0001579091/000179278926000065/dashform425combined.htm", "paywall": false}
  ]
 }
