@@ -9,7 +9,8 @@ accuracy matters more than anything else. A wrong number is worse than a missing
 ## Steps
 
 1. Run `TZ=America/Chicago date`. The market day to cover (`date`) is the most recent US trading session that
-   has closed: on Monday that is Friday; on a holiday, the last open day.
+   has closed: on Saturday and Monday that is Friday; on a holiday, the last open day. The Saturday run
+   exists so Friday's close is in the app over the weekend; Monday's run refreshes it with weekend news.
 2. Always do the full research and publish a fresh brief, even if brief.json already covers that day.
    Overnight and weekend news changes the drivers, deals, calendar and pitch, and every number must be
    re-confirmed on a page opened in this run. Never skip a run.
