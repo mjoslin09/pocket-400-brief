@@ -1,14 +1,14 @@
 {
- "date": "2026-11-02",
- "asof": "Markets as of the Mon 2 Nov close",
- "refreshed": "Tue 3 Nov, 6:45am CT",
+ "date": "2026-11-03",
+ "asof": "Markets as of the Tue 3 Nov close",
+ "refreshed": "Wed 4 Nov, 6:45am CT",
  "numbers": [
   {
    "label": "S&P 500",
-   "value": "7,541",
-   "change": "−0.5% on the day",
-   "dir": "down",
-   "note": "Nasdaq −1.1%, Dow +0.4%, VIX 21.2",
+   "value": "7,569",
+   "change": "+0.4% on the day",
+   "dir": "up",
+   "note": "Nasdaq +0.8%, Dow −0.4%, VIX 20.8",
    "src": {
     "t": "Yahoo Finance: S&P 500 history",
     "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
@@ -17,10 +17,10 @@
   },
   {
    "label": "10-yr Treasury",
-   "value": "4.91%",
-   "change": "−3 bp",
-   "dir": "down",
-   "note": "2-yr 4.59%; 2s10s +32 bp",
+   "value": "4.95%",
+   "change": "+4 bp",
+   "dir": "up",
+   "note": "2-yr 4.61%; 2s10s +34 bp",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
@@ -30,7 +30,7 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Dec 9 FOMC: hike ~76% (3 Nov)",
+   "change": "Dec 9 FOMC: hike ~79% (4 Nov)",
    "dir": "flat",
    "note": "Raised 25 bp on 17 Sep",
    "src": {
@@ -41,8 +41,8 @@
   },
   {
    "label": "WTI crude",
-   "value": "$96.46",
-   "change": "−$7.66 (−7.4%)",
+   "value": "$96.09",
+   "change": "−$0.37 (−0.4%)",
    "dir": "down",
    "note": "Dec futures",
    "src": {
@@ -53,10 +53,10 @@
   },
   {
    "label": "Brent crude",
-   "value": "$104.77",
-   "change": "−7.6% on the day",
+   "value": "$103.60",
+   "change": "−$1.17 (−1.1%)",
    "dir": "down",
-   "note": "WTI–Brent spread $8",
+   "note": "WTI–Brent spread $7.5",
    "src": {
     "t": "Yahoo Finance: Brent crude history",
     "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
@@ -65,9 +65,9 @@
   },
   {
    "label": "Henry Hub gas",
-   "value": "$2.86/MMBtu",
-   "change": "−$0.04 (−1.4%)",
-   "dir": "down",
+   "value": "$2.90/MMBtu",
+   "change": "+$0.04 (+1.4%)",
+   "dir": "up",
    "note": "Dec futures",
    "src": {
     "t": "Yahoo Finance: Henry Hub gas history",
@@ -77,10 +77,10 @@
   },
   {
    "label": "Dollar index",
-   "value": "101.8",
-   "change": "−0.1% on the day",
-   "dir": "down",
-   "note": "EUR/USD 1.116",
+   "value": "101.9",
+   "change": "+0.1% on the day",
+   "dir": "up",
+   "note": "EUR/USD 1.119",
    "src": {
     "t": "Yahoo Finance: Dollar index history",
     "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
@@ -89,43 +89,43 @@
   },
   {
    "label": "HY / IG spreads",
-   "value": "344 / 94 bp",
-   "change": "+18 / +5 bp",
-   "dir": "up",
-   "asof": "2026-10-30",
-   "note": "Wider on the day; latest FRED reading is one session old",
+   "value": "343 / 94 bp",
+   "change": "−1 / 0 bp",
+   "dir": "down",
+   "note": "Latest FRED reading is one session old",
    "src": {
     "t": "FRED: ICE BofA US High Yield OAS (data file)",
     "u": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
     "paywall": false
-   }
+   },
+   "asof": "2026-11-02"
   }
  ],
  "drivers": [
   {
-   "title": "Oil plunges on Iran talks hopes",
-   "text": "Brent settled at $104.77, down 7.6%, and WTI at $96.46, down 7.4%. Traders priced in more US-Iran talks instead of escalation.",
+   "title": "Tech rebounds, Apple drags the Dow",
+   "text": "The S&P 500 rose 0.4% to 7,569 and the Nasdaq 0.8% as Nvidia, AMD and Broadcom bounced, even though most S&P stocks fell. Apple dropped about 2% on a weak margin outlook, pulling the Dow down 0.4%.",
    "src": {
-    "t": "NBC News: oil prices slide on Iran talks hope",
-    "u": "https://www.nbcnews.com/business/energy/oil-prices-slide-trump-hope-iran-talks-rcna607107",
+    "t": "CNBC: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
+    "u": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
     "paywall": false
    }
   },
   {
-   "title": "Tech sell-off resumes, Nasdaq −1.1%",
-   "text": "The Nasdaq fell 1.1% as chip and AI names slid. Oracle fell on plans to raise $20B, and Marvell and Lumentum dropped after their $115B merger announcement.",
+   "title": "Oil slips on US-Iran talks hopes",
+   "text": "Brent settled at $103.60, down 1.1%, and WTI at $96.09, down 0.4%, on speculation of progress in US-Iran negotiations. That follows Monday's drop of about 7%.",
    "src": {
-    "t": "CNBC: stock market today, Nasdaq starts November with 1% loss",
-    "u": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+    "t": "CNBC: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
+    "u": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
     "paywall": false
    }
   },
   {
-   "title": "Rotation into old economy, hike odds",
-   "text": "The Dow rose 0.4% as Sherwin-Williams and Home Depot gained, and ISM manufacturing beat at 55.5. Futures put a December Fed hike at about 76%, with the 10-year at 4.91%.",
+   "title": "Midterms: Democrats win, futures jump",
+   "text": "Overnight, Dow futures jumped about 800 points after a decisive Democratic win in the midterms. The 10-year closed Tuesday at 4.95%, up 4 bp, and futures put a December Fed hike at about 79%.",
    "src": {
-    "t": "CNBC: stock market today, Nasdaq starts November with 1% loss",
-    "u": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+    "t": "CNBC: Dow futures surge after Democrats win midterms (4 Nov live updates)",
+    "u": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
     "paywall": false
    }
   }
@@ -175,25 +175,21 @@
   }
  ],
  "capmarkets": {
-  "text": "Oracle said it will sell $10B of bonds and $10B of common stock to fund its AI buildout, and its shares fell on the news. Investment grade demand for AI-related funding looks open, but equity investors are pushing back on the dilution.",
+  "text": "HSBC issued $4.25B of senior unsecured notes in two tranches, $1.75B due 2032 and $2.5B due 2037, showing the bond window is open. CNBC's page listed no IPO pricings.",
   "src": {
-   "t": "CNBC: stock market today, Nasdaq starts November with 1% loss",
-   "u": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+   "t": "CNBC: Dow futures surge after Democrats win midterms (4 Nov live updates)",
+   "u": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
    "paywall": false
   }
  },
  "calendar": [
   {
-   "d": "Tue 3 Nov",
-   "e": "Election Day; JOLTS 10am ET; AMD, Pfizer, Marathon Petroleum, DuPont earnings"
-  },
-  {
    "d": "Wed 4 Nov",
-   "e": "ADP and ISM Services 10am ET; Emerson, Stanley Black & Decker, Martin Marietta, CF Industries, DoorDash earnings"
+   "e": "ADP 8:15am ET and ISM Services 10am ET; CF Industries, Emerson, Stanley Black & Decker, Martin Marietta, Albemarle, APA, Qualcomm earnings"
   },
   {
    "d": "Thu 5 Nov",
-   "e": "Jobless claims 8:30am ET; ConocoPhillips, Devon, Parker-Hannifin, Rockwell, Duke Energy, Lumentum earnings"
+   "e": "Jobless claims 8:30am ET; ConocoPhillips, Devon, Parker-Hannifin, Rockwell, Duke Energy, Sempra, Air Products, Lumentum earnings"
   },
   {
    "d": "Fri 6 Nov",
@@ -201,33 +197,33 @@
   }
  ],
  "sowhat": {
-  "text": "Stock-funded tech deals get harder when buyers' shares fall, as Marvell and Lumentum both dropped on their $115B deal. Infrastructure money keeps flowing, with Blackstone and Canadian pensions paying $3.1B into LNG Canada, and a December hike (about 76%) keeps debt costly."
+  "text": "Credit is open, with HSBC selling $4.25B of bonds, and large deals keep coming, with Marvell and Lumentum at ~$115B and $3.1B going into LNG Canada. The 10-year at 4.95% and about 79% odds of a December hike keep debt costly, so cash-rich buyers and infrastructure money have the edge."
  },
- "pitch": "Stocks were mixed Monday. The S&P 500 fell half a percent to about 7,541 and the Nasdaq fell 1.1% as the AI sell-off continued, while the Dow rose 0.4%. Oil dropped about 7%, with WTI at 96 dollars, on hopes of a US-Iran deal. The 10-year eased to 4.91%, and the market puts about a 76% chance on a Fed hike on December 9. On deals, Marvell agreed to buy Lumentum for about 115 billion dollars in stock, and Blackstone and Canadian pensions are paying 3.1 billion dollars into LNG Canada. Credit spreads, last read Friday, were wider but still open for deals.",
+ "pitch": "The S&P 500 rose 0.4% to about 7,569 on Election Day as chip stocks bounced, though the Dow slipped 0.4% on Apple. Oil eased again, with WTI at 96 dollars, on hopes for US-Iran talks. The 10-year rose 4 basis points to 4.95%, and the market puts about a 79% chance on a Fed hike on December 9. Overnight, futures jumped after Democrats won big in the midterms. On deals, Marvell agreed to buy Lumentum for about 115 billion dollars in stock, and Blackstone and Canadian pensions are paying 3.1 billion dollars into LNG Canada.",
  "quiz": [
   {
-   "q": "Where did WTI crude settle on Monday 2 Nov, and how far did it fall?",
-   "a": "$96.46, down about 7.4%, on hopes of a US-Iran deal.",
+   "q": "Where did the 10-year Treasury yield close on Tuesday 3 Nov?",
+   "a": "4.95%, up 4 bp from 4.91%.",
    "options": [
-    "$96.46, down 7.4%",
-    "$104.12, down 2.1%",
-    "$91.50, down 12%",
-    "$100.20, down 3.8%"
+    "About 4.65%",
+    "About 4.80%",
+    "About 4.95%",
+    "About 5.20%"
    ],
-   "correct": 0
+   "correct": 2
   },
   {
-   "q": "Why did oil fall about 7% on Monday?",
-   "a": "Hopes that the US and Iran would keep negotiating rather than escalate. Traders priced in a possible deal, and Brent settled at $104.77 and WTI at $96.46."
+   "q": "Why did the Dow fall 0.4% while the Nasdaq rose 0.8% on Tuesday?",
+   "a": "Apple fell about 2% on a weak margin outlook and weighed on the Dow, while Nvidia, AMD and Broadcom rebounded and lifted the Nasdaq."
   },
   {
    "q": "Who advised Lumentum on its sale to Marvell?",
-   "a": "Citi and Evercore advised Lumentum (Davis Polk was legal counsel). Qatalyst, J.P. Morgan and Goldman Sachs advised Marvell.",
+   "a": "Citi and Evercore advised Lumentum. Qatalyst, J.P. Morgan and Goldman Sachs advised Marvell.",
    "options": [
     "Qatalyst and J.P. Morgan",
     "Citi and Evercore",
     "Goldman Sachs only",
-    "RBC Capital Markets"
+    "Lazard"
    ],
    "correct": 1
   }
@@ -236,43 +232,43 @@
   {
    "q": "What's going on in markets?",
    "kind": "coffee",
-   "a": "Mixed day on Monday: the S&P 500 fell 0.5% to 7,541 and the Nasdaq fell 1.1% as the AI sell-off continued, while the Dow rose 0.4%. Oil dropped about 7% on US-Iran talk hopes. For bankers, the question is whether weaker tech stock currency slows stock-funded deals.",
-   "tip": "Lead with the split between tech and the Dow."
+   "a": "On Election Day the S&P 500 rose 0.4% to 7,569 as chip stocks rebounded, while the Dow fell 0.4% on Apple. Oil slipped again, with WTI at $96.09. The 10-year rose to 4.95%, and Dow futures jumped overnight after Democrats won the midterms.",
+   "tip": "Lead with the tech and Dow split."
   },
   {
    "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "WTI settled at $96.46, down 7.4%, and Brent at $104.77, down 7.6%, on hopes of a US-Iran deal. That can reverse on any headline. Lower oil trims energy cash flow, which could slow energy capex and deals if it holds.",
-   "tip": "Say both directions: deal hopes down, supply scares up."
+   "a": "WTI settled at $96.09 and Brent at $103.60, both lower on hopes for US-Iran talks, after a large drop Monday. Headlines can reverse that quickly. If oil holds near these levels, energy cash flows stay healthy, which supports upstream and midstream deal appetite.",
+   "tip": "Say both directions: talks down, supply scares up."
   },
   {
    "q": "What deals are you following?",
    "kind": "coffee",
-   "a": "Marvell is buying Lumentum for about $115B in stock at a roughly 24% premium, with Qatalyst, J.P. Morgan and Goldman on Marvell and Citi and Evercore on Lumentum. Blackstone and Canadian pensions are also paying $3.1B for 49.9% of Mitsubishi's holding company for its LNG Canada stake.",
+   "a": "Marvell is buying Lumentum for about $115B in stock at roughly a 24% premium, with Qatalyst, J.P. Morgan and Goldman on Marvell and Citi and Evercore on Lumentum. Blackstone and Canadian pensions are also paying $3.1B for 49.9% of Mitsubishi's holding company that owns a stake in LNG Canada.",
    "tip": "Name the advisers; bankers will ask."
   },
   {
    "q": "What are you watching this week?",
    "kind": "coffee",
-   "a": "The October jobs report on Friday 6 Nov, about +55K expected with unemployment at 4.2%, because it feeds the odds of a Fed hike on 9 Dec, near 76% now. Also earnings from ConocoPhillips and Parker-Hannifin on Thursday as reads on energy and industrial demand.",
+   "a": "The October jobs report on Friday 6 Nov, about +55K expected with unemployment at 4.2%, because it feeds the odds of a Fed hike on 9 Dec, near 79% now. Also ConocoPhillips and Parker-Hannifin earnings Thursday as reads on energy and industrial demand.",
    "tip": "Tie each event to the Fed or the energy theme."
   },
   {
    "q": "If the 10-year rose 50 bp, what happens to a DCF?",
    "kind": "interview",
-   "a": "The 10-year is 4.91% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration companies with most value in the terminal value fall the most.",
+   "a": "The 10-year is 4.95% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Companies with most of their value in the terminal value fall the most.",
    "tip": "Say the direction, then who is hit hardest."
   },
   {
-   "q": "How would a tech sell-off change M&A activity?",
+   "q": "How does a stock-funded deal like Marvell and Lumentum get done in a volatile tech tape?",
    "kind": "interview",
-   "a": "The Nasdaq fell 1.1%, and Marvell fell almost 13% after announcing its all-stock Lumentum deal. Falling shares make stock currency less attractive and can reprice tech targets. Buyers lean toward cash deals and hard assets, such as the LNG Canada stake.",
-   "tip": "Separate stock-funded deals from cash deals."
+   "a": "Marvell is paying in stock, 4.5 Marvell shares per Lumentum share, at a roughly 24% premium to unaffected prices on 28 Oct. The Nasdaq-100 is about 10% below its high, so a fixed exchange ratio protects both sides from relative moves but not from the sector falling. Buyers with weaker currency lean toward cash or hard-asset deals.",
+   "tip": "Mention the fixed exchange ratio."
   },
   {
    "q": "How do the Fed and the 10-year affect M&A financing right now?",
    "kind": "interview",
-   "a": "The Fed target is 3.75–4.00% after a 25 bp hike in September, and futures price about a 76% chance of another on 9 Dec. The 10-year is 4.91%, so debt is costly. High yield spreads were 344 bp on Friday, wider but still open to borrowers.",
+   "a": "The Fed target is 3.75–4.00% after a 25 bp hike in September, and futures price about a 79% chance of another on 9 Dec. The 10-year is 4.95%, so debt is costly. High yield spreads were 343 bp on 2 Nov, and HSBC sold $4.25B of bonds Tuesday, so markets are open.",
    "tip": "Separate the base rate from the credit spread."
   }
  ],
@@ -348,18 +344,18 @@
    "paywall": false
   },
   {
-   "t": "Yahoo Finance: stock market today, 2 Nov",
-   "u": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+   "t": "AP via WTOP: How major US stock indexes fared Tuesday 11/3/2026",
+   "u": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-3-2026",
    "paywall": false
   },
   {
-   "t": "CNBC: stock market today, Nasdaq starts November with 1% loss",
-   "u": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+   "t": "CNBC: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
+   "u": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
    "paywall": false
   },
   {
-   "t": "NBC News: oil prices slide on Iran talks hope",
-   "u": "https://www.nbcnews.com/business/energy/oil-prices-slide-trump-hope-iran-talks-rcna607107",
+   "t": "CNBC: Dow futures surge after Democrats win midterms (4 Nov live updates)",
+   "u": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
    "paywall": false
   },
   {
