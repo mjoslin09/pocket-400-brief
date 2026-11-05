@@ -1,14 +1,14 @@
 {
- "date": "2026-11-03",
- "asof": "Markets as of the Tue 3 Nov close",
- "refreshed": "Wed 4 Nov, 6:45am CT",
+ "date": "2026-11-04",
+ "asof": "Markets as of the Wed 4 Nov close",
+ "refreshed": "Thu 5 Nov, 6:45am CT",
  "numbers": [
   {
    "label": "S&P 500",
-   "value": "7,569",
-   "change": "+0.4% on the day",
+   "value": "7,689",
+   "change": "+1.6% on the day",
    "dir": "up",
-   "note": "Nasdaq +0.8%, Dow −0.4%, VIX 20.8",
+   "note": "Nasdaq +1.4%, Dow +3.0%, VIX 16.6",
    "src": {
     "t": "Yahoo Finance: S&P 500 history",
     "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
@@ -17,10 +17,10 @@
   },
   {
    "label": "10-yr Treasury",
-   "value": "4.95%",
-   "change": "+4 bp",
-   "dir": "up",
-   "note": "2-yr 4.61%; 2s10s +34 bp",
+   "value": "4.90%",
+   "change": "−5 bp",
+   "dir": "down",
+   "note": "2-yr 4.58%; 2s10s +32 bp",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
@@ -30,7 +30,7 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Dec 9 FOMC: hike ~79% (4 Nov)",
+   "change": "Dec 9 FOMC: hike ~81% (5 Nov)",
    "dir": "flat",
    "note": "Raised 25 bp on 17 Sep",
    "src": {
@@ -41,8 +41,8 @@
   },
   {
    "label": "WTI crude",
-   "value": "$96.09",
-   "change": "−$0.37 (−0.4%)",
+   "value": "$88.12",
+   "change": "−$7.97 (−8.3%)",
    "dir": "down",
    "note": "Dec futures",
    "src": {
@@ -53,10 +53,10 @@
   },
   {
    "label": "Brent crude",
-   "value": "$103.60",
-   "change": "−$1.17 (−1.1%)",
+   "value": "$94.62",
+   "change": "−$8.98 (−8.7%)",
    "dir": "down",
-   "note": "WTI–Brent spread $7.5",
+   "note": "WTI–Brent spread $6.5",
    "src": {
     "t": "Yahoo Finance: Brent crude history",
     "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
@@ -65,8 +65,8 @@
   },
   {
    "label": "Henry Hub gas",
-   "value": "$2.90/MMBtu",
-   "change": "+$0.04 (+1.4%)",
+   "value": "$2.96/MMBtu",
+   "change": "+$0.06 (+2.2%)",
    "dir": "up",
    "note": "Dec futures",
    "src": {
@@ -77,10 +77,10 @@
   },
   {
    "label": "Dollar index",
-   "value": "101.9",
-   "change": "+0.1% on the day",
-   "dir": "up",
-   "note": "EUR/USD 1.119",
+   "value": "101.5",
+   "change": "−0.4% on the day",
+   "dir": "down",
+   "note": "EUR/USD 1.121",
    "src": {
     "t": "Yahoo Finance: Dollar index history",
     "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
@@ -89,43 +89,43 @@
   },
   {
    "label": "HY / IG spreads",
-   "value": "343 / 94 bp",
-   "change": "−1 / 0 bp",
+   "value": "340 / 93 bp",
+   "change": "−3 / −1 bp",
    "dir": "down",
+   "asof": "2026-11-03",
    "note": "Latest FRED reading is one session old",
    "src": {
     "t": "FRED: ICE BofA US High Yield OAS (data file)",
     "u": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
     "paywall": false
-   },
-   "asof": "2026-11-02"
+   }
   }
  ],
  "drivers": [
   {
-   "title": "Tech rebounds, Apple drags the Dow",
-   "text": "The S&P 500 rose 0.4% to 7,569 and the Nasdaq 0.8% as Nvidia, AMD and Broadcom bounced, even though most S&P stocks fell. Apple dropped about 2% on a weak margin outlook, pulling the Dow down 0.4%.",
+   "title": "Dow jumps 3% as Democrats win Congress",
+   "text": "The Dow gained 1,569 points to 53,356, its best day since April 2025, and the S&P 500 rose 1.6% to 7,689. Investors read Democratic control of both chambers as gridlock that could limit the administration's agenda.",
    "src": {
-    "t": "CNBC: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
-    "u": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
-    "paywall": false
-   }
-  },
-  {
-   "title": "Oil slips on US-Iran talks hopes",
-   "text": "Brent settled at $103.60, down 1.1%, and WTI at $96.09, down 0.4%, on speculation of progress in US-Iran negotiations. That follows Monday's drop of about 7%.",
-   "src": {
-    "t": "CNBC: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
-    "u": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
-    "paywall": false
-   }
-  },
-  {
-   "title": "Midterms: Democrats win, futures jump",
-   "text": "Overnight, Dow futures jumped about 800 points after a decisive Democratic win in the midterms. The 10-year closed Tuesday at 4.95%, up 4 bp, and futures put a December Fed hike at about 79%.",
-   "src": {
-    "t": "CNBC: Dow futures surge after Democrats win midterms (4 Nov live updates)",
+    "t": "CNBC: Dow surges after Democrats win midterms",
     "u": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+    "paywall": false
+   }
+  },
+  {
+   "title": "Oil plunges more than 8%",
+   "text": "WTI settled at $88.12 and Brent at $94.62, each down about 8%. CNBC tied the drop to expected pressure on the administration to end the Iran war after the Republican losses.",
+   "src": {
+    "t": "CNBC: Wall Street live updates (5 Nov)",
+    "u": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
+    "paywall": false
+   }
+  },
+  {
+   "title": "Yields ease; December hike priced",
+   "text": "The 10-year fell 5 bp to 4.90%, yet Investing.com's monitor shows about 81% odds of a hike to 4.00–4.25% on 9 Dec. Financing stays costly even as equities rally.",
+   "src": {
+    "t": "Investing.com: Fed rate monitor",
+    "u": "https://www.investing.com/central-banks/fed-rate-monitor",
     "paywall": false
    }
   }
@@ -175,55 +175,55 @@
   }
  ],
  "capmarkets": {
-  "text": "HSBC issued $4.25B of senior unsecured notes in two tranches, $1.75B due 2032 and $2.5B due 2037, showing the bond window is open. CNBC's page listed no IPO pricings.",
+  "text": "HSBC sold $4.25B of senior unsecured notes on Tuesday 3 Nov, $1.75B due 2032 and $2.5B due 2037, so the investment grade bond window is open. CNBC reported no IPO pricings.",
   "src": {
-   "t": "CNBC: Dow futures surge after Democrats win midterms (4 Nov live updates)",
+   "t": "CNBC: Dow surges after Democrats win midterms",
    "u": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
    "paywall": false
   }
  },
  "calendar": [
   {
-   "d": "Wed 4 Nov",
-   "e": "ADP 8:15am ET and ISM Services 10am ET; CF Industries, Emerson, Stanley Black & Decker, Martin Marietta, Albemarle, APA, Qualcomm earnings"
-  },
-  {
    "d": "Thu 5 Nov",
-   "e": "Jobless claims 8:30am ET; ConocoPhillips, Devon, Parker-Hannifin, Rockwell, Duke Energy, Sempra, Air Products, Lumentum earnings"
+   "e": "Jobless claims 8:30am ET; Bank of England decision (25 bp hike to 4% expected); ConocoPhillips, Devon, Parker-Hannifin, Rockwell, Duke Energy, Sempra, Air Products, Lumentum earnings"
   },
   {
    "d": "Fri 6 Nov",
    "e": "October jobs report 8:30am ET, about +55K expected, unemployment 4.2%; Vistra earnings"
+  },
+  {
+   "d": "Tue 10 Nov",
+   "e": "October CPI, 8:30am ET"
   }
  ],
  "sowhat": {
-  "text": "Credit is open, with HSBC selling $4.25B of bonds, and large deals keep coming, with Marvell and Lumentum at ~$115B and $3.1B going into LNG Canada. The 10-year at 4.95% and about 79% odds of a December hike keep debt costly, so cash-rich buyers and infrastructure money have the edge."
+  "text": "Equities and credit are open for business, with HSBC selling $4.25B of bonds and megadeals like Marvell and Lumentum at ~$115B. But a 4.90% 10-year and about 81% odds of a December hike keep debt costly, so stock-funded buyers and infrastructure money have the edge."
  },
- "pitch": "The S&P 500 rose 0.4% to about 7,569 on Election Day as chip stocks bounced, though the Dow slipped 0.4% on Apple. Oil eased again, with WTI at 96 dollars, on hopes for US-Iran talks. The 10-year rose 4 basis points to 4.95%, and the market puts about a 79% chance on a Fed hike on December 9. Overnight, futures jumped after Democrats won big in the midterms. On deals, Marvell agreed to buy Lumentum for about 115 billion dollars in stock, and Blackstone and Canadian pensions are paying 3.1 billion dollars into LNG Canada.",
+ "pitch": "The Dow jumped about 3 percent on Wednesday, its best day since April 2025, and the S&P 500 rose 1.6 percent to about 7,689 after Democrats won both chambers of Congress and investors priced in gridlock. Oil fell more than 8 percent, with WTI at 88 dollars, on expectations of pressure to end the Iran war. The 10-year eased 5 basis points to 4.90 percent, but the market still puts about an 81 percent chance on a Fed hike on December 9. On deals, Marvell agreed to buy Lumentum for about 115 billion dollars in stock, and Blackstone and Canadian pensions are paying 3.1 billion dollars into LNG Canada.",
  "quiz": [
   {
-   "q": "Where did the 10-year Treasury yield close on Tuesday 3 Nov?",
-   "a": "4.95%, up 4 bp from 4.91%.",
+   "q": "Where did WTI crude settle on Wednesday 4 Nov?",
+   "a": "$88.12, down $7.97 (−8.3%).",
    "options": [
-    "About 4.65%",
-    "About 4.80%",
-    "About 4.95%",
-    "About 5.20%"
+    "About $80",
+    "About $88",
+    "About $96",
+    "About $104"
    ],
-   "correct": 2
+   "correct": 1
   },
   {
-   "q": "Why did the Dow fall 0.4% while the Nasdaq rose 0.8% on Tuesday?",
-   "a": "Apple fell about 2% on a weak margin outlook and weighed on the Dow, while Nvidia, AMD and Broadcom rebounded and lifted the Nasdaq."
+   "q": "Why did the Dow rise about 3% on Wednesday 4 Nov?",
+   "a": "Democrats won control of the House and Senate, which investors read as political gridlock that could limit the administration's agenda. Oil also fell sharply, which helped sentiment."
   },
   {
-   "q": "Who advised Lumentum on its sale to Marvell?",
-   "a": "Citi and Evercore advised Lumentum. Qatalyst, J.P. Morgan and Goldman Sachs advised Marvell.",
+   "q": "How is Marvell paying for Lumentum?",
+   "a": "All stock: 4.5 Marvell shares per Lumentum share, for an implied enterprise value of about $115B.",
    "options": [
-    "Qatalyst and J.P. Morgan",
-    "Citi and Evercore",
-    "Goldman Sachs only",
-    "Lazard"
+    "All cash",
+    "All stock",
+    "Half cash, half stock",
+    "Debt-financed LBO"
    ],
    "correct": 1
   }
@@ -232,43 +232,43 @@
   {
    "q": "What's going on in markets?",
    "kind": "coffee",
-   "a": "On Election Day the S&P 500 rose 0.4% to 7,569 as chip stocks rebounded, while the Dow fell 0.4% on Apple. Oil slipped again, with WTI at $96.09. The 10-year rose to 4.95%, and Dow futures jumped overnight after Democrats won the midterms.",
-   "tip": "Lead with the tech and Dow split."
+   "a": "The Dow jumped 3.0% to 53,356 on Wednesday, its best day since April 2025, and the S&P 500 rose 1.6% to 7,689 after Democrats won Congress. Oil fell more than 8%, with WTI at $88.12. The 10-year eased to 4.90%, but a December Fed hike is still priced at about 81%.",
+   "tip": "Lead with the election and the gridlock read."
   },
   {
    "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "WTI settled at $96.09 and Brent at $103.60, both lower on hopes for US-Iran talks, after a large drop Monday. Headlines can reverse that quickly. If oil holds near these levels, energy cash flows stay healthy, which supports upstream and midstream deal appetite.",
-   "tip": "Say both directions: talks down, supply scares up."
+   "a": "WTI settled at $88.12 and Brent at $94.62, each down about 8%, on expectations of pressure to end the Iran war. That is a big one-day move, and headlines can reverse it. Lower oil eases cost pressure for industrials but trims upstream cash flow, which can cool energy deal appetite.",
+   "tip": "Name the risk in both directions."
   },
   {
    "q": "What deals are you following?",
    "kind": "coffee",
-   "a": "Marvell is buying Lumentum for about $115B in stock at roughly a 24% premium, with Qatalyst, J.P. Morgan and Goldman on Marvell and Citi and Evercore on Lumentum. Blackstone and Canadian pensions are also paying $3.1B for 49.9% of Mitsubishi's holding company that owns a stake in LNG Canada.",
+   "a": "Marvell is buying Lumentum for about $115B in stock, a ~24% premium, with Qatalyst, J.P. Morgan and Goldman on Marvell and Citi and Evercore on Lumentum. Blackstone and Canadian pensions are also paying $3.1B for 49.9% of Mitsubishi's holding company that owns a stake in LNG Canada.",
    "tip": "Name the advisers; bankers will ask."
   },
   {
    "q": "What are you watching this week?",
    "kind": "coffee",
-   "a": "The October jobs report on Friday 6 Nov, about +55K expected with unemployment at 4.2%, because it feeds the odds of a Fed hike on 9 Dec, near 79% now. Also ConocoPhillips and Parker-Hannifin earnings Thursday as reads on energy and industrial demand.",
+   "a": "The October jobs report on Friday 6 Nov, about +55K expected with unemployment at 4.2%, because it feeds the odds of a Fed hike on 9 Dec, near 81% now. Also ConocoPhillips and Parker-Hannifin earnings Thursday as reads on energy and industrial demand.",
    "tip": "Tie each event to the Fed or the energy theme."
   },
   {
    "q": "If the 10-year rose 50 bp, what happens to a DCF?",
    "kind": "interview",
-   "a": "The 10-year is 4.95% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Companies with most of their value in the terminal value fall the most.",
+   "a": "The 10-year is 4.90% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Companies with most of their value in the terminal value fall the most.",
    "tip": "Say the direction, then who is hit hardest."
   },
   {
-   "q": "How does a stock-funded deal like Marvell and Lumentum get done in a volatile tech tape?",
+   "q": "Why would a stock-funded deal like Marvell and Lumentum be attractive right now?",
    "kind": "interview",
-   "a": "Marvell is paying in stock, 4.5 Marvell shares per Lumentum share, at a roughly 24% premium to unaffected prices on 28 Oct. The Nasdaq-100 is about 10% below its high, so a fixed exchange ratio protects both sides from relative moves but not from the sector falling. Buyers with weaker currency lean toward cash or hard-asset deals.",
+   "a": "Marvell is paying 4.5 of its shares per Lumentum share, a ~24% premium to 28 Oct prices. With the 10-year at 4.90% and a December hike priced at about 81%, debt is costly, so stock avoids borrowing. A fixed ratio shields both sides from relative moves but not from a sector selloff.",
    "tip": "Mention the fixed exchange ratio."
   },
   {
    "q": "How do the Fed and the 10-year affect M&A financing right now?",
    "kind": "interview",
-   "a": "The Fed target is 3.75–4.00% after a 25 bp hike in September, and futures price about a 79% chance of another on 9 Dec. The 10-year is 4.95%, so debt is costly. High yield spreads were 343 bp on 2 Nov, and HSBC sold $4.25B of bonds Tuesday, so markets are open.",
+   "a": "The Fed target is 3.75–4.00% after a 25 bp hike in September, and futures price about an 81% chance of another on 9 Dec. The 10-year is 4.90%, so debt is costly. High yield spreads were 340 bp on 3 Nov, and HSBC sold $4.25B of bonds, so markets are open.",
    "tip": "Separate the base rate from the credit spread."
   }
  ],
@@ -279,18 +279,13 @@
    "paywall": false
   },
   {
-   "t": "Yahoo Finance: Nasdaq Composite history",
-   "u": "https://finance.yahoo.com/quote/%5EIXIC/history/",
-   "paywall": false
-  },
-  {
-   "t": "Yahoo Finance: Dow history",
-   "u": "https://finance.yahoo.com/quote/%5EDJI/history/",
-   "paywall": false
-  },
-  {
    "t": "Yahoo Finance: VIX history",
    "u": "https://finance.yahoo.com/quote/%5EVIX/history/",
+   "paywall": false
+  },
+  {
+   "t": "AP via WTOP: How major US stock indexes fared Wednesday 11/4/2026",
+   "u": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-wednesday-11-4-2026",
    "paywall": false
   },
   {
@@ -344,23 +339,23 @@
    "paywall": false
   },
   {
-   "t": "AP via WTOP: How major US stock indexes fared Tuesday 11/3/2026",
-   "u": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-3-2026",
+   "t": "CNBC: Wall Street live updates (5 Nov)",
+   "u": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
    "paywall": false
   },
   {
-   "t": "CNBC: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
-   "u": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
-   "paywall": false
-  },
-  {
-   "t": "CNBC: Dow futures surge after Democrats win midterms (4 Nov live updates)",
+   "t": "CNBC: Dow surges after Democrats win midterms",
    "u": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
    "paywall": false
   },
   {
    "t": "CNBC: week ahead, 2 to 6 Nov",
    "u": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html",
+   "paywall": false
+  },
+  {
+   "t": "Thrive in Markets: CPI release dates 2026",
+   "u": "https://thriveinmarkets.com/calendar/dates/cpi-2026/",
    "paywall": false
   },
   {
