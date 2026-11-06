@@ -1,7 +1,7 @@
 {
  "date": "2026-11-05",
  "asof": "Markets as of the Thu 5 Nov close",
- "refreshed": "Thu 5 Nov, 10:56pm CT",
+ "refreshed": "Fri 6 Nov, 6:45am CT",
  "numbers": [
   {
    "label": "S&P 500",
@@ -30,7 +30,7 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Dec 9 FOMC: hike ~67% (5 Nov)",
+   "change": "Dec 9 FOMC: hike ~70% (6 Nov)",
    "dir": "flat",
    "note": "Raised 25 bp on 17 Sep",
    "src": {
@@ -80,7 +80,7 @@
    "value": "101.6",
    "change": "Flat on the day",
    "dir": "flat",
-   "note": "EUR/USD 1.124",
+   "note": "EUR/USD 1.123",
    "src": {
     "t": "Yahoo Finance: Dollar index history",
     "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
@@ -104,7 +104,7 @@
  "drivers": [
   {
    "title": "AI selloff: Nasdaq −5.5%, S&P −4.4%",
-   "text": "The S&P 500 fell to 7,354, the Dow 3.4% to 51,523, and the Nasdaq entered a correction, all their worst days since April 2025. AP tied it to fears of data-center moratoriums after the Democratic midterm wins.",
+   "text": "The S&P 500 fell to 7,354, the Dow 3.4% to 51,523, and the Nasdaq 5.5% into correction territory. AP tied it to fears of data-center moratoriums after the Democratic midterm wins.",
    "src": {
     "t": "AP via WTOP: How major US stock indexes fared Thursday 11/5/2026",
     "u": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-thursday-11-5-2026",
@@ -113,7 +113,7 @@
   },
   {
    "title": "Chip and AI names get crushed",
-   "text": "CNBC reported Micron and AMD each down 17%, CoreWeave down 10% and Nvidia down 9%. The tech sector fell 7.3%, its worst day since March 2020, and the VIX jumped to 28.2 from 16.6.",
+   "text": "CNBC reported Nvidia down more than 9% and the S&P tech sector down 7.3%, its worst day since March 2020, with the Magnificent 7 losing over $1 trillion. The VIX jumped 11.6 points to 28.2.",
    "src": {
     "t": "CNBC: stock market selloff on AI fears",
     "u": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html",
@@ -121,8 +121,8 @@
    }
   },
   {
-   "title": "Yields fall; December hike odds slip",
-   "text": "The 10-year fell 6 bp to 4.84%, and Investing.com's monitor put a hike to 4.00–4.25% on 9 Dec at about 67%, down from about 82% a day earlier. Financing is still costly, but the rate scare eased.",
+   "title": "Yields fall; December hike odds ~70%",
+   "text": "The 10-year fell 6 bp to 4.84%, but Investing.com's monitor still put a hike to 4.00–4.25% on 9 Dec at about 70% on Friday morning. Today's October jobs report is the next test; financing stays costly.",
    "src": {
     "t": "Investing.com: Fed rate monitor",
     "u": "https://www.investing.com/central-banks/fed-rate-monitor",
@@ -175,7 +175,7 @@
   }
  ],
  "capmarkets": {
-  "text": "HSBC sold $4.25B of senior unsecured notes on Tue 3 Nov, $1.75B due 2032 and $2.5B due 2037, before Thursday's selloff. I found no IPO pricings, and a VIX near 28 may slow new issuance.",
+  "text": "HSBC sold $4.25B of senior unsecured notes this week, $1.75B due 2032 and $2.5B due 2037. CoreWeave's five-year CDS widened to about 1,140 bp, a level CNBC called a distress signal, so AI-linked credit is the weak spot. No IPO pricings found.",
   "src": {
    "t": "CNBC: Dow surges after Democrats win midterms (HSBC bond)",
    "u": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
@@ -185,7 +185,7 @@
  "calendar": [
   {
    "d": "Fri 6 Nov",
-   "e": "October jobs report 8:30am ET, about +59K expected, unemployment 4.2%; Michigan sentiment 10am ET; Vistra earnings"
+   "e": "October jobs report 8:30am ET, about +55–59K expected, unemployment 4.2%; Michigan sentiment 10am ET; Vistra earnings"
   },
   {
    "d": "Tue 10 Nov",
@@ -193,13 +193,13 @@
   },
   {
    "d": "Wed 9 Dec",
-   "e": "FOMC decision, 2pm ET; hike to 4.00–4.25% priced at about 67%"
+   "e": "FOMC decision, 2pm ET; hike to 4.00–4.25% priced at about 70%"
   }
  ],
  "sowhat": {
   "text": "The AI-led selloff hits the sector driving much of the megadeal and financing activity. Fixed-ratio stock deals like Marvell and Lumentum keep their ratio but are worth less in dollars, and a VIX at 28 could slow IPOs and new bond launches until volatility settles."
  },
- "pitch": "Thursday was a rout. The S&P 500 fell 4.4 percent to about 7,354, the Nasdaq dropped 5.5 percent into a correction, and the Dow lost 3.4 percent, all the worst days since April 2025. The trigger was fear that Democratic wins in the midterms could bring limits on AI data centers, and Micron, AMD and Nvidia fell hard. The VIX jumped to 28. Treasuries rallied, with the 10-year down 6 basis points to 4.84 percent, and odds of a December Fed hike fell to about 67 percent. On deals, Marvell's roughly 115 billion dollar stock purchase of Lumentum is the big one, and the selloff matters for stock-funded deals.",
+ "pitch": "Thursday was a rout. The S&P 500 fell 4.4 percent to about 7,354, the Nasdaq dropped 5.5 percent into a correction, and the Dow lost 3.4 percent. The trigger was fear that Democratic wins in the midterms could bring limits on AI data centers, and Nvidia fell more than 9 percent. The VIX jumped to 28. Treasuries rallied, with the 10-year down 6 basis points to 4.84 percent, but odds of a December Fed hike are still about 70 percent, so today's jobs report matters. On deals, Marvell's roughly 115 billion dollar stock purchase of Lumentum is the big one, and the selloff matters for stock-funded deals.",
  "quiz": [
   {
    "q": "How much did the S&P 500 fall on Thursday 5 Nov?",
@@ -214,7 +214,7 @@
   },
   {
    "q": "Why did the Nasdaq fall 5.5% on Thursday 5 Nov?",
-   "a": "Investors feared a slowdown in AI data-center buildout, including possible moratoriums, after Democratic midterm wins. Chip and AI names such as Micron, AMD and Nvidia fell sharply."
+   "a": "Investors feared a slowdown in AI data-center buildout, including possible moratoriums, after Democratic midterm wins. Nvidia fell more than 9% and tech was down 7.3%."
   },
   {
    "q": "Who advised Lumentum on its sale to Marvell?",
@@ -238,8 +238,8 @@
   {
    "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "WTI settled at $90.52 and Brent at $98.29, both up after Wednesday's big drop. I did not find a clear reason for Thursday's rebound. Oil is volatile, so energy cash flows and upstream deal appetite hinge on where it holds.",
-   "tip": "Be honest about what you don't know."
+   "a": "WTI settled at $90.52 and Brent at $98.29, both up after Wednesday's big drop. CNBC cited traders weighing renewed US-Iran military escalation against a possible diplomatic breakthrough, so oil is headline-driven. Energy cash flows and upstream deal appetite hinge on where it holds.",
+   "tip": "Name the Iran risk, then say you would watch where Brent holds."
   },
   {
    "q": "What deals are you following?",
@@ -250,7 +250,7 @@
   {
    "q": "What are you watching this week?",
    "kind": "coffee",
-   "a": "Friday's October jobs report, about +59K expected with unemployment at 4.2%, because it feeds the odds of a December hike, about 67% now. Then CPI on Tuesday 10 Nov. I'm also watching whether the AI selloff continues, since the VIX is at 28.2.",
+   "a": "Today's October jobs report, about +55K to +59K expected with unemployment at 4.2%, because it feeds the odds of a December hike, about 70% now. Then CPI on Tuesday 10 Nov. I'm also watching whether the AI selloff continues, since the VIX is at 28.2.",
    "tip": "Tie each event to the Fed or the AI theme."
   },
   {
@@ -268,7 +268,7 @@
   {
    "q": "How do the Fed and the 10-year affect M&A financing right now?",
    "kind": "interview",
-   "a": "The Fed target is 3.75–4.00% after a 25 bp hike in September, and the market puts about 67% on another on 9 Dec. The 10-year is 4.84%, so debt is costly. High yield spreads were 332 bp on 4 Nov, before the selloff, so credit's reaction is not yet visible.",
+   "a": "The Fed target is 3.75–4.00% after a 25 bp hike in September, and the market puts about 70% on another on 9 Dec. The 10-year is 4.84%, so debt is costly. High yield spreads were 332 bp on 4 Nov, before the selloff, so credit's reaction is not yet visible.",
    "tip": "Separate the base rate from the credit spread."
   }
  ],
