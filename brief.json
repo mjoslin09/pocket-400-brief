@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "asof": "Markets as of the Tue 10 Nov close",
- "refreshed": "Tue 10 Nov, 4:35pm CT",
+ "refreshed": "Wed 11 Nov, 6:20am CT",
  "numbers": [
   {
    "label": "S&P 500",
@@ -30,7 +30,7 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Dec 9 FOMC: hike ~94% (10 Nov)",
+   "change": "Dec 9 FOMC: 25 bp hike ~88%, 50 bp ~12% (11 Nov)",
    "dir": "flat",
    "note": "Raised 25 bp on 17 Sep",
    "src": {
@@ -41,8 +41,8 @@
   },
   {
    "label": "WTI crude",
-   "value": "$86.44",
-   "change": "−$0.41 (−0.5%)",
+   "value": "$86.04",
+   "change": "−$0.81 (−0.9%)",
    "dir": "down",
    "note": "Dec futures",
    "src": {
@@ -53,10 +53,10 @@
   },
   {
    "label": "Brent crude",
-   "value": "$92.06",
-   "change": "−$0.51 (−0.6%)",
+   "value": "$91.49",
+   "change": "−$1.08 (−1.2%)",
    "dir": "down",
-   "note": "Front-month futures; WTI–Brent spread $5.6",
+   "note": "Front-month futures; WTI–Brent spread $5.5",
    "src": {
     "t": "Yahoo Finance: Brent crude history",
     "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
@@ -65,7 +65,7 @@
   },
   {
    "label": "Henry Hub gas",
-   "value": "$3.29/MMBtu",
+   "value": "$3.30/MMBtu",
    "change": "+$0.08 (+2.4%)",
    "dir": "up",
    "note": "Front-month futures",
@@ -80,7 +80,7 @@
    "value": "102.2",
    "change": "+0.6% on the day",
    "dir": "up",
-   "note": "EUR/USD 1.117",
+   "note": "EUR/USD 1.122",
    "src": {
     "t": "Yahoo Finance: Dollar index history",
     "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
@@ -96,7 +96,7 @@
    "note": "Monday reading; Tuesday not yet published. Still tight by history",
    "src": {
     "t": "FRED: ICE BofA US High Yield OAS (data file)",
-    "u": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "u": "https://fred.stlouisfed.org/data/BAMLH0A0HYM2.txt",
     "paywall": false
    }
   }
@@ -104,7 +104,7 @@
  "drivers": [
   {
    "title": "Hot CPI pushes the 10-year to 4.98%",
-   "text": "October CPI rose 0.4% headline and 0.3% core, above the 0.3% and 0.2% economists expected. The 10-year yield rose about 10 bp to 4.98% and the S&P 500 fell 0.4% to 7,521, with Nvidia down more than 5%.",
+   "text": "October CPI rose 0.4% headline and 0.3% core, above the 0.3% and 0.2% economists expected. The 10-year yield rose 10 bp to 4.98% (after touching about 5.00% intraday) and the S&P 500 fell 0.4% to 7,521, with Nvidia down more than 5%.",
    "src": {
     "t": "CNBC: stock market today live updates, Nov 9-10, 2026",
     "u": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
@@ -112,8 +112,8 @@
    }
   },
   {
-   "title": "Waller leans to a December hike",
-   "text": "Fed Governor Waller said he is leaning toward a December hike and would consider 50 bp if inflation keeps running hot. Investing.com shows a hike to 4.00–4.25% at about 94%, up from about 83% a day earlier.",
+   "title": "Fed officials talk up a December hike",
+   "text": "Governor Waller said he is leaning toward a December hike and that 50 bp should be considered if inflation runs hot. Investing.com shows 88% for a 25 bp hike and 12% for 50 bp on 9 Dec, per its table.",
    "src": {
     "t": "CNBC: stock market today live updates, Nov 9-10, 2026",
     "u": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
@@ -121,8 +121,8 @@
    }
   },
   {
-   "title": "Oil dips as Iran hopes hold",
-   "text": "Brent settled at $92.06 and WTI at $86.44, small declines after Monday's large drop, as hopes for easing US-Iran tensions held. Brent is down roughly 7% for the week after a 16.4% fall the week before.",
+   "title": "Oil edges lower on Iran hopes",
+   "text": "Brent settled at $91.49 and WTI at $86.04, small declines after Monday's large drop, as hopes for easing US-Iran tensions held. Brent briefly traded below $90 during the session.",
    "src": {
     "t": "CNBC: stock market today live updates, Nov 9-10, 2026",
     "u": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
@@ -141,7 +141,7 @@
    "status": "Announced; close targeted Q2 2027",
    "date": "9 Nov",
    "banks": [
-    "Barclays (NRG)"
+    "Barclays (NRG, lead)"
    ],
    "src": {
     "t": "NRG Energy 8-K: LS Power asset sale release",
@@ -156,7 +156,7 @@
     "Marathon Petroleum"
    ],
    "value": "~$4.2B plus working capital",
-   "status": "Announced; close expected by end of 2026",
+   "status": "Announced; needs regulatory approvals",
    "date": "3 Nov",
    "banks": [
     "Barclays (CVR Energy)"
@@ -174,7 +174,7 @@
     "Lumentum"
    ],
    "value": "~$115B EV, all stock, ~24% premium",
-   "status": "Announced; close expected 1H 2028",
+   "status": "Announced",
    "date": "2 Nov",
    "banks": [
     "Qatalyst (Marvell, lead)",
@@ -208,7 +208,7 @@
   }
  ],
  "capmarkets": {
-  "text": "Anthropic set a Nasdaq IPO range of $70 to $78 a share for 825 million shares, which would raise up to about $64B at the top of the range, per CNBC. It is a large test of how much equity the market can absorb this week.",
+  "text": "Anthropic set a Nasdaq IPO range of $70 to $78 a share for 825 million shares, which would net up to about $64B at the top of the range, per CNBC. It is a large test of how much equity the market can absorb.",
   "src": {
    "t": "CNBC: stock market today live updates, Nov 9-10, 2026",
    "u": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
@@ -218,15 +218,15 @@
  "calendar": [
   {
    "d": "Wed 11 Nov",
-   "e": "Veterans Day: US Treasury market closed"
+   "e": "Veterans Day: US stock market open, Treasury market closed; OPEC monthly oil market report"
   },
   {
    "d": "Thu 12 Nov",
-   "e": "NY Fed's Williams speaks, 6:30am ET; Cisco and Applied Materials earnings after the close"
+   "e": "Cisco and Applied Materials earnings after the close"
   },
   {
    "d": "Fri 13 Nov",
-   "e": "October PPI, 8:30am ET"
+   "e": "October PPI"
   },
   {
    "d": "Tue 17 Nov",
@@ -238,9 +238,9 @@
   }
  ],
  "sowhat": {
-  "text": "Financing got more expensive: the 10-year is back near 5% (4.98%) and a December hike is about 94% priced, though credit stayed calm (HY 334 bp on Monday). Energy and power asset sales (NRG, CVR) keep coming, and the Anthropic IPO range tests the equity window."
+  "text": "Financing got more expensive: the 10-year is back near 5% (4.98%) and a December hike is nearly fully priced, though credit stayed calm (HY 334 bp on Monday). Energy and power asset sales (NRG, CVR) keep coming, and the Anthropic IPO range tests the equity window."
  },
- "pitch": "Stocks gave back some of Monday's rally. The S&P 500 fell 0.4 percent to about 7,520 after October CPI came in hot, 0.4 percent headline against 0.3 expected. The 10-year Treasury jumped about 10 basis points to 4.98 percent, and Fed Governor Waller said he leans toward a December hike, which the market now prices at about 94 percent. Oil was little changed, with Brent at about 92 dollars and WTI near 86 as Iran tensions eased. On deals, NRG is selling six gas plants to LS Power for 4 billion dollars, CVR is buying two Marathon refineries for about 4.2 billion, and Marvell is buying Lumentum in a roughly 115 billion dollar stock deal. Anthropic also set an IPO range that could raise up to about 64 billion dollars.",
+ "pitch": "Stocks slipped on Tuesday. The S&P 500 fell 0.4 percent to about 7,520 after October CPI came in hot, 0.4 percent headline against 0.3 expected. The 10-year Treasury jumped 10 basis points to 4.98 percent, and Fed Governor Waller said he leans toward a December hike, which the market now prices at roughly 88 percent for 25 basis points and 12 percent for 50. Oil edged lower, with Brent at about 91.50 dollars and WTI near 86 as Iran tensions eased. On deals, NRG is selling six gas plants to LS Power for 4 billion dollars, CVR is buying two Marathon refineries for about 4.2 billion, and Marvell is buying Lumentum in a roughly 115 billion dollar stock deal. Anthropic also set an IPO range that could raise up to about 64 billion dollars.",
  "quiz": [
   {
    "q": "Where did the 10-year Treasury yield close on Tuesday 10 Nov?",
@@ -255,7 +255,7 @@
   },
   {
    "q": "Why did Treasury yields jump and stocks fall on Tuesday 10 Nov?",
-   "a": "October CPI came in hotter than expected (+0.4% headline vs +0.3%, core +0.3% vs +0.2%), and Fed Governor Waller said he leans toward a December hike, raising rate-hike expectations."
+   "a": "October CPI came in hotter than expected (+0.4% headline vs +0.3%, core +0.3% vs +0.2%), and Fed officials including Waller leaned toward a December hike, raising rate-hike expectations."
   },
   {
    "q": "Who advised CVR Energy on its purchase of two Marathon refineries, and for how much?",
@@ -273,13 +273,13 @@
   {
    "q": "What's going on in markets?",
    "kind": "coffee",
-   "a": "Tuesday's October CPI was hotter than expected, 0.4% headline against 0.3%. The 10-year rose about 10 bp to 4.98% and the S&P 500 fell 0.4% to 7,521, giving back some of Monday's rally. A December hike is now about 94% priced.",
+   "a": "Tuesday's October CPI was hotter than expected, 0.4% headline against 0.3%. The 10-year rose 10 bp to 4.98% and the S&P 500 fell 0.4% to 7,521. A 25 bp December hike is priced at about 88%, with about 12% for 50 bp.",
    "tip": "Lead with CPI, then yields, then the Fed."
   },
   {
    "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "Brent settled at $92.06 and WTI at $86.44, small declines after Monday's big drop on hopes of easing US-Iran tensions. Brent is down roughly 7% on the week after a 16.4% fall the week before, so the risk premium has come out fast. That volatility makes it harder for energy buyers and sellers to agree on price.",
+   "a": "Brent settled at $91.49 and WTI at $86.04, small declines after Monday's big drop on hopes of easing US-Iran tensions. Brent briefly traded below $90 during the session. That volatility makes it harder for energy buyers and sellers to agree on price.",
    "tip": "Name Iran diplomacy as the driver."
   },
   {
@@ -291,7 +291,7 @@
   {
    "q": "What are you watching this week?",
    "kind": "coffee",
-   "a": "Williams speaks Thursday and PPI comes Friday, both after a CPI print that put a December hike at about 94%. Treasuries are closed Wednesday for Veterans Day. Next week I'm watching retail sales and Nvidia earnings on 17 Nov, then the FOMC minutes.",
+   "a": "PPI comes Friday after a CPI print that put a December hike at about 88% for 25 bp. Treasuries are closed Wednesday for Veterans Day. Next week I'm watching retail sales and Nvidia earnings on 17 Nov, then the FOMC minutes.",
    "tip": "Tie PPI to whether CPI was a one-off."
   },
   {
@@ -303,13 +303,13 @@
   {
    "q": "How does a falling acquirer share price affect a stock deal like Marvell and Lumentum?",
    "kind": "interview",
-   "a": "Marvell is paying 4.5 of its shares per Lumentum share, a premium of about 24% to 28 Oct prices. The ratio is fixed, so a lower Marvell price cuts the dollar value Lumentum holders receive, while the premium was set against old prices. Boards may face pressure to revisit terms if the gap widens.",
+   "a": "Marvell is paying a fixed 4.5 of its shares per Lumentum share, a premium of about 24%. The ratio is fixed, so a lower Marvell price cuts the dollar value Lumentum holders receive, while the premium was set against earlier prices. Boards may face pressure to revisit terms if the gap widens.",
    "tip": "Mention the fixed exchange ratio."
   },
   {
    "q": "How do the Fed and the 10-year affect M&A financing right now?",
    "kind": "interview",
-   "a": "The Fed range is 3.75–4.00% after a 25 bp hike in September, and a December hike is priced at about 94%. The 10-year is 4.98%, so debt is costly. High yield spreads were 334 bp on 9 Nov, so credit is still tight and financing is available at a price.",
+   "a": "The Fed range is 3.75–4.00% after a 25 bp hike in September, and a December hike is nearly fully priced. The 10-year is 4.98%, so debt is costly. High yield spreads were 334 bp on 9 Nov, so credit is still tight and financing is available at a price.",
    "tip": "Separate the base rate from the credit spread."
   }
  ],
@@ -385,23 +385,18 @@
    "paywall": false
   },
   {
-   "t": "Investing.com: WTI crude historical data",
-   "u": "https://www.investing.com/commodities/crude-oil-historical-data",
-   "paywall": false
-  },
-  {
-   "t": "Investing.com: US Dollar Index historical data",
-   "u": "https://www.investing.com/indices/usdollar-historical-data",
+   "t": "The Star (Xinhua): Crude futures settle lower",
+   "u": "https://www.thestar.com.my/news/world/2026/11/10/crude-futures-settle-lower",
    "paywall": false
   },
   {
    "t": "FRED: ICE BofA US High Yield OAS (data file)",
-   "u": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+   "u": "https://fred.stlouisfed.org/data/BAMLH0A0HYM2.txt",
    "paywall": false
   },
   {
    "t": "FRED: ICE BofA US Corporate OAS (data file)",
-   "u": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+   "u": "https://fred.stlouisfed.org/data/BAMLC0A0CM.txt",
    "paywall": false
   },
   {
@@ -422,11 +417,6 @@
   {
    "t": "Billionaires Africa: Adani Ports to buy Evos",
    "u": "https://billionaires.africa/2026/11/06/indian-billionaire-gautam-adanis-adani-ports-agrees-2-9-billion-deal-to-buy-dutch-storage-operator",
-   "paywall": false
-  },
-  {
-   "t": "CNBC: stock market outlook for Nov 9-13, 2026",
-   "u": "https://www.cnbc.com/2026/11/06/stock-market-next-week-outlook-for-nov-9-13-2026.html",
    "paywall": false
   },
   {
