@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
  "asof": "Markets as of the Thu 12 Nov close",
- "refreshed": "Fri 13 Nov, 6:00am CT",
+ "refreshed": "Fri 13 Nov, 6:45am CT",
  "numbers": [
   {
    "label": "S&P 500",
@@ -349,11 +349,6 @@
   {
    "t": "FRED: ICE BofA US Corporate OAS",
    "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
-   "paywall": false
-  },
-  {
-   "t": "Nvidia 8-K: CEO transition",
-   "u": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
    "paywall": false
   },
   {
