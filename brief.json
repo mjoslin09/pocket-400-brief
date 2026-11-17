@@ -1,14 +1,14 @@
 {
- "date": "2026-11-16",
- "asof": "Markets as of the Mon 16 Nov close",
- "refreshed": "Tue 17 Nov, 7:00am CT",
+ "date": "2026-11-17",
+ "asof": "Markets as of the Tue 17 Nov close",
+ "refreshed": "Tue 17 Nov, 4:30pm CT",
  "numbers": [
   {
    "label": "S&P 500",
-   "value": "7,417",
-   "change": "−1.9% on the day",
+   "value": "7,341",
+   "change": "−1.0% on the day",
    "dir": "down",
-   "note": "Nasdaq −2.5%, Dow −1.4%, VIX 22.91",
+   "note": "Nasdaq −0.7%, Dow −1.6%, VIX 25.46",
    "src": {
     "t": "Yahoo Finance: S&P 500 history",
     "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
@@ -17,10 +17,10 @@
   },
   {
    "label": "10-yr Treasury",
-   "value": "5.12%",
-   "change": "−3 bp",
+   "value": "5.10%",
+   "change": "−2 bp",
    "dir": "down",
-   "note": "2-yr 4.83%; 2s10s +29 bp",
+   "note": "2-yr 4.80%; 2s10s +30 bp",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
@@ -30,19 +30,19 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Dec 9 FOMC: ~89% for a 25 bp hike (as of 12 Nov)",
+   "change": "December hike bets strengthened on retail sales",
    "dir": "flat",
    "note": "Raised 25 bp on 17 Sep",
    "src": {
-    "t": "Hellenic Shipping News: Fed hike odds at 88% after hot CPI (CME FedWatch), 12 Nov",
-    "u": "https://www.hellenicshippingnews.com/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch/",
+    "t": "Federal Reserve: open market operations",
+    "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
     "paywall": false
    }
   },
   {
    "label": "WTI crude",
-   "value": "$85.72",
-   "change": "−$2.84 (−3.2%)",
+   "value": "$85.61",
+   "change": "−$0.11 (−0.1%)",
    "dir": "down",
    "note": "Dec futures",
    "src": {
@@ -53,9 +53,9 @@
   },
   {
    "label": "Brent crude",
-   "value": "$92.44",
-   "change": "−$3.40 (−3.5%)",
-   "dir": "down",
+   "value": "$93.07",
+   "change": "+$0.63 (+0.7%)",
+   "dir": "up",
    "note": "WTI–Brent spread $7",
    "src": {
     "t": "Yahoo Finance: Brent crude history",
@@ -65,9 +65,9 @@
   },
   {
    "label": "Henry Hub gas",
-   "value": "$3.122/MMBtu",
-   "change": "−$0.108 (−3.3%)",
-   "dir": "down",
+   "value": "$3.198/MMBtu",
+   "change": "+$0.076 (+2.4%)",
+   "dir": "up",
    "note": "Dec futures",
    "src": {
     "t": "Yahoo Finance: Henry Hub gas history",
@@ -78,9 +78,9 @@
   {
    "label": "Dollar index",
    "value": "103.6",
-   "change": "+0.1% on the day",
-   "dir": "up",
-   "note": "EUR/USD 1.1025",
+   "change": "Flat on the day",
+   "dir": "flat",
+   "note": "EUR/USD 1.1006",
    "src": {
     "t": "Yahoo Finance: Dollar index history",
     "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
@@ -89,43 +89,43 @@
   },
   {
    "label": "HY / IG spreads",
-   "value": "323 / 89 bp",
-   "change": "+3 / 0 bp",
+   "value": "334 / 90 bp",
+   "change": "+11 / +1 bp",
    "dir": "up",
-   "asof": "2026-11-13",
-   "note": "Friday reading, change vs 12 Nov. Tight by history: credit markets open",
+   "note": "Monday reading, change vs 13 Nov. Tight by history: credit markets open",
    "src": {
     "t": "FRED: ICE BofA US High Yield OAS",
     "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
     "paywall": false
-   }
+   },
+   "asof": "2026-11-16"
   }
  ],
  "drivers": [
   {
-   "title": "Nasdaq −2.5% as Nvidia slides",
-   "text": "Nvidia fell 4.1% to $156.14 after CEO Jensen Huang's exit, and new Commerce limits on Chinese remote access to advanced chips added pressure. The S&P 500 lost 1.9%.",
+   "title": "Stocks fall a third day before Nvidia",
+   "text": "The S&P 500 fell 1.0% to 7,341 and the Dow 1.6%, with the VIX up to 25.46. Investors waited on Nvidia earnings and reports of a classified NSA network outage.",
    "src": {
-    "t": "Eurasia Business News: Nasdaq slides 2.5% as Nvidia turmoil and chip restrictions hit tech",
-    "u": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-nasdaq-slides-2-5-as-nvidia-turmoil-and-chip-restrictions-hit-tech/",
+    "t": "BigGo Finance: Nvidia earnings, NSA outage weigh on Wall Street as Treasury yields hit 5.1%",
+    "u": "https://finance.biggo.com/news/0e24462a-46dc-4c2c-8c9a-40b769efa712",
     "paywall": false
    }
   },
   {
-   "title": "Oil falls on supply surplus view",
-   "text": "Brent settled at $92.44 and WTI at $85.72 as recovering Strait of Hormuz shipments reinforced expectations of a global surplus. OPEC+ meets 29 Nov on 2027 output.",
+   "title": "Nvidia beats after the close",
+   "text": "Nvidia earned $2.68 per share adjusted on $115.84B of revenue, against about $2.48 and $109.10B expected, and rose about 2% after hours. The neocloud names Nebius and CoreWeave bounced too.",
    "src": {
-    "t": "Eurasia Business News: Nasdaq slides 2.5% as Nvidia turmoil and chip restrictions hit tech",
-    "u": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-nasdaq-slides-2-5-as-nvidia-turmoil-and-chip-restrictions-hit-tech/",
+    "t": "CNBC: stocks making the biggest moves after hours, 17 Nov 2026",
+    "u": "https://www.cnbc.com/2026/11/17/stocks-moving-the-most-today-live-updates.html",
     "paywall": false
    }
   },
   {
-   "title": "10-year eases to 5.12%, still high",
-   "text": "The 10-year fell 3 bp to 5.12% and the 2-year to 4.83%, after Friday's 5.15% close. Yields remain elevated, which keeps financing costs high for levered deals.",
+   "title": "10-year holds near 5.1%",
+   "text": "The 10-year closed at 5.10%, down 2 bp, after touching 5.15% earlier in the day. Stronger retail sales firmed bets that the Fed hikes again in December, which keeps financing costly.",
    "src": {
-    "t": "U.S. Treasury: daily par yield curve",
-    "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
+    "t": "BigGo Finance: Nvidia earnings, NSA outage weigh on Wall Street as Treasury yields hit 5.1%",
+    "u": "https://finance.biggo.com/news/0e24462a-46dc-4c2c-8c9a-40b769efa712",
     "paywall": false
    }
   }
@@ -157,9 +157,9 @@
     "Strathcona Resources",
     "Greenfire Resources"
    ],
-   "value": "~$2.7–2.9B TEV incl. ~$550M net debt",
-   "status": "Announced; shareholder votes expected Jan 2027",
-   "date": "9 Nov",
+   "value": "~C$2.7–2.9B incl. ~C$550M net debt",
+   "status": "Announced; shareholder meetings expected Jan 2027",
+   "date": "8 Nov",
    "banks": [
     "J.P. Morgan (Strathcona)",
     "Jefferies (Strathcona special committee)",
@@ -193,54 +193,54 @@
  ],
  "calendar": [
   {
-   "d": "Tue 17 Nov",
-   "e": "October retail sales, 8:30am ET; Home Depot and Disney earnings before the open; Nvidia earnings after the close"
-  },
-  {
    "d": "Wed 18 Nov",
-   "e": "FOMC minutes from the late-October meeting, 2pm ET"
+   "e": "FOMC minutes, 2pm ET"
   },
   {
    "d": "Fri 20 Nov",
    "e": "Final University of Michigan consumer sentiment"
   },
   {
+   "d": "Wed 25 Nov",
+   "e": "EIA weekly crude inventories"
+  },
+  {
    "d": "Thu 26 Nov",
    "e": "Thanksgiving, US markets closed"
   },
   {
-   "d": "Sun 29 Nov",
-   "e": "OPEC+ meeting on 2027 production"
+   "d": "Fri 27 Nov",
+   "e": "US stocks close early, 1pm ET"
   }
  ],
  "sowhat": {
-  "text": "Financing stays costly with the 10-year at 5.12% and a December hike mostly priced, but high yield spreads near 323 bp show credit is open. A tech and AI sell-off can slow stock-funded deals, while energy and power asset sales keep getting done."
+  "text": "With the 10-year at 5.10% and a December hike in play, debt stays expensive, but high yield spreads near 334 bp show credit is still open. A shaky tech tape can slow stock-funded deals, while energy and power asset sales keep getting done."
  },
- "pitch": "Stocks sold off hard Monday. The S&P 500 fell 1.9 percent to about 7,417 and the Nasdaq dropped 2.5 percent, led by Nvidia, which slid after its CEO left and the US tightened limits on Chinese access to advanced chips. Oil fell about 3 percent, with Brent near 92 dollars, on expectations of a supply surplus. The 10-year eased 3 basis points to 5.12 percent, and markets still lean toward a December Fed hike. On deals, ECP closed its EnergySolutions buyout, Strathcona is buying Greenfire for roughly 2.7 to 2.9 billion including debt, and NRG is selling six gas plants to LS Power for 4 billion, with Barclays advising NRG.",
+ "pitch": "Stocks fell for a third straight day on Tuesday. The S&P 500 lost 1 percent to about 7,341, the Dow fell 1.6 percent, and the VIX rose to 25. Investors were waiting on Nvidia, which then beat estimates after the close and rose about 2 percent after hours. The 10-year Treasury closed at 5.10 percent, and stronger retail sales firmed bets on a December Fed hike. Oil was little changed, with WTI near 86 dollars and Brent near 93. On deals, ECP closed its EnergySolutions buyout, Strathcona is buying Greenfire for roughly 2.7 to 2.9 billion Canadian dollars including debt, and NRG is selling six gas plants to LS Power for 4 billion dollars, with Barclays advising NRG.",
  "quiz": [
   {
-   "q": "Where did Brent crude settle on Monday 16 Nov?",
-   "a": "$92.44, down $3.40 on the day.",
+   "q": "Where did the 10-year Treasury close on Tuesday 17 Nov?",
+   "a": "5.10%, down 2 bp.",
    "options": [
-    "About $86",
-    "About $89",
-    "About $92",
-    "About $96"
+    "About 4.8%",
+    "About 5.1%",
+    "About 5.4%",
+    "About 5.7%"
    ],
-   "correct": 2
+   "correct": 1
   },
   {
-   "q": "Why did the Nasdaq fall about 2.5% on Monday 16 Nov?",
-   "a": "Nvidia fell 4.1% after CEO Jensen Huang's exit, and new Commerce limits on Chinese remote access to advanced chips hit chip stocks broadly."
+   "q": "Why did Nvidia rise after hours on 17 Nov?",
+   "a": "It beat estimates: adjusted EPS of $2.68 on $115.84B of revenue, versus about $2.48 and $109.10B expected."
   },
   {
-   "q": "Who was lead financial adviser to Strathcona on buying Greenfire, and what is the deal worth including debt?",
-   "a": "J.P. Morgan advised Strathcona (Jefferies its special committee); total value is about $2.7–2.9B including ~$550M of net debt.",
+   "q": "Who was lead financial adviser to NRG on selling six gas plants to LS Power, and for how much?",
+   "a": "Barclays; $4B in cash, about 8.0x 2027 EBITDA.",
    "options": [
-    "J.P. Morgan, about $2.7–2.9B",
-    "Barclays, about $2.7–2.9B",
-    "J.P. Morgan, about $4B",
-    "RBC, about $550M"
+    "Barclays, $4B",
+    "J.P. Morgan, $4B",
+    "Barclays, $550M",
+    "RBC, $4B"
    ],
    "correct": 0
   }
@@ -249,43 +249,43 @@
   {
    "q": "What's going on in markets?",
    "kind": "coffee",
-   "a": "Monday was a rough session: the S&P 500 fell 1.9% to 7,417 and the Nasdaq 2.5%, led by Nvidia after its CEO's exit and new chip access limits on Chinese customers. The VIX rose to 22.91. Rates are still the backdrop, with the 10-year at 5.12%.",
+   "a": "Stocks fell a third straight day: the S&P 500 lost 1.0% to 7,341 and the VIX rose to 25.46. Investors were waiting on Nvidia, which beat estimates after the close. Rates are the backdrop, with the 10-year at 5.10%.",
    "tip": "Lead with Nvidia, then rates."
   },
   {
    "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "Brent settled at $92.44 and WTI at $85.72, down about 3.5% and 3.2%, as recovering Hormuz shipments reinforce a surplus view. OPEC+ meets 29 Nov on 2027 output, which is the next catalyst. Lower prices help refiners and consumers but weigh on upstream asset valuations.",
-   "tip": "Name the OPEC+ date."
+   "a": "WTI settled at $85.61, nearly flat, and Brent at $93.07, up 0.7%, a spread of about $7. I would not read much into a day this quiet. Lower oil helps consumers but weighs on upstream asset valuations, which matters for deals like Strathcona and Greenfire.",
+   "tip": "Say what would change your view."
   },
   {
    "q": "What deals are you following?",
    "kind": "coffee",
-   "a": "ECP closed its EnergySolutions buyout on 16 Nov, with Morgan Stanley and RBC advising EnergySolutions. Strathcona is buying Greenfire for about $2.7–2.9B including debt, and NRG is selling six gas plants to LS Power for $4B at about 8.0x 2027 EBITDA, advised by Barclays.",
+   "a": "ECP closed its EnergySolutions buyout on 16 Nov, with Morgan Stanley and RBC advising EnergySolutions. Strathcona is buying Greenfire for about C$2.7–2.9B including debt, and NRG is selling six gas plants to LS Power for $4B at about 8.0x 2027 EBITDA, advised by Barclays.",
    "tip": "Name the advisers; bankers will ask."
   },
   {
    "q": "What are you watching this week?",
    "kind": "coffee",
-   "a": "Nvidia earnings after the close on 17 Nov, since the stock has been the main drag on tech. Also October retail sales that day and the FOMC minutes on the 18th, which I want to read for how committed the Fed is to a December hike.",
+   "a": "The FOMC minutes on Wednesday at 2pm ET, to see how committed the Fed is to another hike. I also want to see how Nvidia trades after its beat, since tech has been the main drag on stocks.",
    "tip": "Tie each event to rates or AI spending."
   },
   {
    "q": "If the 10-year rose 50 bp, what happens to a DCF?",
    "kind": "interview",
-   "a": "The 10-year is 5.12% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration assets with most of their value in the terminal value are hit hardest.",
+   "a": "The 10-year is 5.10% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration assets with most of their value in the terminal value are hit hardest.",
    "tip": "Say the direction, then who is hit hardest."
   },
   {
-   "q": "How does a stock sell-off affect a deal like a sponsor buyout of EnergySolutions?",
+   "q": "How does a stock sell-off affect a sponsor deal like ECP and EnergySolutions?",
    "kind": "interview",
-   "a": "Falling public multiples and a VIX of 22.91 make sellers and buyers less certain on price, but sponsor deals depend mainly on debt cost and availability. High yield spreads were 323 bp on 13 Nov, so credit is open, though the 10-year at 5.12% makes the all-in cost high.",
+   "a": "A falling S&P 500 and a VIX of 25.46 make buyers and sellers less sure on price, but sponsor deals depend mainly on debt cost and availability. High yield spreads were 334 bp on 16 Nov, so credit is open, though a 10-year at 5.10% makes the all-in cost high.",
    "tip": "Separate equity volatility from credit access."
   },
   {
    "q": "How do the Fed and the 10-year affect M&A financing right now?",
    "kind": "interview",
-   "a": "The Fed range is 3.75–4.00% after a September hike, and markets priced about 89% odds of another 25 bp in December as of 12 Nov. The 10-year is 5.12%, so debt is costly, but spreads near 323 bp mean credit is still available at a price.",
+   "a": "The Fed range is 3.75–4.00% after a 25 bp hike in September, and stronger retail sales firmed bets on another hike in December. The 10-year is 5.10%, so debt is costly, but spreads near 334 bp mean credit is still available at a price.",
    "tip": "Separate the base rate from the credit spread."
   }
  ],
@@ -318,11 +318,6 @@
   {
    "t": "Federal Reserve: open market operations",
    "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
-   "paywall": false
-  },
-  {
-   "t": "Hellenic Shipping News: Fed hike odds at 88% after hot CPI (CME FedWatch), 12 Nov",
-   "u": "https://www.hellenicshippingnews.com/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch/",
    "paywall": false
   },
   {
@@ -361,13 +356,13 @@
    "paywall": false
   },
   {
-   "t": "Eurasia Business News: Nasdaq slides 2.5% as Nvidia turmoil and chip restrictions hit tech",
-   "u": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-nasdaq-slides-2-5-as-nvidia-turmoil-and-chip-restrictions-hit-tech/",
+   "t": "BigGo Finance: Nvidia earnings, NSA outage weigh on Wall Street as Treasury yields hit 5.1%",
+   "u": "https://finance.biggo.com/news/0e24462a-46dc-4c2c-8c9a-40b769efa712",
    "paywall": false
   },
   {
-   "t": "CNBC: stock market today live updates, Nov 16-17, 2026",
-   "u": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html",
+   "t": "CNBC: stocks making the biggest moves after hours, 17 Nov 2026",
+   "u": "https://www.cnbc.com/2026/11/17/stocks-moving-the-most-today-live-updates.html",
    "paywall": false
   },
   {
