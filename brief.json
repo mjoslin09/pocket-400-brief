@@ -1,14 +1,14 @@
 {
- "date": "2026-11-13",
- "asof": "Markets as of the Fri 13 Nov close",
- "refreshed": "Mon 16 Nov, 6:45am CT",
+ "date": "2026-11-16",
+ "asof": "Markets as of the Mon 16 Nov close",
+ "refreshed": "Tue 17 Nov, 7:00am CT",
  "numbers": [
   {
    "label": "S&P 500",
-   "value": "7,562",
-   "change": "−0.4% on the day",
+   "value": "7,417",
+   "change": "−1.9% on the day",
    "dir": "down",
-   "note": "Nasdaq −0.9%, Dow +0.1%, VIX 19.30",
+   "note": "Nasdaq −2.5%, Dow −1.4%, VIX 22.91",
    "src": {
     "t": "Yahoo Finance: S&P 500 history",
     "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
@@ -17,10 +17,10 @@
   },
   {
    "label": "10-yr Treasury",
-   "value": "5.15%",
-   "change": "+5 bp",
-   "dir": "up",
-   "note": "2-yr 4.88%; 2s10s +27 bp",
+   "value": "5.12%",
+   "change": "−3 bp",
+   "dir": "down",
+   "note": "2-yr 4.83%; 2s10s +29 bp",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
@@ -30,19 +30,19 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Dec 9 FOMC: hike 100% priced (25 bp ~87%, 50 bp ~13%)",
+   "change": "Dec 9 FOMC: ~89% for a 25 bp hike (as of 12 Nov)",
    "dir": "flat",
    "note": "Raised 25 bp on 17 Sep",
    "src": {
-    "t": "CNBC: stock market today live updates, Nov 12-13, 2026",
-    "u": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+    "t": "Hellenic Shipping News: Fed hike odds at 88% after hot CPI (CME FedWatch), 12 Nov",
+    "u": "https://www.hellenicshippingnews.com/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch/",
     "paywall": false
    }
   },
   {
    "label": "WTI crude",
-   "value": "$88.56",
-   "change": "−$0.18 (−0.2%)",
+   "value": "$85.72",
+   "change": "−$2.84 (−3.2%)",
    "dir": "down",
    "note": "Dec futures",
    "src": {
@@ -53,10 +53,10 @@
   },
   {
    "label": "Brent crude",
-   "value": "$95.84",
-   "change": "+$0.02 (flat)",
-   "dir": "flat",
-   "note": "Front-month futures. WTI–Brent spread $7",
+   "value": "$92.44",
+   "change": "−$3.40 (−3.5%)",
+   "dir": "down",
+   "note": "WTI–Brent spread $7",
    "src": {
     "t": "Yahoo Finance: Brent crude history",
     "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
@@ -65,8 +65,8 @@
   },
   {
    "label": "Henry Hub gas",
-   "value": "$3.230/MMBtu",
-   "change": "−$0.110 (−3.3%)",
+   "value": "$3.122/MMBtu",
+   "change": "−$0.108 (−3.3%)",
    "dir": "down",
    "note": "Dec futures",
    "src": {
@@ -77,10 +77,10 @@
   },
   {
    "label": "Dollar index",
-   "value": "103.4",
-   "change": "+0.2% on the day",
+   "value": "103.6",
+   "change": "+0.1% on the day",
    "dir": "up",
-   "note": "EUR/USD 1.1050; dollar index highest since April 2025",
+   "note": "EUR/USD 1.1025",
    "src": {
     "t": "Yahoo Finance: Dollar index history",
     "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
@@ -89,11 +89,11 @@
   },
   {
    "label": "HY / IG spreads",
-   "value": "320 / 89 bp",
-   "change": "−10 / −1 bp",
-   "dir": "down",
-   "asof": "2026-11-12",
-   "note": "Thursday reading, change vs 11 Nov. Tight by history: credit markets open",
+   "value": "323 / 89 bp",
+   "change": "+3 / 0 bp",
+   "dir": "up",
+   "asof": "2026-11-13",
+   "note": "Friday reading, change vs 12 Nov. Tight by history: credit markets open",
    "src": {
     "t": "FRED: ICE BofA US High Yield OAS",
     "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
@@ -103,34 +103,75 @@
  ],
  "drivers": [
   {
-   "title": "10-year at 5.15%, Dec hike priced",
-   "text": "The 10-year rose 5 bp to 5.15% and traders price a 100% chance of a Fed hike on 9 Dec (about 87% for 25 bp, 13% for 50 bp). October PPI was +0.3% on the month, below the 0.4% expected, but 6.5% on the year.",
+   "title": "Nasdaq −2.5% as Nvidia slides",
+   "text": "Nvidia fell 4.1% to $156.14 after CEO Jensen Huang's exit, and new Commerce limits on Chinese remote access to advanced chips added pressure. The S&P 500 lost 1.9%.",
    "src": {
-    "t": "CNBC: stock market today live updates, Nov 12-13, 2026",
-    "u": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+    "t": "Eurasia Business News: Nasdaq slides 2.5% as Nvidia turmoil and chip restrictions hit tech",
+    "u": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-nasdaq-slides-2-5-as-nvidia-turmoil-and-chip-restrictions-hit-tech/",
     "paywall": false
    }
   },
   {
-   "title": "Nvidia slides again, Nasdaq −0.9%",
-   "text": "Nvidia fell about 2% after a 4% drop Thursday following CEO Jensen Huang's exit, and HSBC cut it to hold. Chips weakened broadly and the S&P 500 slipped 0.4% to 7,562, though it gained 2.5% on the week.",
+   "title": "Oil falls on supply surplus view",
+   "text": "Brent settled at $92.44 and WTI at $85.72 as recovering Strait of Hormuz shipments reinforced expectations of a global surplus. OPEC+ meets 29 Nov on 2027 output.",
    "src": {
-    "t": "CNBC: stock market today live updates, Nov 12-13, 2026",
-    "u": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+    "t": "Eurasia Business News: Nasdaq slides 2.5% as Nvidia turmoil and chip restrictions hit tech",
+    "u": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-nasdaq-slides-2-5-as-nvidia-turmoil-and-chip-restrictions-hit-tech/",
     "paywall": false
    }
   },
   {
-   "title": "Dollar hits highest since April 2025",
-   "text": "The dollar index rose 0.2% to 103.4 as US yields climbed. A stronger dollar and higher base rates tighten financing conditions for cross-border and levered deals.",
+   "title": "10-year eases to 5.12%, still high",
+   "text": "The 10-year fell 3 bp to 5.12% and the 2-year to 4.83%, after Friday's 5.15% close. Yields remain elevated, which keeps financing costs high for levered deals.",
    "src": {
-    "t": "Yahoo Finance: Dollar index history",
-    "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
+    "t": "U.S. Treasury: daily par yield curve",
+    "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
     "paywall": false
    }
   }
  ],
  "deals": [
+  {
+   "name": "ECP completes EnergySolutions buyout",
+   "parties": [
+    "Energy Capital Partners",
+    "EnergySolutions",
+    "TriArtisan Capital Advisors"
+   ],
+   "value": "Not disclosed",
+   "status": "Closed",
+   "date": "16 Nov",
+   "banks": [
+    "Morgan Stanley (EnergySolutions)",
+    "RBC Capital Markets (EnergySolutions)"
+   ],
+   "src": {
+    "t": "GlobeNewswire via FinancialContent: ECP completes acquisition of EnergySolutions",
+    "u": "https://www.financialcontent.com/article/gnwcq-2026-11-16-energy-capital-partners-ecp-completes-acquisition-of-energysolutions",
+    "paywall": false
+   }
+  },
+  {
+   "name": "Strathcona to buy Greenfire",
+   "parties": [
+    "Strathcona Resources",
+    "Greenfire Resources"
+   ],
+   "value": "~$2.7–2.9B TEV incl. ~$550M net debt",
+   "status": "Announced; shareholder votes expected Jan 2027",
+   "date": "9 Nov",
+   "banks": [
+    "J.P. Morgan (Strathcona)",
+    "Jefferies (Strathcona special committee)",
+    "RBC Capital Markets (Greenfire)",
+    "CIBC Capital Markets (Greenfire special committee)"
+   ],
+   "src": {
+    "t": "Strathcona Resources: agreement to acquire Greenfire Resources (PR Newswire)",
+    "u": "https://www.prnewswire.com/news-releases/strathcona-resources-ltd-announces-agreement-to-acquire-greenfire-resources-ltd-302932925.html",
+    "paywall": false
+   }
+  },
   {
    "name": "NRG sells six gas plants to LS Power",
    "parties": [
@@ -148,56 +189,12 @@
     "u": "https://www.sec.gov/Archives/edgar/data/0001013871/000110465926124147/tm2629302d1_ex99-1.htm",
     "paywall": false
    }
-  },
-  {
-   "name": "CVR Energy buys two Marathon refineries",
-   "parties": [
-    "CVR Energy",
-    "Marathon Petroleum"
-   ],
-   "value": "~$4.2B plus working capital",
-   "status": "Announced; expected to close by end of 2026",
-   "date": "3 Nov",
-   "banks": [
-    "Barclays (CVR Energy, exclusive)"
-   ],
-   "src": {
-    "t": "CVR Energy 8-K: Marathon refinery acquisition release",
-    "u": "https://www.sec.gov/Archives/edgar/data/0001376139/000119312526444428/d87305dex991.htm",
-    "paywall": false
-   }
-  },
-  {
-   "name": "Marvell to buy Lumentum",
-   "parties": [
-    "Marvell",
-    "Lumentum"
-   ],
-   "value": "~$115B EV, all stock, ~24% premium",
-   "status": "Announced; close expected 1H 2028",
-   "date": "2 Nov",
-   "banks": [
-    "Qatalyst (Marvell, lead)",
-    "J.P. Morgan (Marvell)",
-    "Goldman Sachs (Marvell)",
-    "Citi (Lumentum)",
-    "Evercore (Lumentum)"
-   ],
-   "src": {
-    "t": "Lumentum 8-K: Marvell merger press release",
-    "u": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm",
-    "paywall": false
-   }
   }
  ],
  "calendar": [
   {
-   "d": "Mon 16 Nov",
-   "e": "Fed's Williams speaks (about 9am ET); Fed Chair Warsh speaks (noon ET)"
-  },
-  {
    "d": "Tue 17 Nov",
-   "e": "October retail sales and industrial production; Nvidia earnings after the close"
+   "e": "October retail sales, 8:30am ET; Home Depot and Disney earnings before the open; Nvidia earnings after the close"
   },
   {
    "d": "Wed 18 Nov",
@@ -206,36 +203,44 @@
   {
    "d": "Fri 20 Nov",
    "e": "Final University of Michigan consumer sentiment"
+  },
+  {
+   "d": "Thu 26 Nov",
+   "e": "Thanksgiving, US markets closed"
+  },
+  {
+   "d": "Sun 29 Nov",
+   "e": "OPEC+ meeting on 2027 production"
   }
  ],
  "sowhat": {
-  "text": "Financing is getting pricier: the 10-year is 5.15% and a December hike is fully priced, though high yield spreads near 320 bp show credit is still open. Energy and power asset sales and large stock-funded tech deals are still getting done."
+  "text": "Financing stays costly with the 10-year at 5.12% and a December hike mostly priced, but high yield spreads near 323 bp show credit is open. A tech and AI sell-off can slow stock-funded deals, while energy and power asset sales keep getting done."
  },
- "pitch": "Stocks dipped Friday but still had their best week since August. The S&P 500 fell 0.4 percent to about 7,560, up 2.5 percent on the week, with Nvidia sliding again after its CEO left. Rates are the main story: the 10-year hit 5.15 percent and markets price a December Fed hike as certain, even with PPI a touch cooler than expected. The dollar is at its highest since April 2025, and oil was flat, with Brent near 96. On deals, NRG is selling six gas plants to LS Power for 4 billion dollars with Barclays advising, CVR is buying two Marathon refineries for about 4.2 billion, and Marvell is buying Lumentum for about 115 billion in stock.",
+ "pitch": "Stocks sold off hard Monday. The S&P 500 fell 1.9 percent to about 7,417 and the Nasdaq dropped 2.5 percent, led by Nvidia, which slid after its CEO left and the US tightened limits on Chinese access to advanced chips. Oil fell about 3 percent, with Brent near 92 dollars, on expectations of a supply surplus. The 10-year eased 3 basis points to 5.12 percent, and markets still lean toward a December Fed hike. On deals, ECP closed its EnergySolutions buyout, Strathcona is buying Greenfire for roughly 2.7 to 2.9 billion including debt, and NRG is selling six gas plants to LS Power for 4 billion, with Barclays advising NRG.",
  "quiz": [
   {
-   "q": "Where did the 10-year Treasury yield end on Friday 13 Nov?",
-   "a": "5.15%, up 5 bp from Thursday.",
+   "q": "Where did Brent crude settle on Monday 16 Nov?",
+   "a": "$92.44, down $3.40 on the day.",
    "options": [
-    "About 4.7%",
-    "About 4.9%",
-    "About 5.15%",
-    "About 5.5%"
+    "About $86",
+    "About $89",
+    "About $92",
+    "About $96"
    ],
    "correct": 2
   },
   {
-   "q": "Why did the Nasdaq fall about 0.9% on Friday 13 Nov?",
-   "a": "Nvidia fell about 2% after CEO Jensen Huang's exit and an HSBC downgrade to hold, and chip stocks broadly weakened."
+   "q": "Why did the Nasdaq fall about 2.5% on Monday 16 Nov?",
+   "a": "Nvidia fell 4.1% after CEO Jensen Huang's exit, and new Commerce limits on Chinese remote access to advanced chips hit chip stocks broadly."
   },
   {
-   "q": "Who advised CVR Energy on buying two Marathon refineries, and for how much?",
-   "a": "Barclays was CVR's exclusive financial adviser; the price is about $4.2B plus working capital.",
+   "q": "Who was lead financial adviser to Strathcona on buying Greenfire, and what is the deal worth including debt?",
+   "a": "J.P. Morgan advised Strathcona (Jefferies its special committee); total value is about $2.7–2.9B including ~$550M of net debt.",
    "options": [
-    "Barclays, about $4.2B",
-    "Qatalyst, about $4.2B",
-    "Barclays, about $115B",
-    "Evercore, about $4B"
+    "J.P. Morgan, about $2.7–2.9B",
+    "Barclays, about $2.7–2.9B",
+    "J.P. Morgan, about $4B",
+    "RBC, about $550M"
    ],
    "correct": 0
   }
@@ -244,43 +249,43 @@
   {
    "q": "What's going on in markets?",
    "kind": "coffee",
-   "a": "Stocks dipped Friday, with the S&P 500 down 0.4% to 7,562, but it still gained 2.5% on the week. Nvidia is the drag after its CEO left, and the bigger story is rates: the 10-year is 5.15% and a December hike is priced at 100%.",
-   "tip": "Lead with rates, then Nvidia."
+   "a": "Monday was a rough session: the S&P 500 fell 1.9% to 7,417 and the Nasdaq 2.5%, led by Nvidia after its CEO's exit and new chip access limits on Chinese customers. The VIX rose to 22.91. Rates are still the backdrop, with the 10-year at 5.12%.",
+   "tip": "Lead with Nvidia, then rates."
   },
   {
    "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "Brent settled at $95.84 and WTI at $88.56, essentially flat on Friday after Thursday's jump of about 3%. The risk premium is still elevated, which matters for energy buyers and sellers pricing assets.",
-   "tip": "Say flat on the day, elevated on the week."
+   "a": "Brent settled at $92.44 and WTI at $85.72, down about 3.5% and 3.2%, as recovering Hormuz shipments reinforce a surplus view. OPEC+ meets 29 Nov on 2027 output, which is the next catalyst. Lower prices help refiners and consumers but weigh on upstream asset valuations.",
+   "tip": "Name the OPEC+ date."
   },
   {
    "q": "What deals are you following?",
    "kind": "coffee",
-   "a": "NRG's $4B sale of six gas plants to LS Power at about 8.0x 2027 EBITDA, advised by Barclays. CVR is buying two Marathon refineries for about $4.2B, also with Barclays. Marvell is buying Lumentum for about $115B in stock.",
+   "a": "ECP closed its EnergySolutions buyout on 16 Nov, with Morgan Stanley and RBC advising EnergySolutions. Strathcona is buying Greenfire for about $2.7–2.9B including debt, and NRG is selling six gas plants to LS Power for $4B at about 8.0x 2027 EBITDA, advised by Barclays.",
    "tip": "Name the advisers; bankers will ask."
   },
   {
    "q": "What are you watching this week?",
    "kind": "coffee",
-   "a": "Retail sales and Nvidia earnings on 17 Nov, then the FOMC minutes on the 18th. With a December hike priced at 100%, I want to see how the Fed talks about the pace after that.",
-   "tip": "Tie each event to the hike path."
+   "a": "Nvidia earnings after the close on 17 Nov, since the stock has been the main drag on tech. Also October retail sales that day and the FOMC minutes on the 18th, which I want to read for how committed the Fed is to a December hike.",
+   "tip": "Tie each event to rates or AI spending."
   },
   {
    "q": "If the 10-year rose 50 bp, what happens to a DCF?",
    "kind": "interview",
-   "a": "The 10-year is 5.15% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Companies with most of their value in terminal value, like growth tech, are hit hardest.",
+   "a": "The 10-year is 5.12% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration assets with most of their value in the terminal value are hit hardest.",
    "tip": "Say the direction, then who is hit hardest."
   },
   {
-   "q": "How does a fixed exchange ratio work in a stock deal like Marvell and Lumentum?",
+   "q": "How does a stock sell-off affect a deal like a sponsor buyout of EnergySolutions?",
    "kind": "interview",
-   "a": "Each Lumentum share converts into 4.5 Marvell shares, a premium of about 24% to 28 Oct prices. Because the ratio is fixed, the dollar value Lumentum holders get moves with Marvell's share price.",
-   "tip": "Mention who bears price risk."
+   "a": "Falling public multiples and a VIX of 22.91 make sellers and buyers less certain on price, but sponsor deals depend mainly on debt cost and availability. High yield spreads were 323 bp on 13 Nov, so credit is open, though the 10-year at 5.12% makes the all-in cost high.",
+   "tip": "Separate equity volatility from credit access."
   },
   {
    "q": "How do the Fed and the 10-year affect M&A financing right now?",
    "kind": "interview",
-   "a": "The Fed range is 3.75–4.00% after a September hike, and a December hike is priced at 100%. The 10-year is 5.15%, so debt is costly, but high yield spreads were 320 bp on 12 Nov, so credit is still open at a price.",
+   "a": "The Fed range is 3.75–4.00% after a September hike, and markets priced about 89% odds of another 25 bp in December as of 12 Nov. The 10-year is 5.12%, so debt is costly, but spreads near 323 bp mean credit is still available at a price.",
    "tip": "Separate the base rate from the credit spread."
   }
  ],
@@ -306,11 +311,6 @@
    "paywall": false
   },
   {
-   "t": "CNBC: stock market today live updates, Nov 12-13, 2026",
-   "u": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
-   "paywall": false
-  },
-  {
    "t": "U.S. Treasury: daily par yield curve",
    "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
    "paywall": false
@@ -318,6 +318,11 @@
   {
    "t": "Federal Reserve: open market operations",
    "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+   "paywall": false
+  },
+  {
+   "t": "Hellenic Shipping News: Fed hike odds at 88% after hot CPI (CME FedWatch), 12 Nov",
+   "u": "https://www.hellenicshippingnews.com/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch/",
    "paywall": false
   },
   {
@@ -356,18 +361,28 @@
    "paywall": false
   },
   {
+   "t": "Eurasia Business News: Nasdaq slides 2.5% as Nvidia turmoil and chip restrictions hit tech",
+   "u": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-nasdaq-slides-2-5-as-nvidia-turmoil-and-chip-restrictions-hit-tech/",
+   "paywall": false
+  },
+  {
+   "t": "CNBC: stock market today live updates, Nov 16-17, 2026",
+   "u": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html",
+   "paywall": false
+  },
+  {
+   "t": "GlobeNewswire via FinancialContent: ECP completes acquisition of EnergySolutions",
+   "u": "https://www.financialcontent.com/article/gnwcq-2026-11-16-energy-capital-partners-ecp-completes-acquisition-of-energysolutions",
+   "paywall": false
+  },
+  {
+   "t": "Strathcona Resources: agreement to acquire Greenfire Resources (PR Newswire)",
+   "u": "https://www.prnewswire.com/news-releases/strathcona-resources-ltd-announces-agreement-to-acquire-greenfire-resources-ltd-302932925.html",
+   "paywall": false
+  },
+  {
    "t": "NRG Energy 8-K: LS Power asset sale release",
    "u": "https://www.sec.gov/Archives/edgar/data/0001013871/000110465926124147/tm2629302d1_ex99-1.htm",
-   "paywall": false
-  },
-  {
-   "t": "CVR Energy 8-K: Marathon refinery acquisition release",
-   "u": "https://www.sec.gov/Archives/edgar/data/0001376139/000119312526444428/d87305dex991.htm",
-   "paywall": false
-  },
-  {
-   "t": "Lumentum 8-K: Marvell merger press release",
-   "u": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm",
    "paywall": false
   },
   {
