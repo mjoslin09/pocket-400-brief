@@ -1,7 +1,7 @@
 {
  "date": "2026-11-17",
  "asof": "Markets as of the Tue 17 Nov close",
- "refreshed": "Tue 17 Nov, 4:30pm CT",
+ "refreshed": "Wed 18 Nov, 6:45am CT",
  "numbers": [
   {
    "label": "S&P 500",
@@ -30,7 +30,7 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "December hike bets strengthened on retail sales",
+   "change": "Held at Oct meeting; Dec hike bets firmer",
    "dir": "flat",
    "note": "Raised 25 bp on 17 Sep",
    "src": {
@@ -41,9 +41,9 @@
   },
   {
    "label": "WTI crude",
-   "value": "$85.61",
-   "change": "−$0.11 (−0.1%)",
-   "dir": "down",
+   "value": "$86.01",
+   "change": "+$0.29 (+0.3%)",
+   "dir": "up",
    "note": "Dec futures",
    "src": {
     "t": "Yahoo Finance: WTI crude history",
@@ -53,8 +53,8 @@
   },
   {
    "label": "Brent crude",
-   "value": "$93.07",
-   "change": "+$0.63 (+0.7%)",
+   "value": "$93.14",
+   "change": "+$0.70 (+0.8%)",
    "dir": "up",
    "note": "WTI–Brent spread $7",
    "src": {
@@ -65,8 +65,8 @@
   },
   {
    "label": "Henry Hub gas",
-   "value": "$3.198/MMBtu",
-   "change": "+$0.076 (+2.4%)",
+   "value": "$3.208/MMBtu",
+   "change": "+$0.086 (+2.8%)",
    "dir": "up",
    "note": "Dec futures",
    "src": {
@@ -77,10 +77,10 @@
   },
   {
    "label": "Dollar index",
-   "value": "103.6",
-   "change": "Flat on the day",
-   "dir": "flat",
-   "note": "EUR/USD 1.1006",
+   "value": "103.5",
+   "change": "−0.1% on the day",
+   "dir": "down",
+   "note": "EUR/USD 1.0998",
    "src": {
     "t": "Yahoo Finance: Dollar index history",
     "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
@@ -194,11 +194,15 @@
  "calendar": [
   {
    "d": "Wed 18 Nov",
-   "e": "FOMC minutes, 2pm ET"
+   "e": "Target, Lowe's, TJX earnings before the open"
   },
   {
-   "d": "Fri 20 Nov",
-   "e": "Final University of Michigan consumer sentiment"
+   "d": "Wed 18 Nov",
+   "e": "FOMC minutes from the Oct 27-28 meeting, 2pm ET"
+  },
+  {
+   "d": "Wed 18 Nov",
+   "e": "Palo Alto Networks earnings after the close"
   },
   {
    "d": "Wed 25 Nov",
@@ -210,13 +214,13 @@
   },
   {
    "d": "Fri 27 Nov",
-   "e": "US stocks close early, 1pm ET"
+   "e": "US stocks close early"
   }
  ],
  "sowhat": {
   "text": "With the 10-year at 5.10% and a December hike in play, debt stays expensive, but high yield spreads near 334 bp show credit is still open. A shaky tech tape can slow stock-funded deals, while energy and power asset sales keep getting done."
  },
- "pitch": "Stocks fell for a third straight day on Tuesday. The S&P 500 lost 1 percent to about 7,341, the Dow fell 1.6 percent, and the VIX rose to 25. Investors were waiting on Nvidia, which then beat estimates after the close and rose about 2 percent after hours. The 10-year Treasury closed at 5.10 percent, and stronger retail sales firmed bets on a December Fed hike. Oil was little changed, with WTI near 86 dollars and Brent near 93. On deals, ECP closed its EnergySolutions buyout, Strathcona is buying Greenfire for roughly 2.7 to 2.9 billion Canadian dollars including debt, and NRG is selling six gas plants to LS Power for 4 billion dollars, with Barclays advising NRG.",
+ "pitch": "Stocks fell for a third straight day on Tuesday. The S&P 500 lost 1 percent to about 7,341, the Dow fell 1.6 percent, and the VIX rose to 25. Investors were waiting on Nvidia, which then beat estimates after the close and rose about 2 percent after hours. The 10-year Treasury closed at 5.10 percent, and stronger retail sales firmed bets on a December Fed hike. Oil edged up, with WTI near 86 dollars and Brent near 93. On deals, ECP closed its EnergySolutions buyout, Strathcona is buying Greenfire for roughly 2.7 to 2.9 billion Canadian dollars including debt, and NRG is selling six gas plants to LS Power for 4 billion dollars, with Barclays advising NRG.",
  "quiz": [
   {
    "q": "Where did the 10-year Treasury close on Tuesday 17 Nov?",
@@ -255,7 +259,7 @@
   {
    "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "WTI settled at $85.61, nearly flat, and Brent at $93.07, up 0.7%, a spread of about $7. I would not read much into a day this quiet. Lower oil helps consumers but weighs on upstream asset valuations, which matters for deals like Strathcona and Greenfire.",
+   "a": "WTI settled at $86.01, up 0.3%, and Brent at $93.14, up 0.8%, a spread of about $7. I would not read much into a day this quiet. Lower oil helps consumers but weighs on upstream asset valuations, which matters for deals like Strathcona and Greenfire.",
    "tip": "Say what would change your view."
   },
   {
