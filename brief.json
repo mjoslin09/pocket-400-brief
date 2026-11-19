@@ -1,14 +1,14 @@
 {
- "date": "2026-11-17",
- "asof": "Markets as of the Tue 17 Nov close",
- "refreshed": "Wed 18 Nov, 6:45am CT",
+ "date": "2026-11-18",
+ "asof": "Markets as of the Wed 18 Nov close",
+ "refreshed": "Thu 19 Nov, 6:50am CT",
  "numbers": [
   {
    "label": "S&P 500",
-   "value": "7,341",
-   "change": "−1.0% on the day",
+   "value": "7,324",
+   "change": "−0.2% on the day",
    "dir": "down",
-   "note": "Nasdaq −0.7%, Dow −1.6%, VIX 25.46",
+   "note": "Nasdaq +0.4%, Dow −1.1%, VIX 24.56",
    "src": {
     "t": "Yahoo Finance: S&P 500 history",
     "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
@@ -17,10 +17,10 @@
   },
   {
    "label": "10-yr Treasury",
-   "value": "5.10%",
-   "change": "−2 bp",
+   "value": "5.07%",
+   "change": "−3 bp",
    "dir": "down",
-   "note": "2-yr 4.80%; 2s10s +30 bp",
+   "note": "2-yr 4.80%; 2s10s +27 bp",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
@@ -30,7 +30,7 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Held at Oct meeting; Dec hike bets firmer",
+   "change": "Minutes hawkish; Waller flags 50 bp at Dec 8-9",
    "dir": "flat",
    "note": "Raised 25 bp on 17 Sep",
    "src": {
@@ -41,9 +41,9 @@
   },
   {
    "label": "WTI crude",
-   "value": "$86.01",
-   "change": "+$0.29 (+0.3%)",
-   "dir": "up",
+   "value": "$83.26",
+   "change": "−$2.75 (−3.2%)",
+   "dir": "down",
    "note": "Dec futures",
    "src": {
     "t": "Yahoo Finance: WTI crude history",
@@ -53,10 +53,10 @@
   },
   {
    "label": "Brent crude",
-   "value": "$93.14",
-   "change": "+$0.70 (+0.8%)",
-   "dir": "up",
-   "note": "WTI–Brent spread $7",
+   "value": "$91.95",
+   "change": "−$1.19 (−1.3%)",
+   "dir": "down",
+   "note": "WTI–Brent spread $9",
    "src": {
     "t": "Yahoo Finance: Brent crude history",
     "u": "https://finance.yahoo.com/quote/BZ%3DF/history/",
@@ -65,8 +65,8 @@
   },
   {
    "label": "Henry Hub gas",
-   "value": "$3.208/MMBtu",
-   "change": "+$0.086 (+2.8%)",
+   "value": "$3.372/MMBtu",
+   "change": "+$0.164 (+5.1%)",
    "dir": "up",
    "note": "Dec futures",
    "src": {
@@ -77,10 +77,10 @@
   },
   {
    "label": "Dollar index",
-   "value": "103.5",
-   "change": "−0.1% on the day",
-   "dir": "down",
-   "note": "EUR/USD 1.0998",
+   "value": "103.9",
+   "change": "+0.4% on the day",
+   "dir": "up",
+   "note": "EUR/USD 1.0993",
    "src": {
     "t": "Yahoo Finance: Dollar index history",
     "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
@@ -89,48 +89,64 @@
   },
   {
    "label": "HY / IG spreads",
-   "value": "334 / 90 bp",
-   "change": "+11 / +1 bp",
+   "value": "343 / 92 bp",
+   "change": "+9 / +2 bp",
    "dir": "up",
-   "note": "Monday reading, change vs 13 Nov. Tight by history: credit markets open",
+   "note": "Tuesday reading, change vs 16 Nov. Tight by history: credit markets open",
    "src": {
     "t": "FRED: ICE BofA US High Yield OAS",
     "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
     "paywall": false
    },
-   "asof": "2026-11-16"
+   "asof": "2026-11-17"
   }
  ],
  "drivers": [
   {
-   "title": "Stocks fall a third day before Nvidia",
-   "text": "The S&P 500 fell 1.0% to 7,341 and the Dow 1.6%, with the VIX up to 25.46. Investors waited on Nvidia earnings and reports of a classified NSA network outage.",
+   "title": "Hawkish Fed minutes, Waller wants 50",
+   "text": "The October minutes showed nearly all officials saw more rate increases as likely appropriate, and two wanted a quarter-point hike then. Governor Waller told CNBC a half-point hike is probably needed at the Dec 8-9 meeting.",
    "src": {
-    "t": "BigGo Finance: Nvidia earnings, NSA outage weigh on Wall Street as Treasury yields hit 5.1%",
-    "u": "https://finance.biggo.com/news/0e24462a-46dc-4c2c-8c9a-40b769efa712",
+    "t": "Stock Titan: Stock Market Today, November 18, 2026",
+    "u": "https://stocktitan.net/articles/stock-market-today-live-november-18-2026",
     "paywall": false
    }
   },
   {
-   "title": "Nvidia beats after the close",
-   "text": "Nvidia earned $2.68 per share adjusted on $115.84B of revenue, against about $2.48 and $109.10B expected, and rose about 2% after hours. The neocloud names Nebius and CoreWeave bounced too.",
+   "title": "Stocks split as Nvidia slips",
+   "text": "The S&P 500 fell 0.2% to 7,324 and the Dow 1.1%, while the Nasdaq rose 0.4%. Nvidia closed down 2.9% despite a beat and guidance near $130B, and health insurers sank after a proposed Medicare Advantage audit rule.",
    "src": {
-    "t": "CNBC: stocks making the biggest moves after hours, 17 Nov 2026",
-    "u": "https://www.cnbc.com/2026/11/17/stocks-moving-the-most-today-live-updates.html",
+    "t": "Stock Titan: Stock Market Today, November 18, 2026",
+    "u": "https://stocktitan.net/articles/stock-market-today-live-november-18-2026",
     "paywall": false
    }
   },
   {
-   "title": "10-year holds near 5.1%",
-   "text": "The 10-year closed at 5.10%, down 2 bp, after touching 5.15% earlier in the day. Stronger retail sales firmed bets that the Fed hikes again in December, which keeps financing costly.",
+   "title": "Oil falls on US stockpile build",
+   "text": "WTI settled at $83.26, down 3.2%, and Brent at $91.95, down 1.3%. CNBC tied the drop to rising US crude and fuel stockpiles, and energy was the weakest S&P 500 sector.",
    "src": {
-    "t": "BigGo Finance: Nvidia earnings, NSA outage weigh on Wall Street as Treasury yields hit 5.1%",
-    "u": "https://finance.biggo.com/news/0e24462a-46dc-4c2c-8c9a-40b769efa712",
+    "t": "Stock Titan: Stock Market Today, November 18, 2026",
+    "u": "https://stocktitan.net/articles/stock-market-today-live-november-18-2026",
     "paywall": false
    }
   }
  ],
  "deals": [
+  {
+   "name": "Palo Alto Networks to buy Applied Compute",
+   "parties": [
+    "Palo Alto Networks",
+    "Applied Compute"
+   ],
+   "value": "$4.5B, all stock",
+   "status": "Announced; close expected fiscal Q3 2027",
+   "date": "18 Nov",
+   "banks": [],
+   "src": {
+    "t": "Palo Alto Networks 8-K: press release (Applied Compute)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000030/ex992pressrelease_november.htm",
+    "paywall": false
+   }
+  },
   {
    "name": "ECP completes EnergySolutions buyout",
    "parties": [
@@ -148,27 +164,6 @@
    "src": {
     "t": "GlobeNewswire via FinancialContent: ECP completes acquisition of EnergySolutions",
     "u": "https://www.financialcontent.com/article/gnwcq-2026-11-16-energy-capital-partners-ecp-completes-acquisition-of-energysolutions",
-    "paywall": false
-   }
-  },
-  {
-   "name": "Strathcona to buy Greenfire",
-   "parties": [
-    "Strathcona Resources",
-    "Greenfire Resources"
-   ],
-   "value": "~C$2.7–2.9B incl. ~C$550M net debt",
-   "status": "Announced; shareholder meetings expected Jan 2027",
-   "date": "8 Nov",
-   "banks": [
-    "J.P. Morgan (Strathcona)",
-    "Jefferies (Strathcona special committee)",
-    "RBC Capital Markets (Greenfire)",
-    "CIBC Capital Markets (Greenfire special committee)"
-   ],
-   "src": {
-    "t": "Strathcona Resources: agreement to acquire Greenfire Resources (PR Newswire)",
-    "u": "https://www.prnewswire.com/news-releases/strathcona-resources-ltd-announces-agreement-to-acquire-greenfire-resources-ltd-302932925.html",
     "paywall": false
    }
   },
@@ -191,22 +186,22 @@
    }
   }
  ],
+ "capmarkets": {
+  "text": "Anthropic priced its IPO at $83 a share, above the $70 to $78 range, and was set to start trading on Nasdaq on Thursday. Demand that strong suggests the equity window is wide open for large AI issuers.",
+  "src": {
+   "t": "CNBC: stock market news, Anthropic IPO priced",
+   "u": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+   "paywall": false
+  }
+ },
  "calendar": [
   {
-   "d": "Wed 18 Nov",
-   "e": "Target, Lowe's, TJX earnings before the open"
+   "d": "Thu 19 Nov",
+   "e": "Anthropic (ANT) expected Nasdaq debut"
   },
   {
-   "d": "Wed 18 Nov",
-   "e": "FOMC minutes from the Oct 27-28 meeting, 2pm ET"
-  },
-  {
-   "d": "Wed 18 Nov",
-   "e": "Palo Alto Networks earnings after the close"
-  },
-  {
-   "d": "Wed 25 Nov",
-   "e": "EIA weekly crude inventories"
+   "d": "Thu 19 Nov",
+   "e": "Walmart earnings 7am ET; Philly Fed index; 10-yr TIPS auction"
   },
   {
    "d": "Thu 26 Nov",
@@ -215,36 +210,40 @@
   {
    "d": "Fri 27 Nov",
    "e": "US stocks close early"
+  },
+  {
+   "d": "Tue 8 Dec",
+   "e": "FOMC meeting begins; decision Wed 9 Dec"
   }
  ],
  "sowhat": {
-  "text": "With the 10-year at 5.10% and a December hike in play, debt stays expensive, but high yield spreads near 334 bp show credit is still open. A shaky tech tape can slow stock-funded deals, while energy and power asset sales keep getting done."
+  "text": "With the 10-year at 5.07% and Waller pointing to a 50 bp hike in December, financing stays expensive, but high yield spreads near 343 bp show credit is open. Strategic buyers are still paying up for AI and security assets, and energy and power sales keep closing."
  },
- "pitch": "Stocks fell for a third straight day on Tuesday. The S&P 500 lost 1 percent to about 7,341, the Dow fell 1.6 percent, and the VIX rose to 25. Investors were waiting on Nvidia, which then beat estimates after the close and rose about 2 percent after hours. The 10-year Treasury closed at 5.10 percent, and stronger retail sales firmed bets on a December Fed hike. Oil edged up, with WTI near 86 dollars and Brent near 93. On deals, ECP closed its EnergySolutions buyout, Strathcona is buying Greenfire for roughly 2.7 to 2.9 billion Canadian dollars including debt, and NRG is selling six gas plants to LS Power for 4 billion dollars, with Barclays advising NRG.",
+ "pitch": "Stocks were mixed on Wednesday. The S&P 500 slipped 0.2 percent to about 7,324, the Dow fell 1.1 percent, and the Nasdaq rose 0.4 percent. The Fed minutes were hawkish, nearly every official saw more hikes as likely, and Governor Waller said a half-point move is probably needed in December. The 10-year ended at 5.07 percent. Oil fell, with WTI at about 83 dollars and Brent near 92, on rising US stockpiles. On deals, Palo Alto Networks agreed to buy Applied Compute for 4.5 billion dollars in stock, ECP closed EnergySolutions, and NRG is selling six gas plants to LS Power for 4 billion. Anthropic priced its IPO above range and starts trading today.",
  "quiz": [
   {
-   "q": "Where did the 10-year Treasury close on Tuesday 17 Nov?",
-   "a": "5.10%, down 2 bp.",
+   "q": "Where did WTI crude settle on Wednesday 18 Nov?",
+   "a": "$83.26, down $2.75 (3.2%), on a rise in US crude and fuel stockpiles.",
    "options": [
-    "About 4.8%",
-    "About 5.1%",
-    "About 5.4%",
-    "About 5.7%"
+    "About $79",
+    "About $83",
+    "About $86",
+    "About $90"
    ],
    "correct": 1
   },
   {
-   "q": "Why did Nvidia rise after hours on 17 Nov?",
-   "a": "It beat estimates: adjusted EPS of $2.68 on $115.84B of revenue, versus about $2.48 and $109.10B expected."
+   "q": "Why did the Fed minutes and Waller matter for rates on 18 Nov?",
+   "a": "Nearly all officials saw further hikes as likely appropriate, and Waller said a half-point hike is probably needed on Dec 8-9, which keeps the 10-year near 5.07%."
   },
   {
-   "q": "Who was lead financial adviser to NRG on selling six gas plants to LS Power, and for how much?",
-   "a": "Barclays; $4B in cash, about 8.0x 2027 EBITDA.",
+   "q": "How is Palo Alto Networks paying for Applied Compute, and for how much?",
+   "a": "All stock, valued at $4.5B, expected to close in its fiscal Q3 2027.",
    "options": [
-    "Barclays, $4B",
-    "J.P. Morgan, $4B",
-    "Barclays, $550M",
-    "RBC, $4B"
+    "All stock, $4.5B",
+    "All cash, $4.5B",
+    "All stock, $1.95B",
+    "Cash and stock, $12B"
    ],
    "correct": 0
   }
@@ -253,44 +252,44 @@
   {
    "q": "What's going on in markets?",
    "kind": "coffee",
-   "a": "Stocks fell a third straight day: the S&P 500 lost 1.0% to 7,341 and the VIX rose to 25.46. Investors were waiting on Nvidia, which beat estimates after the close. Rates are the backdrop, with the 10-year at 5.10%.",
-   "tip": "Lead with Nvidia, then rates."
+   "a": "Stocks were mixed on Wednesday: the S&P 500 fell 0.2% to 7,324, the Dow fell 1.1% and the Nasdaq rose 0.4%. The Fed minutes were hawkish and Waller said a half-point hike is probably needed in December. The 10-year is 5.07%, so rates are the backdrop.",
+   "tip": "Lead with the Fed, then Nvidia."
   },
   {
    "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "WTI settled at $86.01, up 0.3%, and Brent at $93.14, up 0.8%, a spread of about $7. I would not read much into a day this quiet. Lower oil helps consumers but weighs on upstream asset valuations, which matters for deals like Strathcona and Greenfire.",
+   "a": "WTI settled at $83.26, down 3.2%, and Brent at $91.95, down 1.3%, a spread of about $9. The move was tied to rising US crude and fuel stockpiles. Lower oil pressures upstream valuations, which matters when buyers and sellers are pricing energy deals.",
    "tip": "Say what would change your view."
   },
   {
    "q": "What deals are you following?",
    "kind": "coffee",
-   "a": "ECP closed its EnergySolutions buyout on 16 Nov, with Morgan Stanley and RBC advising EnergySolutions. Strathcona is buying Greenfire for about C$2.7–2.9B including debt, and NRG is selling six gas plants to LS Power for $4B at about 8.0x 2027 EBITDA, advised by Barclays.",
+   "a": "Palo Alto Networks agreed to buy Applied Compute for $4.5B in stock on 18 Nov. ECP closed its EnergySolutions buyout on 16 Nov, with Morgan Stanley and RBC advising EnergySolutions. NRG is selling six gas plants to LS Power for $4B, about 8.0x 2027 EBITDA, advised by Barclays.",
    "tip": "Name the advisers; bankers will ask."
   },
   {
    "q": "What are you watching this week?",
    "kind": "coffee",
-   "a": "The FOMC minutes on Wednesday at 2pm ET, to see how committed the Fed is to another hike. I also want to see how Nvidia trades after its beat, since tech has been the main drag on stocks.",
-   "tip": "Tie each event to rates or AI spending."
+   "a": "Anthropic's Nasdaq debut on Thursday, since a strong first day would confirm the IPO window for large AI issuers. After that, the December 8-9 FOMC, where Waller has argued for a half-point hike.",
+   "tip": "Tie each event to financing conditions."
   },
   {
    "q": "If the 10-year rose 50 bp, what happens to a DCF?",
    "kind": "interview",
-   "a": "The 10-year is 5.10% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration assets with most of their value in the terminal value are hit hardest.",
+   "a": "The 10-year is 5.07% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration assets with most of their value in the terminal value are hit hardest.",
    "tip": "Say the direction, then who is hit hardest."
   },
   {
-   "q": "How does a stock sell-off affect a sponsor deal like ECP and EnergySolutions?",
+   "q": "How do high rates affect a sponsor deal like ECP and EnergySolutions?",
    "kind": "interview",
-   "a": "A falling S&P 500 and a VIX of 25.46 make buyers and sellers less sure on price, but sponsor deals depend mainly on debt cost and availability. High yield spreads were 334 bp on 16 Nov, so credit is open, though a 10-year at 5.10% makes the all-in cost high.",
-   "tip": "Separate equity volatility from credit access."
+   "a": "A 10-year at 5.07% and a Fed possibly hiking 50 bp raise the cost of acquisition debt, which squeezes sponsor returns unless the price adjusts. High yield spreads were 343 bp on 17 Nov, so credit is available, just at a high all-in cost.",
+   "tip": "Separate the base rate from the credit spread."
   },
   {
-   "q": "How do the Fed and the 10-year affect M&A financing right now?",
+   "q": "Why would an acquirer pay in stock, as Palo Alto Networks is doing for Applied Compute?",
    "kind": "interview",
-   "a": "The Fed range is 3.75–4.00% after a 25 bp hike in September, and stronger retail sales firmed bets on another hike in December. The 10-year is 5.10%, so debt is costly, but spreads near 334 bp mean credit is still available at a price.",
-   "tip": "Separate the base rate from the credit spread."
+   "a": "An all-stock deal avoids borrowing at today's high rates, with the 10-year at 5.07%, and shares risk with the target's owners. The catch is that it dilutes existing holders and depends on the acquirer's share price, which makes a volatile tape matter more.",
+   "tip": "Mention dilution and price sensitivity."
   }
  ],
  "sources": [
@@ -360,13 +359,23 @@
    "paywall": false
   },
   {
-   "t": "BigGo Finance: Nvidia earnings, NSA outage weigh on Wall Street as Treasury yields hit 5.1%",
-   "u": "https://finance.biggo.com/news/0e24462a-46dc-4c2c-8c9a-40b769efa712",
+   "t": "Stock Titan: Stock Market Today, November 18, 2026",
+   "u": "https://stocktitan.net/articles/stock-market-today-live-november-18-2026",
    "paywall": false
   },
   {
-   "t": "CNBC: stocks making the biggest moves after hours, 17 Nov 2026",
-   "u": "https://www.cnbc.com/2026/11/17/stocks-moving-the-most-today-live-updates.html",
+   "t": "CNBC: stock market news, Anthropic IPO priced",
+   "u": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+   "paywall": false
+  },
+  {
+   "t": "MarketScreener (Reuters): Trading Day, markets mixed in a Nvidia, Anthropic, minutes swirl",
+   "u": "https://www.marketscreener.com/news/trading-day-markets-mixed-in-a-nvidia-anthropic-minutes-swirl-ce785edddf8bf621",
+   "paywall": false
+  },
+  {
+   "t": "Palo Alto Networks 8-K: press release (Applied Compute)",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000030/ex992pressrelease_november.htm",
    "paywall": false
   },
   {
@@ -375,18 +384,8 @@
    "paywall": false
   },
   {
-   "t": "Strathcona Resources: agreement to acquire Greenfire Resources (PR Newswire)",
-   "u": "https://www.prnewswire.com/news-releases/strathcona-resources-ltd-announces-agreement-to-acquire-greenfire-resources-ltd-302932925.html",
-   "paywall": false
-  },
-  {
    "t": "NRG Energy 8-K: LS Power asset sale release",
    "u": "https://www.sec.gov/Archives/edgar/data/0001013871/000110465926124147/tm2629302d1_ex99-1.htm",
-   "paywall": false
-  },
-  {
-   "t": "Thrive in Markets: week of 16 Nov calendar",
-   "u": "https://thriveinmarkets.com/calendar/2026-11-16/",
    "paywall": false
   }
  ]
