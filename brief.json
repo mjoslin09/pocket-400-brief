@@ -1,14 +1,14 @@
 {
- "date": "2026-11-18",
- "asof": "Markets as of the Wed 18 Nov close",
- "refreshed": "Thu 19 Nov, 6:50am CT",
+ "date": "2026-11-19",
+ "asof": "Markets as of the Thu 19 Nov close",
+ "refreshed": "Fri 20 Nov, 6:45am CT",
  "numbers": [
   {
    "label": "S&P 500",
-   "value": "7,324",
-   "change": "−0.2% on the day",
+   "value": "7,176",
+   "change": "−2.0% on the day",
    "dir": "down",
-   "note": "Nasdaq +0.4%, Dow −1.1%, VIX 24.56",
+   "note": "Nasdaq −2.3%, Dow −2.2%, VIX 28.44",
    "src": {
     "t": "Yahoo Finance: S&P 500 history",
     "u": "https://finance.yahoo.com/quote/%5EGSPC/history/",
@@ -17,10 +17,10 @@
   },
   {
    "label": "10-yr Treasury",
-   "value": "5.07%",
+   "value": "5.04%",
    "change": "−3 bp",
    "dir": "down",
-   "note": "2-yr 4.80%; 2s10s +27 bp",
+   "note": "2-yr 4.76%; 2s10s +28 bp",
    "src": {
     "t": "U.S. Treasury: daily par yield curve",
     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
@@ -30,7 +30,7 @@
   {
    "label": "Fed funds",
    "value": "3.75–4.00%",
-   "change": "Minutes hawkish; Waller flags 50 bp at Dec 8-9",
+   "change": "Next FOMC 8-9 Dec; Waller sees 50 bp hike",
    "dir": "flat",
    "note": "Raised 25 bp on 17 Sep",
    "src": {
@@ -41,9 +41,9 @@
   },
   {
    "label": "WTI crude",
-   "value": "$83.26",
-   "change": "−$2.75 (−3.2%)",
-   "dir": "down",
+   "value": "$83.21",
+   "change": "−$0.05 (−0.1%)",
+   "dir": "flat",
    "note": "Dec futures",
    "src": {
     "t": "Yahoo Finance: WTI crude history",
@@ -53,9 +53,9 @@
   },
   {
    "label": "Brent crude",
-   "value": "$91.95",
-   "change": "−$1.19 (−1.3%)",
-   "dir": "down",
+   "value": "$91.98",
+   "change": "+$0.03 (+0.0%)",
+   "dir": "flat",
    "note": "WTI–Brent spread $9",
    "src": {
     "t": "Yahoo Finance: Brent crude history",
@@ -65,9 +65,9 @@
   },
   {
    "label": "Henry Hub gas",
-   "value": "$3.372/MMBtu",
-   "change": "+$0.164 (+5.1%)",
-   "dir": "up",
+   "value": "$3.268/MMBtu",
+   "change": "−$0.104 (−3.1%)",
+   "dir": "down",
    "note": "Dec futures",
    "src": {
     "t": "Yahoo Finance: Henry Hub gas history",
@@ -78,9 +78,9 @@
   {
    "label": "Dollar index",
    "value": "103.9",
-   "change": "+0.4% on the day",
-   "dir": "up",
-   "note": "EUR/USD 1.0993",
+   "change": "flat on the day",
+   "dir": "flat",
+   "note": "EUR/USD 1.0972",
    "src": {
     "t": "Yahoo Finance: Dollar index history",
     "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/",
@@ -89,22 +89,31 @@
   },
   {
    "label": "HY / IG spreads",
-   "value": "343 / 92 bp",
-   "change": "+9 / +2 bp",
+   "value": "347 / 93 bp",
+   "change": "+4 / +1 bp",
    "dir": "up",
-   "note": "Tuesday reading, change vs 16 Nov. Tight by history: credit markets open",
+   "asof": "2026-11-18",
+   "note": "Wednesday reading, change vs 17 Nov. Still tight by history: credit markets open",
    "src": {
     "t": "FRED: ICE BofA US High Yield OAS",
     "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
     "paywall": false
-   },
-   "asof": "2026-11-17"
+   }
   }
  ],
  "drivers": [
   {
-   "title": "Hawkish Fed minutes, Waller wants 50",
-   "text": "The October minutes showed nearly all officials saw more rate increases as likely appropriate, and two wanted a quarter-point hike then. Governor Waller told CNBC a half-point hike is probably needed at the Dec 8-9 meeting.",
+   "title": "AI selloff: S&P down 2%, sixth loss",
+   "text": "The S&P 500 fell 2.0% to 7,176, the Dow 2.2% and the Nasdaq 2.3%, with more than 90% of S&P 500 stocks lower. Chipmakers led as worries grew that the AI boom is overheating, and AMD dropped on a short-seller report it denied.",
+   "src": {
+    "t": "ABC News (AP): How major US stock indexes fared Thursday 11/19/2026",
+    "u": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11192026-138303454",
+    "paywall": false
+   }
+  },
+  {
+   "title": "Fed minutes point to more hikes",
+   "text": "October minutes showed almost all officials saw further rate rises as likely appropriate. Governor Waller told CNBC a half-point hike is probably needed on Dec 8-9, and the 10-year ended at 5.04%.",
    "src": {
     "t": "Stock Titan: Stock Market Today, November 18, 2026",
     "u": "https://stocktitan.net/articles/stock-market-today-live-november-18-2026",
@@ -112,20 +121,11 @@
    }
   },
   {
-   "title": "Stocks split as Nvidia slips",
-   "text": "The S&P 500 fell 0.2% to 7,324 and the Dow 1.1%, while the Nasdaq rose 0.4%. Nvidia closed down 2.9% despite a beat and guidance near $130B, and health insurers sank after a proposed Medicare Advantage audit rule.",
+   "title": "Anthropic IPO: record raise, faded pop",
+   "text": "Anthropic priced at $83, above its range, raised about $81.3B, opened at $111.50 and closed at $97.17, about 17% above the offer. Related AI names fell, with Alphabet down 3.5% and Amazon down 3.9%.",
    "src": {
-    "t": "Stock Titan: Stock Market Today, November 18, 2026",
-    "u": "https://stocktitan.net/articles/stock-market-today-live-november-18-2026",
-    "paywall": false
-   }
-  },
-  {
-   "title": "Oil falls on US stockpile build",
-   "text": "WTI settled at $83.26, down 3.2%, and Brent at $91.95, down 1.3%. CNBC tied the drop to rising US crude and fuel stockpiles, and energy was the weakest S&P 500 sector.",
-   "src": {
-    "t": "Stock Titan: Stock Market Today, November 18, 2026",
-    "u": "https://stocktitan.net/articles/stock-market-today-live-november-18-2026",
+    "t": "Stock Titan: Stock Market Today, November 19, 2026",
+    "u": "https://stocktitan.net/articles/stock-market-today-live-november-19-2026",
     "paywall": false
    }
   }
@@ -166,42 +166,20 @@
     "u": "https://www.financialcontent.com/article/gnwcq-2026-11-16-energy-capital-partners-ecp-completes-acquisition-of-energysolutions",
     "paywall": false
    }
-  },
-  {
-   "name": "NRG sells six gas plants to LS Power",
-   "parties": [
-    "NRG Energy",
-    "LS Power"
-   ],
-   "value": "$4B cash, ~8.0x 2027 EBITDA",
-   "status": "Announced; close targeted Q2 2027",
-   "date": "9 Nov",
-   "banks": [
-    "Barclays (NRG, lead)"
-   ],
-   "src": {
-    "t": "NRG Energy 8-K: LS Power asset sale release",
-    "u": "https://www.sec.gov/Archives/edgar/data/0001013871/000110465926124147/tm2629302d1_ex99-1.htm",
-    "paywall": false
-   }
   }
  ],
  "capmarkets": {
-  "text": "Anthropic priced its IPO at $83 a share, above the $70 to $78 range, and was set to start trading on Nasdaq on Thursday. Demand that strong suggests the equity window is wide open for large AI issuers.",
+  "text": "Anthropic raised about $81.3B in its Nasdaq IPO at $83 a share, above the $70 to $78 range, and closed its first day at $97.17. A separate $26.0B share-class sale to Google, Nvidia, Broadcom, Microsoft and others is expected to close Friday.",
   "src": {
-   "t": "CNBC: stock market news, Anthropic IPO priced",
-   "u": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+   "t": "Stock Titan: Stock Market Today, November 19, 2026",
+   "u": "https://stocktitan.net/articles/stock-market-today-live-november-19-2026",
    "paywall": false
   }
  },
  "calendar": [
   {
-   "d": "Thu 19 Nov",
-   "e": "Anthropic (ANT) expected Nasdaq debut"
-  },
-  {
-   "d": "Thu 19 Nov",
-   "e": "Walmart earnings 7am ET; Philly Fed index; 10-yr TIPS auction"
+   "d": "Fri 20 Nov",
+   "e": "Michigan final consumer sentiment, 10am ET; Anthropic IPO closing expected"
   },
   {
    "d": "Thu 26 Nov",
@@ -209,7 +187,7 @@
   },
   {
    "d": "Fri 27 Nov",
-   "e": "US stocks close early"
+   "e": "US stocks close early, 1pm ET"
   },
   {
    "d": "Tue 8 Dec",
@@ -217,24 +195,24 @@
   }
  ],
  "sowhat": {
-  "text": "With the 10-year at 5.07% and Waller pointing to a 50 bp hike in December, financing stays expensive, but high yield spreads near 343 bp show credit is open. Strategic buyers are still paying up for AI and security assets, and energy and power sales keep closing."
+  "text": "A 2% AI-led drop, a 10-year at 5.04% and Waller pointing to a 50 bp hike make for a tougher tape, though high yield spreads at 347 bp show credit is still open. Strategic stock deals and energy buyouts are still getting done, and the record Anthropic raise shows equity demand for AI is deep."
  },
- "pitch": "Stocks were mixed on Wednesday. The S&P 500 slipped 0.2 percent to about 7,324, the Dow fell 1.1 percent, and the Nasdaq rose 0.4 percent. The Fed minutes were hawkish, nearly every official saw more hikes as likely, and Governor Waller said a half-point move is probably needed in December. The 10-year ended at 5.07 percent. Oil fell, with WTI at about 83 dollars and Brent near 92, on rising US stockpiles. On deals, Palo Alto Networks agreed to buy Applied Compute for 4.5 billion dollars in stock, ECP closed EnergySolutions, and NRG is selling six gas plants to LS Power for 4 billion. Anthropic priced its IPO above range and starts trading today.",
+ "pitch": "Stocks sold off hard on Thursday. The S&P 500 fell 2 percent to about 7,176, its sixth straight loss, the Dow dropped 2.2 percent and the Nasdaq 2.3 percent, as worries grew that the AI boom is overheating. The VIX jumped to about 28. Rates are the backdrop: the Fed minutes showed almost everyone expects more hikes, Governor Waller wants a half-point in December, and the 10-year closed at 5.04 percent. Oil was steady, with WTI near 83 dollars and Brent near 92. On deals, Palo Alto Networks agreed to buy Applied Compute for 4.5 billion dollars in stock, and ECP closed its EnergySolutions buyout. Anthropic raised a record 81 billion dollars in its IPO and closed up 17 percent.",
  "quiz": [
   {
-   "q": "Where did WTI crude settle on Wednesday 18 Nov?",
-   "a": "$83.26, down $2.75 (3.2%), on a rise in US crude and fuel stockpiles.",
+   "q": "Where did the S&P 500 close on Thursday 19 Nov?",
+   "a": "7,176, down 2.0% and the sixth straight loss.",
    "options": [
-    "About $79",
-    "About $83",
-    "About $86",
-    "About $90"
+    "About 6,950",
+    "About 7,176",
+    "About 7,324",
+    "About 7,420"
    ],
    "correct": 1
   },
   {
-   "q": "Why did the Fed minutes and Waller matter for rates on 18 Nov?",
-   "a": "Nearly all officials saw further hikes as likely appropriate, and Waller said a half-point hike is probably needed on Dec 8-9, which keeps the 10-year near 5.07%."
+   "q": "Why did stocks fall on 19 Nov even though Anthropic's debut went well?",
+   "a": "Worries that the AI boom is overheating, with chipmakers leading and AMD hit by a short-seller report, plus expectations of higher US rates."
   },
   {
    "q": "How is Palo Alto Networks paying for Applied Compute, and for how much?",
@@ -252,43 +230,43 @@
   {
    "q": "What's going on in markets?",
    "kind": "coffee",
-   "a": "Stocks were mixed on Wednesday: the S&P 500 fell 0.2% to 7,324, the Dow fell 1.1% and the Nasdaq rose 0.4%. The Fed minutes were hawkish and Waller said a half-point hike is probably needed in December. The 10-year is 5.07%, so rates are the backdrop.",
-   "tip": "Lead with the Fed, then Nvidia."
+   "a": "Stocks sold off on Thursday: the S&P 500 fell 2.0% to 7,176, the Dow 2.2% and the Nasdaq 2.3%, on worries the AI boom is overheating. The Fed minutes pointed to more hikes and the 10-year closed at 5.04%. Anthropic's record IPO went well but did not stop the slide.",
+   "tip": "Lead with the AI selloff, then rates."
   },
   {
    "q": "What's your read on oil this week?",
    "kind": "coffee",
-   "a": "WTI settled at $83.26, down 3.2%, and Brent at $91.95, down 1.3%, a spread of about $9. The move was tied to rising US crude and fuel stockpiles. Lower oil pressures upstream valuations, which matters when buyers and sellers are pricing energy deals.",
+   "a": "WTI settled at $83.21 and Brent at $91.98, both flat on Thursday after a drop on Wednesday, a spread of about $9. Oil is steady for now, but lower prices pressure upstream valuations and make energy buyers and sellers harder to match on price.",
    "tip": "Say what would change your view."
   },
   {
    "q": "What deals are you following?",
    "kind": "coffee",
-   "a": "Palo Alto Networks agreed to buy Applied Compute for $4.5B in stock on 18 Nov. ECP closed its EnergySolutions buyout on 16 Nov, with Morgan Stanley and RBC advising EnergySolutions. NRG is selling six gas plants to LS Power for $4B, about 8.0x 2027 EBITDA, advised by Barclays.",
+   "a": "Palo Alto Networks agreed to buy Applied Compute for $4.5B in stock on 18 Nov. ECP closed its EnergySolutions buyout on 16 Nov, with Morgan Stanley and RBC advising EnergySolutions.",
    "tip": "Name the advisers; bankers will ask."
   },
   {
-   "q": "What are you watching this week?",
+   "q": "What are you watching over the next few weeks?",
    "kind": "coffee",
-   "a": "Anthropic's Nasdaq debut on Thursday, since a strong first day would confirm the IPO window for large AI issuers. After that, the December 8-9 FOMC, where Waller has argued for a half-point hike.",
+   "a": "The December 8-9 FOMC, where Waller has argued for a half-point hike, and whether the AI selloff continues after Anthropic's debut. Both drive financing conditions, since the 10-year is 5.04% and the S&P 500 is down six sessions in a row.",
    "tip": "Tie each event to financing conditions."
   },
   {
    "q": "If the 10-year rose 50 bp, what happens to a DCF?",
    "kind": "interview",
-   "a": "The 10-year is 5.07% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration assets with most of their value in the terminal value are hit hardest.",
+   "a": "The 10-year is 5.04% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration assets with most of their value in the terminal value are hit hardest.",
    "tip": "Say the direction, then who is hit hardest."
   },
   {
    "q": "How do high rates affect a sponsor deal like ECP and EnergySolutions?",
    "kind": "interview",
-   "a": "A 10-year at 5.07% and a Fed possibly hiking 50 bp raise the cost of acquisition debt, which squeezes sponsor returns unless the price adjusts. High yield spreads were 343 bp on 17 Nov, so credit is available, just at a high all-in cost.",
+   "a": "A 10-year at 5.04% and a Fed possibly hiking 50 bp raise the cost of acquisition debt, which squeezes sponsor returns unless the price adjusts. High yield spreads were 347 bp on 18 Nov, so credit is available, just at a high all-in cost.",
    "tip": "Separate the base rate from the credit spread."
   },
   {
    "q": "Why would an acquirer pay in stock, as Palo Alto Networks is doing for Applied Compute?",
    "kind": "interview",
-   "a": "An all-stock deal avoids borrowing at today's high rates, with the 10-year at 5.07%, and shares risk with the target's owners. The catch is that it dilutes existing holders and depends on the acquirer's share price, which makes a volatile tape matter more.",
+   "a": "An all-stock deal avoids borrowing at today's high rates, with the 10-year at 5.04%, and shares risk with the target's owners. The catch is dilution and exposure to the acquirer's share price, which matters more after a 2% down day for the S&P 500.",
    "tip": "Mention dilution and price sensitivity."
   }
  ],
@@ -359,18 +337,33 @@
    "paywall": false
   },
   {
+   "t": "ABC News (AP): How major US stock indexes fared Thursday 11/19/2026",
+   "u": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11192026-138303454",
+   "paywall": false
+  },
+  {
+   "t": "Yahoo Finance: Stock market today, Nov 19 live",
+   "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
+   "paywall": false
+  },
+  {
+   "t": "Stock Titan: Stock Market Today, November 19, 2026",
+   "u": "https://stocktitan.net/articles/stock-market-today-live-november-19-2026",
+   "paywall": false
+  },
+  {
    "t": "Stock Titan: Stock Market Today, November 18, 2026",
    "u": "https://stocktitan.net/articles/stock-market-today-live-november-18-2026",
    "paywall": false
   },
   {
-   "t": "CNBC: stock market news, Anthropic IPO priced",
-   "u": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+   "t": "Federal Reserve: FOMC calendars",
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
    "paywall": false
   },
   {
-   "t": "MarketScreener (Reuters): Trading Day, markets mixed in a Nvidia, Anthropic, minutes swirl",
-   "u": "https://www.marketscreener.com/news/trading-day-markets-mixed-in-a-nvidia-anthropic-minutes-swirl-ce785edddf8bf621",
+   "t": "NYSE: holidays and trading hours",
+   "u": "https://www.nyse.com/markets/hours-calendars",
    "paywall": false
   },
   {
@@ -381,11 +374,6 @@
   {
    "t": "GlobeNewswire via FinancialContent: ECP completes acquisition of EnergySolutions",
    "u": "https://www.financialcontent.com/article/gnwcq-2026-11-16-energy-capital-partners-ecp-completes-acquisition-of-energysolutions",
-   "paywall": false
-  },
-  {
-   "t": "NRG Energy 8-K: LS Power asset sale release",
-   "u": "https://www.sec.gov/Archives/edgar/data/0001013871/000110465926124147/tm2629302d1_ex99-1.htm",
    "paywall": false
   }
  ]
