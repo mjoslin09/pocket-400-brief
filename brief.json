@@ -1,215 +1,113 @@
 {
  "date": "2026-11-25",
- "asof": "Markets as of the Wed 25 Nov close",
- "refreshed": "Thu 26 Nov, 6:45am CT",
+ "asof": "Markets as of the Wed 25 Nov close (US markets closed Thu 26 Nov for Thanksgiving)",
+ "refreshed": "Fri 27 Nov, 6:45am CT",
  "numbers": [
-  {
-   "label": "S&P 500",
-   "value": "7,183",
-   "change": "−0.3% on the day",
-   "dir": "down",
+  {"label": "S&P 500", "value": "7,183", "change": "−0.3% on the day", "dir": "down",
    "note": "Nasdaq −0.6%, Dow +0.3%, VIX 28.29",
-   "src": {"t": "Yahoo Finance: S&P 500 history", "u": "https://finance.yahoo.com/quote/%5EGSPC/history/", "paywall": false}
-  },
-  {
-   "label": "10-yr Treasury",
-   "value": "4.85%",
-   "change": "−6 bp",
-   "dir": "down",
+   "src": {"t": "Yahoo Finance: S&P 500 history", "u": "https://finance.yahoo.com/quote/%5EGSPC/history/", "paywall": false}},
+  {"label": "10-yr Treasury", "value": "4.85%", "change": "−6 bp", "dir": "down",
    "note": "2-yr 4.61%; 2s10s +24 bp",
-   "src": {"t": "U.S. Treasury: daily par yield curve", "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611", "paywall": false}
-  },
-  {
-   "label": "Fed funds",
-   "value": "3.75–4.00%",
-   "change": "Next FOMC 8-9 Dec",
-   "dir": "flat",
+   "src": {"t": "U.S. Treasury: daily par yield curve", "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611", "paywall": false}},
+  {"label": "Fed funds", "value": "3.75–4.00%", "change": "Next FOMC 8-9 Dec", "dir": "flat",
    "note": "Raised 25 bp on 17 Sep",
-   "src": {"t": "Federal Reserve: open market operations", "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm", "paywall": false}
-  },
-  {
-   "label": "WTI crude",
-   "value": "$83.68",
-   "change": "+$1.63 (+2.0%)",
-   "dir": "up",
+   "src": {"t": "Federal Reserve: open market operations", "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm", "paywall": false}},
+  {"label": "WTI crude", "value": "$83.68", "change": "+$1.63 (+2.0%)", "dir": "up",
    "note": "Jan futures",
-   "src": {"t": "Yahoo Finance: WTI crude history", "u": "https://finance.yahoo.com/quote/CL%3DF/history/", "paywall": false}
-  },
-  {
-   "label": "Brent crude",
-   "value": "$94.61",
-   "change": "+$3.21 (+3.5%)",
-   "dir": "up",
+   "src": {"t": "Yahoo Finance: WTI crude history", "u": "https://finance.yahoo.com/quote/CL%3DF/history/", "paywall": false}},
+  {"label": "Brent crude", "value": "$94.61", "change": "+$3.21 (+3.5%)", "dir": "up",
    "note": "WTI–Brent spread $11",
-   "src": {"t": "Yahoo Finance: Brent crude history", "u": "https://finance.yahoo.com/quote/BZ%3DF/history/", "paywall": false}
-  },
-  {
-   "label": "Henry Hub gas",
-   "value": "$3.269/MMBtu",
-   "change": "−$0.054 (−1.6%)",
-   "dir": "down",
-   "note": "Front-month futures; no second source",
-   "src": {"t": "Yahoo Finance: Henry Hub gas history", "u": "https://finance.yahoo.com/quote/NG%3DF/history/", "paywall": false}
-  },
-  {
-   "label": "Dollar index",
-   "value": "103.7",
-   "change": "−0.1% on the day",
-   "dir": "down",
+   "src": {"t": "Yahoo Finance: Brent crude history", "u": "https://finance.yahoo.com/quote/BZ%3DF/history/", "paywall": false}},
+  {"label": "Henry Hub gas", "value": "$3.269/MMBtu", "change": "−$0.054 (−1.6%)", "dir": "down",
+   "note": "Jan futures; no second source",
+   "src": {"t": "Yahoo Finance: Henry Hub gas history", "u": "https://finance.yahoo.com/quote/NG%3DF/history/", "paywall": false}},
+  {"label": "Dollar index", "value": "103.7", "change": "−0.1% on the day", "dir": "down",
    "note": "EUR/USD 1.096",
-   "src": {"t": "Yahoo Finance: Dollar index history", "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/", "paywall": false}
-  },
-  {
-   "label": "HY / IG spreads",
-   "value": "372 / 98 bp",
-   "change": "+9 / +1 bp",
-   "dir": "up",
-   "asof": "2026-11-24",
-   "note": "Tuesday reading, Wednesday not yet published. Still modest by history",
-   "src": {"t": "FRED: ICE BofA US High Yield OAS", "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2", "paywall": false}
-  }
+   "src": {"t": "Yahoo Finance: Dollar index history", "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/", "paywall": false}},
+  {"label": "HY / IG spreads", "value": "372 / 98 bp", "change": "+9 / +1 bp", "dir": "up", "asof": "2026-11-24",
+   "note": "Tight by history: credit markets open; latest reading is Tue 24 Nov",
+   "src": {"t": "FRED: ICE BofA US High Yield OAS", "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2", "paywall": false}}
  ],
  "drivers": [
-  {
-   "title": "Chip sell-off fades into the close",
-   "text": "Chipmakers led a sharp morning drop, but stocks recovered most of it: the S&P 500 closed down 0.3% at 7,183 and the Nasdaq down 0.6%, while the Dow rose 0.3%. Nvidia fell 3.9% and Micron 4.5%.",
-   "src": {"t": "Stock Titan: Stock Market Today, November 25, 2026", "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026", "paywall": false}
-  },
-  {
-   "title": "Strong growth, hot inflation",
-   "text": "Third-quarter GDP was revised up to a 4.3% annual rate, and October PCE inflation was 3.8% from a year earlier (3.3% excluding food and energy). The 10-year still fell 6 bp to 4.85%, with the Fed funds range at 3.75–4.00%.",
-   "src": {"t": "Stock Titan: Stock Market Today, November 25, 2026", "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026", "paywall": false}
-  },
-  {
-   "title": "Lukoil foreign assets up for sale",
-   "text": "A US-led consortium led by Eldridge agreed to buy LUKOIL International, which holds upstream output of about 350,000 boe/d, three refineries and a trading arm. The price is paid in restricted Russian shares rather than cash, and the deal needs conditional OFAC approval.",
-   "src": {"t": "ANTARA: Lukoil International release", "u": "https://en.antaranews.com/news/445463/american-led-consortium-announces-agreement-to-acquire-lukoil-internationals-global-energy-portfolio", "paywall": false}
-  }
+  {"title": "Tariff and AI sell-off fades by close",
+   "text": "Stocks opened sharply lower on new tariff reports and an AI-chip rout, with the S&P 500 down 3.2% at its low, then recovered to close down 0.3% at 7,183. Nvidia still closed down 3.9%.",
+   "src": {"t": "The Weekend Spread: The Close, Wed 25 Nov 2026", "u": "https://theweekendspread.substack.com/p/the-close-wednesday-november-25-2026", "paywall": false}},
+  {"title": "Hot inflation, yields still fall",
+   "text": "Core PCE ran at 3.3% from a year earlier, above the 3.2% expected, and Q3 GDP was revised up to 4.3%. The 10-year still fell 6 bp to 4.85%, with the Fed funds range at 3.75–4.00% ahead of the 8-9 Dec FOMC.",
+   "src": {"t": "The Weekend Spread: The Close, Wed 25 Nov 2026", "u": "https://theweekendspread.substack.com/p/the-close-wednesday-november-25-2026", "paywall": false}},
+  {"title": "Oil rises as stocks wobble",
+   "text": "WTI settled at $83.68, up 2.0%, and Brent at $94.61, up 3.5%, while equities were volatile. Higher energy prices add to the inflation worries that keep the Fed on a tightening bias.",
+   "src": {"t": "Yahoo Finance: WTI crude history", "u": "https://finance.yahoo.com/quote/CL%3DF/history/", "paywall": false}}
  ],
  "deals": [
-  {
-   "name": "Eldridge-led group to acquire LUKOIL International",
-   "parties": ["Eldridge", "US DFC", "Catena Investment Holding", "Xtellus Partners", "LUKOIL International"],
-   "value": "Not disclosed; share swap for 100% of equity",
-   "status": "Definitive agreement; needs conditional OFAC approval",
-   "date": "25 Nov",
-   "banks": ["Citi (consortium)"],
-   "src": {"t": "ANTARA: Lukoil International release", "u": "https://en.antaranews.com/news/445463/american-led-consortium-announces-agreement-to-acquire-lukoil-internationals-global-energy-portfolio", "paywall": false}
-  },
-  {
-   "name": "Sanofi to acquire Insmed",
-   "parties": ["Sanofi", "Insmed"],
-   "value": "~$41.0B equity value, $175/share cash",
-   "status": "Announced; close expected 1H 2027",
-   "date": "24 Nov",
-   "banks": [],
-   "src": {"t": "Sanofi 6-K: press release (Insmed)", "u": "https://www.sec.gov/Archives/edgar/data/0001121404/000119312526473314/d130092dex991.htm", "paywall": false}
-  },
-  {
-   "name": "CrowdStrike to acquire Zscaler",
-   "parties": ["CrowdStrike", "Zscaler"],
-   "value": "~$43.9B, all stock (1.135 CRWD shares per Zscaler share)",
-   "status": "Announced; subject to regulatory approvals",
+  {"name": "CrowdStrike to acquire Zscaler", "parties": ["CrowdStrike", "Zscaler"],
+   "value": "~$43.9B EV, all stock (1.135 CRWD shares per ZS share)", "status": "Announced; close expected 2H of CrowdStrike FY2028",
    "date": "23 Nov",
-   "banks": [],
-   "src": {"t": "CrowdStrike 8-K: press release", "u": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm", "paywall": false}
-  }
+   "banks": ["Qatalyst, J.P. Morgan, BofA (CrowdStrike)", "BDT & MSD Partners, Citi, Goldman Sachs (Zscaler)"],
+   "src": {"t": "CrowdStrike 8-K: press release", "u": "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926130785/tm2630454d1_ex99-1.htm", "paywall": false}},
+  {"name": "Sanofi to acquire Insmed", "parties": ["Sanofi", "Insmed"],
+   "value": "~$41.0B, $175/share cash", "status": "Announced; close expected 1H 2027",
+   "date": "24 Nov", "banks": [],
+   "src": {"t": "PR Newswire: biotech holiday week roundup", "u": "https://prnewswire.com/news-releases/a-41-billion-deal-and-three-new-approvals-fill-biotechs-holiday-week-302950406.html", "paywall": false}},
+  {"name": "Eldridge-led group to buy LUKOIL International", "parties": ["Eldridge", "US DFC", "Catena Investment Holding", "Xtellus Partners", "LUKOIL International"],
+   "value": "Price not disclosed; share swap for 100% of equity", "status": "Definitive agreement; needs conditional OFAC approval",
+   "date": "26 Nov", "banks": ["Citi (consortium)"],
+   "src": {"t": "ANTARA: Eldridge release on LUKOIL International", "u": "https://en.antaranews.com/news/445463/american-led-consortium-announces-agreement-to-acquire-lukoil-internationals-global-energy-portfolio", "paywall": false}}
  ],
- "capmarkets": {
-  "text": "Anthropic, which priced its IPO at $83 and began trading on 19 Nov, closed at $82.79 on 25 Nov, just under its offer price after trading $3.35 below it earlier in the day.",
-  "src": {"t": "Stock Titan: Stock Market Today, November 25, 2026", "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026", "paywall": false}
- },
+ "capmarkets": {"text": "Anthropic, which priced its IPO at $83, closed at $82.79 on 25 Nov, just under the offer price, a sign that new-issue demand is selective in a volatile tape.",
+  "src": {"t": "Stock Titan: Stock Market Today, November 25, 2026", "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026", "paywall": false}},
  "calendar": [
-  {"d": "Thu 26 Nov", "e": "Thanksgiving, US markets closed"},
   {"d": "Fri 27 Nov", "e": "US stocks close early, 1pm ET"},
+  {"d": "Tue 1 Dec", "e": "Nvidia CEO Jensen Huang faces House committees"},
   {"d": "Fri 4 Dec", "e": "November jobs report, 8:30am ET"},
   {"d": "Tue 8 Dec", "e": "FOMC meeting begins; decision Wed 9 Dec"}
  ],
- "sowhat": {
-  "text": "Large deals keep coming, from Sanofi's cash bid for Insmed to the Lukoil asset sale, which shows energy M&A now runs through sanctions approvals as much as price. With PCE inflation at 3.8% and the 10-year at 4.85%, acquirers financing with debt face a high base rate."
- },
- "pitch": "Wednesday was a choppy but contained day. Chip stocks sold off hard in the morning and recovered most of it, so the S&P 500 ended down about 0.3 percent near 7,180 and the Nasdaq down 0.6 percent. Data was strong: third-quarter GDP was revised up to 4.3 percent, but October PCE inflation was 3.8 percent, and the 10-year still eased to about 4.85 percent. Oil rose, with WTI up 2 percent to about 84 dollars and Brent up 3.5 percent to about 95. On deals, a US-led consortium agreed to buy Lukoil's international assets in a share swap that needs Treasury sign-off, and Sanofi's roughly 41 billion dollar cash deal for Insmed is still the biggest of the week.",
+ "sowhat": {"text": "Mega-deals keep getting signed, from CrowdStrike's all-stock Zscaler bid to Sanofi's cash offer for Insmed, and the Lukoil sale shows energy M&A now runs through sanctions approvals. With core PCE at 3.3% and the 10-year at 4.85%, debt-funded buyers face a high base rate, which favors stock deals and strategic buyers."},
+ "pitch": "Markets were choppy going into Thanksgiving. Stocks sold off hard on tariff headlines and an AI-chip rout, then recovered, so the S&P 500 closed at about 7,180, down a quarter of a percent. Core inflation came in hot at 3.3%, yet the 10-year fell 6 bp to about 4.85%, and the Fed sits at 3.75 to 4% with a meeting on 8 and 9 December. Oil bounced, with WTI near $84 and Brent near $95. On deals, CrowdStrike agreed to buy Zscaler for about $44 billion in stock and Sanofi is buying Insmed for $41 billion in cash, so large strategic deals are getting done even with rates this high.",
  "quiz": [
-  {
-   "q": "Where did the 10-year Treasury close on Wed 25 Nov?",
-   "a": "4.85%, down 6 bp.",
-   "options": ["About 4.6%", "About 4.85%", "About 5.1%", "About 5.3%"],
-   "correct": 1
-  },
-  {
-   "q": "Why did the Nasdaq end down only 0.6% after a big drop early on 25 Nov?",
-   "a": "Chipmakers led a morning sell-off, with Nvidia and Micron down sharply, but stocks recovered most of the loss by the close."
-  },
-  {
-   "q": "Who leads the consortium buying LUKOIL International, and how is it paying?",
-   "a": "Eldridge leads it, paying with restricted Russian shares rather than cash.",
-   "options": ["Eldridge, in restricted Russian shares", "Sanofi, in cash", "CrowdStrike, in stock", "Citi, in new debt"],
-   "correct": 0
-  }
+  {"q": "Where did the 10-year Treasury close on Wed 25 Nov?", "a": "4.85%, down 6 bp.",
+   "options": ["About 4.5%", "About 4.7%", "About 4.85%", "About 5.1%"], "correct": 2},
+  {"q": "Why was the S&P 500 down only 0.3% on 25 Nov after being down about 3% at its low?", "a": "The tariff and AI-chip sell-off faded and buyers stepped in, so stocks recovered most of the morning losses.",
+   "options": ["The Fed cut rates midday", "The tariff and AI-chip sell-off faded and buyers stepped in", "Oil prices fell sharply", "Core PCE inflation came in below forecasts"], "correct": 1},
+  {"q": "Who is acquiring Zscaler, and how is the roughly $43.9B deal being paid for?", "a": "CrowdStrike, in an all-stock deal at 1.135 CrowdStrike shares per Zscaler share.",
+   "options": ["Sanofi, in cash", "CrowdStrike, in an all-stock deal", "Eldridge, in a share swap", "Insmed, in cash and debt"], "correct": 1}
  ],
  "chat": [
-  {
-   "q": "What's going on in markets?",
-   "kind": "coffee",
-   "a": "Wednesday was a recovery from an ugly morning: chips sold off hard, then the S&P 500 closed down only 0.3% at 7,183 and the Nasdaq down 0.6%. The Dow rose 0.3%. The VIX was 28.29 and the 10-year was 4.85%.",
-   "tip": "Lead with the intraday reversal, then give the levels."
-  },
-  {
-   "q": "What's your read on oil this week?",
-   "kind": "coffee",
-   "a": "WTI settled at $83.68, up 2.0%, and Brent at $94.61, up 3.5%, a spread of about $11. Both have bounced two days in a row. For energy M&A, stable prices help buyers and sellers agree on value.",
-   "tip": "Give the level and direction, then stop."
-  },
-  {
-   "q": "What deals are you following?",
-   "kind": "coffee",
-   "a": "A US-led consortium led by Eldridge agreed to buy LUKOIL International, with Citi as lead financial adviser to the consortium. Sanofi agreed to buy Insmed for $175 a share in cash, about $41.0B, and CrowdStrike agreed to buy Zscaler for about $43.9B in stock. The last two releases did not name advisers.",
-   "tip": "Say the advisers were not disclosed rather than guess."
-  },
-  {
-   "q": "What are you watching over the next couple of weeks?",
-   "kind": "coffee",
-   "a": "The Dec 4 jobs report and then the Dec 8-9 FOMC, with the funds rate at 3.75-4.00%. With PCE inflation at 3.8% and the 10-year at 4.85%, I want to see whether rates stay this high into year-end.",
-   "tip": "Tie each event to financing conditions."
-  },
-  {
-   "q": "Why is the Lukoil deal structured as a share swap?",
-   "kind": "interview",
-   "a": "The release says the consortium pays in restricted Russian shares, so no cash goes to Russia, and the sale consideration sits in a restricted account. It also needs conditional OFAC approval. The point for a banker is that sanctions approval and structure, not just price, decide whether the deal closes.",
-   "tip": "Say structure and approvals first, price second."
-  },
-  {
-   "q": "If the 10-year rose 50 bp, what happens to a DCF?",
-   "kind": "interview",
-   "a": "The 10-year is 4.85% now. A 50 bp rise lifts the risk-free rate and so the WACC, which lowers the present value of cash flows. Long-duration assets with most of their value in the terminal value are hit hardest.",
-   "tip": "Say the direction, then who is hit hardest."
-  },
-  {
-   "q": "How would you describe credit markets right now?",
-   "kind": "interview",
-   "a": "High yield was 372 bp and investment grade 98 bp on Tuesday, slightly wider than Monday. That is still a functioning market for acquisition financing, and Sanofi has committed debt financing for Insmed. Wednesday's reading is not yet published.",
-   "tip": "Say it is Tuesday's reading."
-  }
+  {"q": "What's your read on rates right now?", "kind": "coffee",
+   "a": "The 10-year closed at 4.85%, down 6 bp, even though core PCE ran at 3.3%, above the 3.2% expected. The Fed funds range is 3.75–4.00% after a hike in September, and the next FOMC is 8-9 December. For deals, a high base rate makes leveraged buyouts harder to finance and favors strategics paying in stock or cash.",
+   "tip": "Lead with the 10-year, then tie it to financing."},
+  {"q": "What's your read on oil this week?", "kind": "coffee",
+   "a": "WTI settled at $83.68, up 2.0%, and Brent at $94.61, up 3.5%, a spread of about $11. Higher crude supports upstream cash flow and energy deal appetite, but adds to the inflation pressure the Fed is watching.",
+   "tip": "Name both benchmarks and the spread."},
+  {"q": "What deals are you following?", "kind": "coffee",
+   "a": "CrowdStrike is buying Zscaler for about $43.9B in stock, advised by Qatalyst, J.P. Morgan and BofA for CrowdStrike and BDT & MSD, Citi and Goldman for Zscaler. Sanofi is buying Insmed for about $41.0B in cash. Both show large strategic deals proceeding despite a 4.85% 10-year.",
+   "tip": "Mention advisers; bankers will ask."},
+  {"q": "Why did stocks recover from a big drop on Wednesday?", "kind": "coffee",
+   "a": "The S&P 500 was down 3.2% at its low after tariff reports and an AI-chip sell-off, then closed down only 0.3% at 7,183. The VIX closed at 28.29, still elevated. Volatility like this can delay IPO and financing launches until conditions settle.",
+   "tip": "Show you know the intraday swing, not just the close."},
+  {"q": "If the 10-year rose 50 bp, what happens to a DCF?", "kind": "interview",
+   "a": "A higher risk-free rate raises the discount rate, so present value falls, most for long-duration cash flows and terminal value. From today's 4.85% that would mean about 5.35%. Highly levered buyers would also see financing costs rise, pressuring LBO returns.",
+   "tip": "Walk through the WACC mechanics first."},
+  {"q": "Walk me through how an all-stock deal like CrowdStrike and Zscaler works.", "kind": "interview",
+   "a": "Each Zscaler share converts to 1.135 CrowdStrike shares, valuing Zscaler at about $43.9B enterprise value, a roughly 34% premium. CrowdStrike holders would own about 84.1% of the combined company. All-stock avoids new debt at a 4.85% 10-year, but exposes both sides to CrowdStrike's share price until closing.",
+   "tip": "Cover premium, exchange ratio and ownership split."},
+  {"q": "Why might energy M&A run through sanctions approvals, as in the Lukoil sale?", "kind": "interview",
+   "a": "The Eldridge-led consortium would swap restricted Russian shares for 100% of LUKOIL International, which has about 350,000 boe/d of upstream output and three refineries. It needs conditional OFAC approval, so regulatory structure matters as much as price. With Brent at $94.61, the assets are valuable, but closing certainty drives the timeline.",
+   "tip": "Frame it as deal certainty versus valuation."}
  ],
  "sources": [
   {"t": "Yahoo Finance: S&P 500 history", "u": "https://finance.yahoo.com/quote/%5EGSPC/history/", "paywall": false},
-  {"t": "Yahoo Finance: Nasdaq Composite history", "u": "https://finance.yahoo.com/quote/%5EIXIC/history/", "paywall": false},
-  {"t": "Yahoo Finance: Dow history", "u": "https://finance.yahoo.com/quote/%5EDJI/history/", "paywall": false},
-  {"t": "Yahoo Finance: VIX history", "u": "https://finance.yahoo.com/quote/%5EVIX/history/", "paywall": false},
   {"t": "U.S. Treasury: daily par yield curve", "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611", "paywall": false},
   {"t": "Federal Reserve: open market operations", "u": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm", "paywall": false},
   {"t": "Yahoo Finance: WTI crude history", "u": "https://finance.yahoo.com/quote/CL%3DF/history/", "paywall": false},
   {"t": "Yahoo Finance: Brent crude history", "u": "https://finance.yahoo.com/quote/BZ%3DF/history/", "paywall": false},
   {"t": "Yahoo Finance: Henry Hub gas history", "u": "https://finance.yahoo.com/quote/NG%3DF/history/", "paywall": false},
   {"t": "Yahoo Finance: Dollar index history", "u": "https://finance.yahoo.com/quote/DX-Y.NYB/history/", "paywall": false},
-  {"t": "Yahoo Finance: EUR/USD history", "u": "https://finance.yahoo.com/quote/EURUSD%3DX/history/", "paywall": false},
   {"t": "FRED: ICE BofA US High Yield OAS", "u": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2", "paywall": false},
-  {"t": "FRED: ICE BofA US Corporate OAS", "u": "https://fred.stlouisfed.org/series/BAMLC0A0CM", "paywall": false},
-  {"t": "Stock Titan: Stock Market Today, November 25, 2026", "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026", "paywall": false},
-  {"t": "ANTARA: Lukoil International release", "u": "https://en.antaranews.com/news/445463/american-led-consortium-announces-agreement-to-acquire-lukoil-internationals-global-energy-portfolio", "paywall": false},
-  {"t": "Sanofi 6-K: press release (Insmed)", "u": "https://www.sec.gov/Archives/edgar/data/0001121404/000119312526473314/d130092dex991.htm", "paywall": false},
-  {"t": "CrowdStrike 8-K: press release", "u": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm", "paywall": false},
-  {"t": "Federal Reserve: FOMC calendars", "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", "paywall": false},
-  {"t": "BLS: Employment Situation release schedule", "u": "https://www.bls.gov/schedule/news_release/empsit.htm", "paywall": false}
+  {"t": "The Weekend Spread: The Close, Wed 25 Nov 2026", "u": "https://theweekendspread.substack.com/p/the-close-wednesday-november-25-2026", "paywall": false},
+  {"t": "CrowdStrike 8-K: press release", "u": "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926130785/tm2630454d1_ex99-1.htm", "paywall": false},
+  {"t": "PR Newswire: biotech holiday week roundup", "u": "https://prnewswire.com/news-releases/a-41-billion-deal-and-three-new-approvals-fill-biotechs-holiday-week-302950406.html", "paywall": false},
+  {"t": "ANTARA: Eldridge release on LUKOIL International", "u": "https://en.antaranews.com/news/445463/american-led-consortium-announces-agreement-to-acquire-lukoil-internationals-global-energy-portfolio", "paywall": false},
+  {"t": "Stock Titan: Stock Market Today, November 25, 2026", "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026", "paywall": false}
  ]
 }
